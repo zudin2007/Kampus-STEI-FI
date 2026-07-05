@@ -396,4 +396,48 @@ a{color:inherit}
 </div>
 <div class="footer-note" style="margin-top:14px">Sumber: folder <i>1. AKREDITASI &amp; REGULASI/Akreditasi versi revisi/lppm</i> — STEI Fithrah Insani, Revisi 2026.</div>
 </div>
+<script>
+function tog(el){el.parentElement.classList.toggle('open')}
+function ck(box, key){
+  var S = JSON.parse(localStorage.getItem(key)||'{}');
+  var code = box.getAttribute('data-code');
+  S[code] = box.checked;
+  localStorage.setItem(key, JSON.stringify(S));
+  box.closest('.item').classList.toggle('done', box.checked);
+  upd(key);
+}
+function upd(key){
+  var S = JSON.parse(localStorage.getItem(key)||'{}');
+  var boxes = document.querySelectorAll('.item input[type=checkbox]');
+  var done=0;
+  boxes.forEach(function(b){
+    var c = b.getAttribute('data-code');
+    if(S[c]){ b.checked=true; b.closest('.item').classList.add('done'); done++; }
+  });
+  var total = boxes.length;
+  var pct = total? Math.round(done/total*100):0;
+  var pf = document.getElementById('progfill'); if(pf) pf.style.width = pct+'%';
+  var pt = document.getElementById('progtxt'); if(pt) pt.textContent = done+' / '+total+' item selesai ('+pct+'%)';
+}
+function initChecks(key){
+  document.querySelectorAll('.item input[type=checkbox]').forEach(function(b){
+    b.addEventListener('change', function(){ ck(b, key); });
+  });
+  upd(key);
+}
+function countdown(targetISO){
+  var t = new Date(targetISO).getTime();
+  function tick(){
+    var now = Date.now();
+    var d = Math.max(0, t-now);
+    var days = Math.floor(d/86400000);
+    var hrs = Math.floor((d%86400000)/3600000);
+    var mins = Math.floor((d%3600000)/60000);
+    var eD=document.getElementById('cdD'), eH=document.getElementById('cdH'), eM=document.getElementById('cdM');
+    if(eD) eD.textContent=days; if(eH) eH.textContent=hrs; if(eM) eM.textContent=mins;
+  }
+  tick(); setInterval(tick, 60000);
+}
+function printPage(){ window.print(); }
+</script>
 </body></html>
