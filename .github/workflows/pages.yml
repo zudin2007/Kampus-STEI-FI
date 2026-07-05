@@ -1,0 +1,46 @@
+name: Deploy Persiapan TA Baru Pages
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/**'
+      - '.github/workflows/pages.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare site folder
+        run: |
+          SRC="1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru"
+          SITE="site"
+          mkdir -p "$SITE"
+          cp "$SRC"/*.html "$SITE"/
+          touch "$SITE/.nojekyll"
+          cp "$SITE/Dashboard_Persiapan_TA_Baru_STEI_FI.html" "$SITE/index.html"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
