@@ -23,7 +23,7 @@ This template is used EVERY WEEK to track:
 
 ### WEEK [X] ATTENDANCE REPORT
 **Report Date:** [Monday, e.g., 4 Agustus 2026]  
-**Reporting Period:** [Date range, e.g., 1-3 Agustus (Mon-Wed)]  
+**Reporting Period:** [Date range, e.g., 1-4 September (Sel-Jum)]  
 **Prepared by:** [Name & Title, e.g., Academic Admin]  
 **Report to:** Kaprodi + WK1
 

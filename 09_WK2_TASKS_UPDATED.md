@@ -152,7 +152,7 @@
   - Status: PENDING
   - Action: Audit aset baru/rusak/hilang, update spreadsheet, foto
 
-- [ ] **D7: Kebersihan & kerapian kampus** — DEADLINE: 3 Agustus (H-7 kuliah)
+- [ ] **D7: Kebersihan & kerapian kampus** — DEADLINE: 25 Agustus (H-7 kuliah)
   - PIC: WK2 + Kepala Kebersihan
   - Status: PENDING
   - Action: Deep clean minggu 4, final touch H-3 kuliah
@@ -247,7 +247,7 @@
 - C7: Jabatan fungsional (if applicable)
 - F4: Readiness report to Ketua
 
-**BEFORE SEMESTER (1-10 AGUSTUS):**
+**BEFORE SEMESTER (AGUSTUS, sebelum kuliah perdana 1 SEPTEMBER):**
 - E3: UPT sosialisasi (saat PKKMB)
 
 ---

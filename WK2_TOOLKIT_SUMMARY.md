@@ -70,7 +70,7 @@
 ✅ UPT: Perpustakaan & TI siap  
 ✅ Koordinasi: Semua unit aligned & ready  
 
-**Overall:** 🎓 **KAMPUS SIAP untuk semester ganjil 10 Agustus 2026**
+**Overall:** 🎓 **KAMPUS SIAP untuk semester ganjil 1 September 2026**
 
 ---
 

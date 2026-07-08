@@ -26,7 +26,7 @@ REGISTRASI & PERSIAPAN:
 - Pembayaran Deadline: [TGL]
 
 PERKULIAHAN:
-- Awal Kuliah (1st day): [TGL] (Senin, 10 Agustus 2026)
+- Awal Kuliah (1st day): [TGL] (Selasa, 1 September 2026)
 - Akhir Kuliah (last day): [TGL]
 - Total Minggu Kuliah: 16 minggu
 
@@ -70,7 +70,7 @@ RPS SUBMISSION REMINDER:
 ========================================================
 
 If you haven't uploaded your RPS yet:
-- Deadline: 10 AGUSTUS 2026 (by first day of class!)
+- Deadline: 1 SEPTEMBER 2026 (by first day of class!)
 - Include: Assessment detail, rubrics, schedule
 - Upload to: [PORTAL/SIAKNG]
 
@@ -128,7 +128,7 @@ REGISTRASI & PEMBAYARAN:
   Tanpa pembayaran = tidak bisa akses nilai
   
 KULIAH & EXAM:
-☐ Awal Kuliah: [TGL] (Senin, 10 Agustus 2026)
+☐ Awal Kuliah: [TGL] (Selasa, 1 September 2026)
   Jangan terlambat di hari pertama!
   
 ☐ Midterm Exam (UTS): [TGL-TGL]
@@ -179,7 +179,7 @@ QUESTIONS?
 Email: [STUDENT_SERVICES_EMAIL]
 Visit: Student Services Office [LOCATION]
 
-Good luck! See you 10 Agustus!
+Good luck! See you 1 September!
 
 Salam,
 [ACADEMIC_TEAM]
@@ -233,8 +233,8 @@ LAST REMINDERS:
 
 CRITICAL (absolutely no flexibility):
 - Grade entry deadline for UTS & UAS
-- RPS submission deadline (10 AUG)
-- Semester start date (10 AUG)
+- RPS submission deadline (1 SEP)
+- Semester start date (1 SEP)
 
 IMPORTANT (check calendar):
 - Assessment dates (don't double-book)

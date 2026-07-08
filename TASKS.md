@@ -5,7 +5,7 @@
 - [x] ~~**Verifikasi kelengkapan dokumen & data mahasiswa angkatan baru**~~ (completed)
 - [ ] **Koordinasi jadwal perkuliahan dan ruang kelas** - due 31 Juli 2026
 - [ ] **Rapat pengarahan dosen dan staf akademik** - due 5 Agustus 2026
-- [ ] **Persiapan mata kuliah dan silabus** - due 10 Agustus 2026
+- [ ] **Persiapan mata kuliah dan silabus** - due 25 Agustus 2026 (H-7 kuliah perdana 1 September)
 - [ ] **Penugasan dosen untuk mata kuliah dan praktikum** - due 15 Juli 2026
 - [ ] **Koordinasi dengan unit pendukung (Lab, Perpustakaan, IT)** - due 31 Juli 2026
 - [ ] **Persiapan akademik mahasiswa tahun terakhir (skripsi/tugas akhir)** - IN PROGRESS
@@ -35,11 +35,11 @@
 
 - [ ] **Program pengenalan kampus untuk mahasiswa baru** - IN PROGRESS
   - Target: OMB orientation for all new students
-  - Timeline: 1-10 Agustus 2026
+  - Timeline: PKKMB 28-29 Agustus 2026
   - Owner: Kemahasiswaan + WK1
 - [ ] **Monitoring ketersediaan dosen dan ABK** - IN PROGRESS
   - Target: Weekly monitoring & escalation procedures
-  - Timeline: 1 Agustus onwards (ongoing)
+  - Timeline: 1 September onwards (ongoing)
   - Owner: Admin + Kaprodi
 
 ## Waiting On

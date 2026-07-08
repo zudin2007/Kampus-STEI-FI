@@ -323,7 +323,7 @@ IF NON-COMPLIANT:
 3. Create **TA_Supervisor_Confirmations.xlsx**
 4. Track confirmations from dosen
 
-### Semester Start (10 Agustus+):
+### Semester Start (1 September+):
 1. Create **TA_First_Meeting_Checklist.xlsx**
 2. Update weekly as meetings happen
 3. Create **TA_Progress_Monitoring.xlsx**

@@ -100,8 +100,8 @@ PHASE 5: SITE VISIT (April-May 2027)
 | Send documentation checklist to all units | QA | Aug 5 | ⏳ | |
 | Distribute templates & guidelines | QA | Aug 5 | ⏳ | |
 | Appoint unit coordinators | WK1 | Aug 8 | ⏳ | |
-| Create shared folder structure | IT | Aug 10 | ⏳ | |
-| Activate tracking spreadsheet | IT + QA | Aug 10 | ⏳ | |
+| Create shared folder structure | IT | Sep 1 | ⏳ | |
+| Activate tracking spreadsheet | IT + QA | Sep 1 | ⏳ | |
 | Brief all coordinators on system | QA | Aug 12 | ⏳ | |
 | First reminder email to all units | QA | Aug 15 | ⏳ | |
 | Collect strategic documents | All units | Aug 31 | ⏳ | |

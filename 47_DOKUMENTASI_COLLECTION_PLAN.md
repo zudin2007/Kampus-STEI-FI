@@ -474,7 +474,7 @@ Indicate methods used:
   - Create shared folder structure
   - Designate unit coordinators
 
-- [ ] **Aug 10:** Assign akreditasi coordinator
+- [ ] **Sep 1:** Assign akreditasi coordinator
   - Create communication protocol
   - Schedule weekly update meetings
   - Set up documentation system

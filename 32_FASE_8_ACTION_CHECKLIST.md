@@ -270,7 +270,7 @@ DISTRIBUTION:
 ☐ Email to dosen: "Here is your assessment schedule"
    - Include their course's schedule
    - Remind: Update your RPS with these dates
-   - Deadline: RPS due 10 AGUSTUS
+   - Deadline: RPS due 1 SEPTEMBER
 
 ☐ Post on portal for student visibility
 
@@ -429,7 +429,7 @@ ACTUAL METRICS (Fill in):
 
 ### Next Milestone:
 ```
-10 AGUSTUS 2026: SEMESTER DIMULAI
+1 SEPTEMBER 2026: SEMESTER DIMULAI
 Dosen start teaching with assessment plan
 Grade entry system ready to use
 Students understand grading system

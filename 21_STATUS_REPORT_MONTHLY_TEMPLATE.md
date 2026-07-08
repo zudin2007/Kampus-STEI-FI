@@ -68,7 +68,7 @@ Persiapan TA 2026/2027 untuk WK2 telah selesai dengan tingkat penyelesaian __%.
 
 **Overall Institutional Readiness:** [Percentage]%
 
-Ready untuk semester ganjil 2026/2027 mulai 10 Agustus:
+Ready untuk semester ganjil 2026/2027 mulai 1 September:
 - ✅ Keuangan operasional siap
 - ✅ Administrasi selesai
 - ✅ SDM kontrak selesai

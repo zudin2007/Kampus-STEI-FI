@@ -66,7 +66,7 @@ SECTION 4: READY FOR SEMESTER
 ================================================================================
 
 Your unit is ready for:
-☐ Semester to start (10 August)
+☐ Semester to start (1 September)
 ☐ Students to begin (courses/activities/services)
 ☐ Dosen to use (systems/resources/facilities)
 ☐ All support functions operational
@@ -181,7 +181,7 @@ Issue #1: Microscope repair (Lab)
 Decision: APPROVE $2000 budget for repair
 Timeline: Complete by 15 August
 Responsible: Dr. Siti (Lab Head)
-Follow-up: Confirm receipt by 10 August
+Follow-up: Confirm receipt by 1 September
 
 Issue #2: Payment system upgrade (Admin)
 Decision: APPROVE $1500 for system upgrade

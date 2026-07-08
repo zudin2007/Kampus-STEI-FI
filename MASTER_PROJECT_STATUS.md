@@ -21,7 +21,7 @@ PHASE | FOCUS AREA | TIMELINE | MASTER DOC | TOOLKIT | STATUS
   6   | Support Units | Jul | ✅ | ✅ (5 files) | READY
   7   | Skripsi/TA Prep | Jun-Jul | ✅ | ✅ (4 files+checklist) | IN PROGRESS
   8   | Grading System | Jul | ✅ | ✅ (4 files+checklist) | IN PROGRESS
-  9   | OMB Orientation | Aug 1-10 | ✅ | ✅ (3 files+checklist) | IN PROGRESS
+  9   | OMB/PKKMB Orientation | Aug 28-29 | ✅ | ✅ (3 files+checklist) | IN PROGRESS
  10   | Monitoring (Dosen/ABK) | Aug+ | ✅ | ✅ (3 files+templates) | IN PROGRESS
  11   | Accreditation 2027 | Aug 2026-May 2027 | ✅ | ✅ (5 files+timeline) | READY
  12   | WK1 Alignment Meeting | Jul 31-Aug 2 | ✅ | ✅ (4 files+checklist) | IN PROGRESS
@@ -87,12 +87,12 @@ PHASE 13:  Files 34-36 (Email templates, Calendar template, Action checklist)
 - Phase 12: Prepare meeting (Files 38-40)
 - Phase 8: Finalization & verification (Files 30-32)
 
-### **AUGUST 2026 - SEMESTER STARTS (10 AUG)**
+### **AUGUST 2026 - REGISTRASI & PKKMB (KULIAH PERDANA 1 SEP)**
 **Aug 1-2:**
 - Phase 12: CONDUCT ALIGNMENT MEETING (Files 38-40)
 
-**Aug 1-10:**
-- Phase 9: OMB Student Orientation (Files 41-43)
+**Aug 28-29 (PKKMB):**
+- Phase 9: PKKMB Student Orientation (Files 41-43)
 
 **Aug 1+ (Ongoing):**
 - Phase 10: Weekly dosen & ABK monitoring (Files 44-46)
@@ -193,7 +193,7 @@ Organization:
 | Phase 8 completion | 31 Jul | ⏳ |
 | Phase 12 completion | 3 Aug | ⏳ |
 | Phase 13 completion | 31 Jul | ⏳ |
-| Semester start ready | 10 Aug | ⏳ |
+| Semester start ready (kuliah perdana) | 1 Sep | ⏳ |
 | Phases 9-10 running smoothly | 31 Aug | ⏳ |
 | Phase 11 documentation 80% | 31 Jan 2027 | ⏳ |
 | Phase 11 SAR complete | 28 Feb 2027 | ⏳ |
