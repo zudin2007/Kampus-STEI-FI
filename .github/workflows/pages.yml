@@ -33,6 +33,8 @@ jobs:
           SITE="site"
           mkdir -p "$SITE"
           cp "$SRC"/*.html "$SITE"/
+          cp "$SRC"/*.png "$SITE"/ 2>/dev/null || true
+          cp "$SRC"/*.pdf "$SITE"/ 2>/dev/null || true
           touch "$SITE/.nojekyll"
           cp "$SITE/Dashboard_Persiapan_TA_Baru_STEI_FI.html" "$SITE/index.html"
 
