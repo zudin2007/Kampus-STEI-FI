@@ -194,7 +194,7 @@
 - Koordinasi cross-functional done, readiness report approved
 
 **🎯 SIAP UNTUK:**
-- Perkuliahan dimulai 10 Agustus 2026
+- Perkuliahan dimulai 1 September 2026
 - PKKMB eksekusi H-3 perkuliahan
 - Semester ganjil 2026/2027 berjalan lancar dengan mahasiswa engaged & supported
 

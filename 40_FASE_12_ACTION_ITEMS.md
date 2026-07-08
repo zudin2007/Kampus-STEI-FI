@@ -216,7 +216,7 @@ Date: 2 August 2026
 Rationale: Lab needs this equipment operational for practicals
 Owner: Dr. Siti (Lab Head)
 Timeline: Complete by 15 August
-Follow-up: Confirm receipt by 10 August
+Follow-up: Confirm receipt by 1 September
 Status: [COMPLETE / IN PROGRESS / PENDING / BLOCKED]
 Date completed: [ACTUAL DATE]
 
@@ -306,7 +306,7 @@ Semester readiness: READY ✅
 
 Thank you all for your commitment to making TA 2026/2027 successful!
 
-Semester starts: 10 AGUSTUS 2026
+Semester starts: 1 SEPTEMBER 2026
 All systems: OPERATIONAL
 
 See you at the next all-hands meeting [DATE].

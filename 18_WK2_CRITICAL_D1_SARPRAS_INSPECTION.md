@@ -8,7 +8,7 @@
 
 ## WHY THIS IS CRITICAL
 
-Semester starts 10 Agustus. If sarpras not ready:
+Semester starts 1 September. If sarpras not ready:
 - Mahasiswa dapat ruang tidak berfungsi → complaint → reputasi
 - Lab equipment not working → praktikum ditunda → learning outcome compromised
 - AC/electricity failures → kelas pindah-pindah (disruption)

@@ -44,7 +44,7 @@ Status: SEMESTER READINESS COMPLETE ✅
 - ✅ Alumni engagement program launched
 - ✅ Partnership ecosystem reviewed & strengthened
 
-**Semester ganjil 2026/2027 siap dimulai 10 Agustus 2026 dengan semua sistem support aktif.**
+**Semester ganjil 2026/2027 siap dimulai 1 September 2026 dengan semua sistem support aktif.**
 
 ---
 
@@ -226,7 +226,7 @@ CHECKLIST:
 - Early warning intervention starts
 - Tracer study responses continue coming in
 
-### SEMESTER GANJIL (Starting 10 AGUSTUS):
+### SEMESTER GANJIL (Starting 1 SEPTEMBER):
 - Monitor D5 early warning → weekly check-in
 - BEM/HMPS program kerja execution → weekly coordination
 - Beasiswa processing & support → ongoing

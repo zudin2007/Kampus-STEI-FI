@@ -200,7 +200,7 @@ Fase 2 fokus pada persiapan administrasi institusi:
 
 1. **Website Institusi**
    - [ ] Update kalender akademik TA 2026/2027 (ambil dari Phase 13 WK1)
-   - [ ] Update berita: "Tahun Ajaran Baru Dimulai [10 Agustus 2026]"
+   - [ ] Update berita: "Tahun Ajaran Baru Dimulai [1 September 2026]"
    - [ ] Update jadwal kuliah (dari WK1 Phase 2)
    - [ ] Update kontak/jam operasional (jika ada perubahan)
    - [ ] Update daftar dosen pengajar (dari WK1 Phase 5)

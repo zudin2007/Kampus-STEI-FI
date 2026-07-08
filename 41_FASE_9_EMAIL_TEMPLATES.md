@@ -1,14 +1,14 @@
 # FASE 9: EMAIL TEMPLATES - OMB MAHASISWA BARU
 ## Ready-to-Send Email Suite TA 2026/2027
 
-**Gunakan templates ini untuk komunikasi OMB selama Agustus 1-10, 2026**
+**Gunakan templates ini untuk komunikasi PKKMB 28-29 Agustus 2026**
 
 ---
 
 ## EMAIL 1: OMB ANNOUNCEMENT & INVITATION
 **Send to:** Semua mahasiswa baru TA 2026/2027  
 **Timing:** 27 Juli 2026 (3 hari sebelum OMB)  
-**Subject:** UNDANGAN RESMI - Orientasi Mahasiswa Baru STEI FI 1-10 Agustus 2026
+**Subject:** UNDANGAN RESMI - PKKMB STEI FI 28-29 Agustus 2026
 
 ```
 Yth. Mahasiswa Baru TA 2026/2027,
@@ -22,7 +22,7 @@ Kami dengan senang hati mengundang Anda mengikuti Program Orientasi Mahasiswa Ba
 INFORMASI UMUM OMB
 ========================================================
 
-TANGGAL:    1-10 Agustus 2026
+TANGGAL:    28-29 Agustus 2026
 WAKTU:      [SEE SCHEDULE BELOW]
 TEMPAT:     [LOKASI - Kampus Utama / Gedung Perkuliahan]
 FORMAT:     Multi-hari (kombinasi hybrid/offline)
@@ -33,38 +33,38 @@ TUJUAN:
 ✓ Memahami sistem akademik (SIAKNG, e-learning)
 ✓ Mengenal layanan mahasiswa & support services
 ✓ Memenuhi dosen wali & teman-teman sebaya
-✓ Siap memulai perkuliahan 10 Agustus 2026
+✓ Siap memulai perkuliahan 1 September 2026
 
 ========================================================
-JADWAL LENGKAP OMB (1-10 AGUSTUS)
+JADWAL LENGKAP PKKMB (28-29 AGUSTUS)
 ========================================================
 
-HARI 1 (Senin, 1 Agustus):
+HARI 1 (Jumat, 28 Agustus):
 ├─ 08:00 - 09:30: Pembukaan & Sambutan Dekan
 ├─ 09:45 - 11:00: Tur Kampus (Gedung, Lab, Perpustakaan, Fasilitas)
 └─ 11:00 - 12:00: Informasi Umum & Q&A Awal
 
-HARI 2 (Selasa, 2 Agustus):
+HARI 2 (Sabtu, 29 Agustus):
 ├─ 08:00 - 09:00: Sistem Akademik SIAKNG (Demo Langsung)
 ├─ 09:15 - 10:30: E-Learning Platform Walkthrough
 └─ 10:45 - 12:00: Academic Expectations & Integrity
 
-HARI 3 (Rabu, 3 Agustus):
+SESI TAMBAHAN A (Sabtu, 29 Agustus — siang):
 ├─ 08:00 - 09:00: Student Services Overview (Konseling, Kesehatan, Beasiswa)
 ├─ 09:15 - 10:15: Library & IT Helpdesk Introduction
 └─ 10:30 - 12:00: Clubs, Activities & Campus Life
 
-HARI 4 (Kamis, 4 Agustus):
+SESI TAMBAHAN B (Senin, 31 Agustus):
 ├─ 08:00 - 09:30: Student Handbook & Code of Conduct
 ├─ 09:45 - 11:00: Rights & Responsibilities
 └─ 11:15 - 12:00: Informal Networking & Ice Breaker
 
-HARI 5 (Jumat, 5 Agustus):
+SESI TAMBAHAN C (Senin, 31 Agustus):
 ├─ 08:00 - 09:30: Meet Your Academic Advisor (Dosen Wali)
 ├─ 09:45 - 11:00: Course Planning & Time Management
 └─ 11:15 - 12:00: Open Q&A & Social Time
 
-HARI 6-10 (2-6 Agustus):
+MAKEUP (Senin, 31 Agustus):
 └─ Individual/Group Sessions (Jika diperlukan catch-up)
 
 ========================================================
@@ -181,7 +181,7 @@ No. HP:             [NO_HP]
 Jadwal Sesi:        [PILIHAN_JADWAL - jika ada options]
 Status:             ✓ CONFIRMED
 
-TANGGAL OMB:        1-10 Agustus 2026
+TANGGAL PKKMB:      28-29 Agustus 2026
 TEMPAT:             [LOKASI_KAMPUS]
 
 ========================================================
@@ -195,7 +195,7 @@ NEXT STEPS
    → Password default: Stei@[TAHUN]
    → UBAH password pada login pertama (PENTING!)
    
-3. Pada 1 Agustus:
+3. Pada 28 Agustus:
    → Datang 15 menit lebih awal
    → Bawa kartu identitas & smartphone
    → Cek lokasi di website kami
@@ -351,7 +351,7 @@ Tim Akademik STEI FI
 
 ## EMAIL 5: OMB FEEDBACK FORM
 **Send to:** Semua peserta OMB  
-**Timing:** 10 Agustus 2026 (hari setelah OMB selesai)  
+**Timing:** 31 Agustus 2026 (setelah PKKMB selesai)  
 **Subject:** FEEDBACK OMB - Bantuan Kami Improve Program Tahun Depan
 
 ```
@@ -422,7 +422,7 @@ ATAU: Balas email ini dengan jawaban:
 DEADLINE FEEDBACK
 ========================================================
 
-Mohon kerjakan sampai: 12 Agustus 2026
+Mohon kerjakan sampai: 31 Agustus 2026
 
 Feedback Anda akan kami compile dan gunakan untuk improvement.
 
@@ -438,7 +438,7 @@ Tim Akademik & Kemahasiswaan STEI FI
 
 ## EMAIL 6: POST-OMB WELCOME & RESOURCES
 **Send to:** Semua peserta OMB  
-**Timing:** 11 Agustus 2026 (hari sebelum kuliah dimulai)  
+**Timing:** 31 Agustus 2026 (sehari sebelum kuliah dimulai)  
 **Subject:** 📚 Selamat! OMB Selesai - Berikut Adalah Semua Resources Anda
 
 ```
@@ -538,7 +538,7 @@ QUICK TIPS UNTUK SUKSES
 CALENDAR: TANGGAL-TANGGAL PENTING
 ========================================================
 
-12 Agustus 2026: Kuliah dimulai
+1 September 2026: Kuliah dimulai
 [TGL]: Add/Drop Course Deadline
 [TGL]: Mid-Semester Exam
 [TGL]: Akhir Semester
@@ -577,13 +577,13 @@ courses Anda, segera email akademik@stei.ac.id. Kami di sini untuk membantu!
 
 ## EMAIL 7: FOLLOW-UP TO MISSING PARTICIPANTS
 **Send to:** Mahasiswa yang tidak hadir di OMB  
-**Timing:** 12 Agustus 2026  
+**Timing:** 31 Agustus 2026  
 **Subject:** FOLLOW-UP: Anda Tidak Hadir OMB - One-on-One Session Tersedia
 
 ```
 Halo [NAMA_MAHASISWA],
 
-Kami catat Anda tidak hadir di OMB pada 1-10 Agustus.
+Kami catat Anda tidak hadir di PKKMB pada 28-29 Agustus.
 
 Kami memahami bahwa ada kalanya Anda punya alasan untuk tidak bisa hadir. 
 Tidak masalah! Kami menawarkan one-on-one session untuk memastikan Anda 
@@ -609,7 +609,7 @@ ONE-ON-ONE SESSION
 
 Kami akan arrange sesi khusus untuk Anda:
 
-WAKTU:  13-14 Agustus 2026 (pilih slot yang sesuai)
+WAKTU:  2-3 September 2026 (pilih slot yang sesuai)
 DURASI: 45 menit
 FORMAT: Face-to-face atau Virtual (pilihan Anda)
 PIC:    Akademik staff atau Dosen Wali
@@ -627,7 +627,7 @@ CARA MENDAFTAR ONE-ON-ONE SESSION
 
 REPLY EMAIL INI dengan:
 - Nama lengkap Anda: _______
-- Preferensi hari: 13 Agustus atau 14 Agustus?
+- Preferensi hari: 2 September atau 3 September?
 - Preferensi waktu: [list waktu tersedia]
 - Format preferensi: Face-to-face atau Virtual?
 - Alasan tidak hadir (optional): _______
@@ -679,9 +679,9 @@ Tim Akademik STEI FI
 | Email 2 | Registration Confirmation | Immediate after registration | Registered students | HIGH |
 | Email 3 | Pre-OMB Reminder | 30 Juli (2 hari before) | Registered students | HIGH |
 | Email 4 | Daily Reminders | Each morning of OMB | Registered students | MEDIUM |
-| Email 5 | Feedback Form | 10 Agustus (after OMB) | OMB participants | MEDIUM |
-| Email 6 | Post-OMB Welcome | 11 Agustus (before classes) | OMB participants | HIGH |
-| Email 7 | Follow-up Missing | 12 Agustus (day before class) | No-shows | ✓ YES |
+| Email 5 | Feedback Form | 31 Agustus (setelah PKKMB) | OMB participants | MEDIUM |
+| Email 6 | Post-OMB Welcome | 31 Agustus (sebelum kuliah) | OMB participants | HIGH |
+| Email 7 | Follow-up Missing | 31 Agustus (sehari sebelum kuliah) | No-shows | ✓ YES |
 
 ---
 

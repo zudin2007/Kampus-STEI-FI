@@ -1,8 +1,8 @@
-# FASE 9: QUICK ACTION PLAN - AGUSTUS 1-10
+# FASE 9: QUICK ACTION PLAN - PKKMB 28-29 AGUSTUS
 ## Day-by-Day Execution Guide for OMB
 
 **Status:** READY TO EXECUTE  
-**Timeline:** 1-10 Agustus 2026  
+**Timeline:** PKKMB 28-29 Agustus 2026 · tindak lanjut s.d. 4 September  
 **Owner:** Kemahasiswaan + WK1  
 **Success Metric:** 95%+ attendance, 4+/5 satisfaction, 100% SIAKNG access
 
@@ -14,8 +14,8 @@
 |-------|-------|-----------|----------|
 | Pre (24 hrs before) | Kemahasiswaan Coord | Venue setup, staff brief, tech test | 31 Juli 8pm |
 | Day 1-5 | Daily Coordinator | Run sessions, track attendance, log issues | Each day 1pm |
-| Post (Day 1) | Academic Admin | Collect feedback, verify SIAKNG access | 11 Agustus |
-| Final | WK1 | Compile report, archive docs | 14 Agustus |
+| Post (Day 1) | Academic Admin | Collect feedback, verify SIAKNG access | 31 Agustus |
+| Final | WK1 | Compile report, archive docs | 4 September |
 
 ---
 
@@ -141,7 +141,7 @@ GO FOR TOMORROW: ☐ YES ✓
 
 ---
 
-## DAY 1: SENIN 1 AGUSTUS - WELCOME & CAMPUS TOUR
+## HARI 1: JUMAT 28 AGUSTUS - WELCOME & CAMPUS TOUR
 
 **Sessions:** Session 1 (08:00-09:30), Session 2 (09:45-11:00)  
 **Location:** Main Auditorium + Campus  
@@ -299,7 +299,7 @@ POST-SESSION (11:00 AM - 11:30 AM):
 ☐ Register any issues in daily log
 
 DAILY LOG - DAY 1:
-Date: 1 Agustus 2026
+Date: 28 Agustus 2026
 Sessions run: Session 1 ✓ Session 2 ✓
 Total attendance: ___ students
 Attendance rate: ___% (target: 95%+)
@@ -326,14 +326,16 @@ DAY 1 STATUS: ✓ SUCCESSFUL / ⚠ ISSUES / ❌ PROBLEMS
 
 ---
 
-## DAY 2-5: ABBREVIATED SCHEDULE (2-5 AGUSTUS)
+## HARI 2 & SESI TAMBAHAN: SABTU 29 AGUSTUS (+ 31 AGUSTUS)
+
+> Materi Day 2-5 lama dipadatkan ke Hari 2 (29 Agustus) dan sesi tambahan 31 Agustus, mengikuti kalender akademik (PKKMB 2 hari).
 
 **Same pattern as Day 1:**
 1. **Early setup** (07:00-08:00 AM)
 2. **Session execution** (08:00-12:00 PM)
 3. **Post-session** & daily log (12:00-12:30 PM)
 
-### DAY 2 (SELASA 2 AGUSTUS):
+### SESI A (SABTU 29 AGUSTUS — pagi):
 **Sessions:** Session 1: SIAKNG (08:00-09:30), Session 2: E-Learning (09:45-11:00)
 
 ```
@@ -361,7 +363,7 @@ Issues for follow-up: _______
 
 ---
 
-### DAY 3 (RABU 3 AGUSTUS):
+### SESI B (SABTU 29 AGUSTUS — siang):
 **Sessions:** Session 1: Support Services (08:00-09:15), Session 2: Library & IT (09:30-10:45)
 
 ```
@@ -395,7 +397,7 @@ All sessions complete: ☐ YES
 
 ---
 
-### DAY 4 (KAMIS 4 AGUSTUS):
+### SESI C (SENIN 31 AGUSTUS — pagi):
 **Sessions:** Session 1: Student Life (08:00-09:30), Session 2: Rights & Responsibilities (09:45-11:00)
 
 ```
@@ -428,7 +430,7 @@ Student morale/engagement: ✓ HIGH
 
 ---
 
-### DAY 5 (JUMAT 5 AGUSTUS):
+### SESI D (SENIN 31 AGUSTUS — siang):
 **Sessions:** Session 1: Advisor Meet & Greet (08:00-09:30), Session 2: Course Planning (09:45-11:00)
 
 ```
@@ -469,7 +471,7 @@ Feedback forms to be sent: ☐ READY
 
 ---
 
-## DAYS 6-10: MAKEUP & FOLLOWUP (6-10 AGUSTUS)
+## MAKEUP & FOLLOWUP (31 AGUSTUS)
 
 **Purpose:** Catch any students who missed sessions 1-5
 
@@ -480,7 +482,7 @@ Days 6-10: Individual/Small group sessions on demand
 
 FOR NO-SHOWS:
 ☐ Identify all students who missed sessions
-☐ Email them: "We have makeup sessions 6-10 August"
+☐ Email them: "We have a makeup session 31 August"
 ☐ Offer: Specific time slots for one-on-one
 ☐ Target: 80%+ of no-shows get makeup
 
@@ -500,41 +502,41 @@ Status: ✓ MAKEUP COMPLETE / ⚠ STILL PENDING
 
 ---
 
-## POST-OMB PHASE: AGUSTUS 11-14
+## POST-PKKMB PHASE: 31 AGUSTUS - 4 SEPTEMBER
 
-**Timeline:** Right after OMB ends (Day 6 onwards) → Final reports by 14 Agustus
+**Timeline:** Right after PKKMB ends (31 Agustus onwards) → Final reports by 4 September
 
 ---
 
-### TASK 1: IMMEDIATE FOLLOW-UP (11-12 AGUSTUS)
+### TASK 1: IMMEDIATE FOLLOW-UP (31 AGUSTUS)
 
 ```
 DAY 1 AFTER OMB ENDS:
 
 ☐ Send thank you email to all attendees (EMAIL 6 from 41_FASE_9_EMAIL_TEMPLATES.md)
   - Include: Resources list, contact info, next steps
-  - Timing: 11 Agustus morning
+  - Timing: 31 Agustus pagi
   
 ☐ Send follow-up to no-shows (EMAIL 7)
-  - Offer: One-on-one session 13-14 Agustus
-  - Timing: 12 Agustus morning
+  - Offer: One-on-one session 2-3 September
+  - Timing: 31 Agustus siang
   
 ☐ Send feedback form (EMAIL 5)
   - Google Form link
-  - Deadline: 12 Agustus
+  - Deadline: 31 Agustus
   - Response target: 70%+
   
 ☐ Email to dosen wali:
   - Send: List of assigned students + contact info
   - Request: First meeting within 1 week of class start
-  - Timing: 11 Agustus
+  - Timing: 31 Agustus
 
 SIGN-OFF: ____________  All follow-ups sent: ☐ YES
 ```
 
 ---
 
-### TASK 2: FEEDBACK COLLECTION & QUICK ANALYSIS (12-13 AGUSTUS)
+### TASK 2: FEEDBACK COLLECTION & QUICK ANALYSIS (31 AGUSTUS - 2 SEPTEMBER)
 
 ```
 FEEDBACK ANALYSIS:
@@ -552,7 +554,7 @@ FEEDBACK ANALYSIS:
 ☐ Create summary report (1 page):
   - Include: Attendance, satisfaction, key themes
   - Share with: WK1, Kaprodi
-  - Date: 13 Agustus
+  - Date: 2 September
 
 FEEDBACK SUMMARY:
 Attendance: ___% (target: 95%+) ✓ / ⚠
@@ -570,7 +572,7 @@ Improvements for next year:
 
 ---
 
-### TASK 3: VERIFICATION & ESCALATION (13-14 AGUSTUS)
+### TASK 3: VERIFICATION & ESCALATION (2-3 SEPTEMBER)
 
 ```
 SIAKNG ACCESS VERIFICATION:
@@ -581,7 +583,7 @@ SIAKNG ACCESS VERIFICATION:
   
 ☐ Email to IT: "These students need SIAKNG access: [LIST]"
   - Priority: HIGH
-  - Target resolution: Before 14 Agustus
+  - Target resolution: Before 4 September
 
 COURSE REGISTRATION REMINDER:
 
@@ -594,7 +596,7 @@ NO-SHOW FOLLOWUP:
 
 ☐ Identify students who didn't attend any session: ___ students
 ☐ Email: Offer one-on-one makeup session
-  - Available times: 13-14 Agustus
+  - Available times: 2-3 September
   - Response received: ___ yes, ___ no
   - Makeup sessions completed: ___ / ___
 
@@ -606,20 +608,20 @@ Course registration reminders sent: ☐ YES
 
 ---
 
-### TASK 4: FINAL REPORTING (14 AGUSTUS)
+### TASK 4: FINAL REPORTING (4 SEPTEMBER)
 
 ```
 OMB 2026 FINAL REPORT:
 
 Report prepared by: ___________
-Date: 14 Agustus 2026
+Date: 4 September 2026
 To: WK1 + Kaprodi
 
 ========================================================
 EXECUTIVE SUMMARY
 ========================================================
 
-OMB 2026/2027 conducted successfully from 1-10 Agustus.
+PKKMB 2026/2027 conducted successfully on 28-29 Agustus.
 All core sessions completed. Overall satisfaction strong.
 
 Key metrics:
@@ -697,7 +699,7 @@ APPENDICES
 
 ========================================================
 
-Report submitted: ____________  Date: 14 August
+Report submitted: ____________  Date: 4 September
 Approved by WK1: ____________  Date: ____
 Archived for future reference: ☐ YES
 
@@ -711,12 +713,12 @@ FINAL OMB STATUS: ✓ SUCCESSFUL
 | Date | Phase | Owner | Key Output | Status |
 |------|-------|-------|-----------|--------|
 | 31 Jul | Final Prep | Kemahasiswaan | Venue ready, staff briefed | ☐ |
-| 1 Aug | Day 1 | Kemahasiswaan | Welcome & Campus Tour | ☐ |
+| 28 Aug | Hari 1 | Kemahasiswaan | Welcome & Campus Tour | ☐ |
 | 2 Aug | Day 2 | Academic Admin | Academic Systems | ☐ |
 | 3 Aug | Day 3 | Student Services | Support Services | ☐ |
 | 4 Aug | Day 4 | Kemahasiswaan | Student Life | ☐ |
 | 5 Aug | Day 5 | Kaprodi | Advisor Meet & Plan | ☐ |
-| 6-10 Aug | Makeup | Kemahasiswaan | No-show follow-up | ☐ |
+| 31 Aug | Makeup | Kemahasiswaan | No-show follow-up | ☐ |
 | 11 Aug | Follow-up | Academic Admin | Thank you + resources | ☐ |
 | 12 Aug | Feedback | Kemahasiswaan | Collect feedback | ☐ |
 | 13 Aug | Verify | Academic Admin | SIAKNG access check | ☐ |
@@ -724,7 +726,7 @@ FINAL OMB STATUS: ✓ SUCCESSFUL
 
 ---
 
-**Versi:** 1.0 | **Untuk:** Fase 9 - OMB (1-10 Agustus)  
+**Versi:** 1.0 | **Untuk:** Fase 9 - PKKMB (28-29 Agustus)  
 **Ready to Execute:** ✓ YES  
 **Last Reviewed:** Juli 2026
 
