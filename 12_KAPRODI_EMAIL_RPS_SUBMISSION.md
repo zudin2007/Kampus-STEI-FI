@@ -7,7 +7,7 @@ Yth. Dosen,
 
 RPS (Rancangan Pembelajaran Semester) submission deadline:
 
-**Deadline:** H-3 sebelum kuliah dimulai (10 Agustus 2026)
+**Deadline:** H-3 sebelum kuliah dimulai (1 September 2026)
 
 **Checklist:**
 - CPMK jelas? ✅

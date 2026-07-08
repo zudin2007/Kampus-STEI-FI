@@ -11,7 +11,7 @@ Dosen mengajar **tanpa kontrak legal** =
 - ❌ Payroll issue (bagaimana hitung honor tanpa kontrak?)
 - ❌ Dosen legal risk (dosen bisa claim belum punya perjanjian)
 
-**HARD DEADLINE: 14 JULI** — Semester mulai 10 Agustus, kontrak harus sudah signed 3 minggu sebelumnya.
+**HARD DEADLINE: 14 JULI** — Semester mulai 1 September, kontrak harus sudah signed 3 minggu sebelumnya.
 
 ---
 
@@ -146,7 +146,7 @@ Dosen mengajar **tanpa kontrak legal** =
 Escalation:
 1. Report ke WK2 (RED status)
 2. WK2 escalate ke Ketua (institutional issue)
-3. Problem: Dosen mulai mengajar 10 Agustus tanpa kontrak = PDDIKTI violation
+3. Problem: Dosen mulai mengajar 1 September tanpa kontrak = PDDIKTI violation
 4. Action: Even if late, finish ASAP (minggu pertama kuliah at latest)
 
 ---

@@ -9,7 +9,7 @@
 ## GOAL
 
 Kalender akademik TA 2026/2027 yang:
-- ✅ Lengkap: registrasi, KRS, awal kuliah (10 Agustus), UTS, UAS, libur, batas entry nilai, yudisium
+- ✅ Lengkap: registrasi, KRS, awal kuliah (1 September), UTS, UAS, libur, batas entry nilai, yudisium
 - ✅ Disahkan Ketua sebelum disebar
 - ✅ Konsisten dengan kalender nasional/Kemenag & agenda yayasan
 - ✅ Tersosialisasi ke 100% dosen & mahasiswa sebelum 31 Juli
@@ -25,7 +25,7 @@ Kalender akademik TA 2026/2027 yang:
 2. **Validasi silang**
    - Hari libur nasional & cuti bersama tahun 2026/2027
    - Agenda yayasan & kegiatan institusi (wisuda, milad, akreditasi)
-   - Sinkron dengan jadwal PMB & OMB dari WK3 (1-10 Agustus)
+   - Sinkron dengan jadwal PMB (Agustus) & PKKMB dari WK3 (28-29 Agustus)
 
 3. **Approval & sosialisasi**
    - Draft → review pimpinan (rapat minggu 3 Juli) → pengesahan Ketua (≤ 24 Juli)

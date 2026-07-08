@@ -1,7 +1,7 @@
 # FASE 9: OMB PLANNING CHECKLIST & LOGISTICS
 ## Ready-to-Execute Implementation Toolkit
 
-**Gunakan checklist ini untuk planning & execution OMB 1-10 Agustus 2026**
+**Gunakan checklist ini untuk planning & execution PKKMB 28-29 Agustus 2026**
 
 ---
 
@@ -21,7 +21,7 @@ FORMAT DECISION:
    → Decision: _____________________
    
 ☐ Schedule:
-   - Days: 1-10 Agustus (which days actually used?)
+   - Days: 28-29 Agustus (+ makeup 31 Agustus bila perlu)
    - Hours: 08:00-12:00 / 08:00-15:00 / Other?
    - Frequency: Daily OR multiple days per week?
    → Schedule finalized: _____________
@@ -53,7 +53,7 @@ Approved by: _______________  Date: ___
 ```
 SCHEDULE DETAILS (Fill in for EACH DAY):
 
-DAY 1 - Senin 1 Agustus 2026
+HARI 1 - Jumat 28 Agustus 2026
 =========================================================
 SESSION 1: WELCOME & CAMPUS TOUR (1 hour)
 ├─ Time: 08:00 - 09:30
@@ -100,7 +100,7 @@ SESSION 2: ACADEMIC SYSTEMS (1 hour)
 
 [REPEAT FOR DAYS 2-5 with similar detail level]
 
-DAY 2 - Selasa 2 Agustus 2026
+HARI 2 - Sabtu 29 Agustus 2026
 =========================================================
 [SESSION 1 & 2 details]
 
@@ -385,7 +385,7 @@ Final sign-off: ________________  Date: ____
 
 ---
 
-## PART B: EXECUTION PHASE (1-10 AGUSTUS)
+## PART B: EXECUTION PHASE (28-29 AGUSTUS)
 
 ### Task B1: Day-Before Preparation Checklist (31 July)
 **Duration:** 4 hours  
@@ -470,12 +470,12 @@ PIC Signature: ________________  Time: _______
 
 ---
 
-### Task B2: On-Day Execution Checklist (Each day, 1-5 Agustus)
+### Task B2: On-Day Execution Checklist (setiap hari, 28-29 Agustus)
 **Duration:** Per schedule + 1 hour prep + 30 min cleanup  
 **Owner:** Kemahasiswaan coordinator (daily)
 
 ```
-EXECUTION DAY: [DATE - E.G., SENIN 1 AGUSTUS]
+EXECUTION DAY: [DATE - E.G., JUMAT 28 AGUSTUS]
 
 PRE-SESSION (1.5 HOURS BEFORE START):
 ☐ Arrive early (at least 90 minutes before first session)
@@ -550,17 +550,17 @@ Daily sign-off: ________________  Time: _____
 
 ---
 
-## PART C: POST-OMB PHASE (11-14 AGUSTUS)
+## PART C: POST-PKKMB PHASE (31 AGUSTUS - 4 SEPTEMBER)
 
 ### Task C1: Feedback Collection & Analysis
 **Owner:** Kemahasiswaan  
 **Duration:** 3 hours  
-**Deadline:** 12 Agustus
+**Deadline:** 31 Agustus
 
 ```
 FEEDBACK COLLECTION:
 ☐ Send feedback form link (Google Form) to all attendees
-☐ Email deadline: 12 Agustus (2 days for response)
+☐ Email deadline: 31 Agustus (2 hari untuk respons)
 ☐ Response target: 70%+ of attendees
 ☐ Responses collected: ___ / ___ (rate: __%)
 
@@ -609,7 +609,7 @@ Sign-off: ___________  Date: _____
 ### Task C2: Post-OMB Communication & Followup
 **Owner:** Kemahasiswaan + Academic Admin  
 **Duration:** 2 hours  
-**Deadline:** 12 Agustus
+**Deadline:** 31 Agustus
 
 ```
 FOLLOW-UP EMAIL TO ALL ATTENDEES:
@@ -617,14 +617,14 @@ Subject: Thank You for Attending OMB 2026!
 
 [Use EMAIL 6 from 41_FASE_9_EMAIL_TEMPLATES.md]
 
-Send date: 11 Agustus (before classes start)
+Send date: 31 Agustus (sebelum kuliah dimulai)
 Response tracking: Any replies/questions logged
 
 FOLLOW-UP TO NO-SHOWS:
 [Use EMAIL 7 from 41_FASE_9_EMAIL_TEMPLATES.md]
 
 Target: All students who didn't attend any session
-Offer: One-on-one session 13-14 Agustus
+Offer: One-on-one session 2-3 September
 Success metric: At least 80% of no-shows get one-on-one
 
 No-shows identified: _____ students
@@ -661,7 +661,7 @@ Issues requiring escalation: _____________
 
 ### Success Metrics Tracking
 **Owner:** WK1  
-**Frequency:** Daily (during OMB), then final summary after 14 Agustus
+**Frequency:** Daily (during OMB), then final summary after 4 September
 
 ```
 METRIC 1: ATTENDANCE
@@ -674,7 +674,7 @@ Daily tracking:
 - Day 3 (3 Aug): __% (____ / ____)
 - Day 4 (4 Aug): __% (____ / ____)
 - Day 5 (5 Aug): __% (____ / ____)
-- Make-up sessions (6-10 Aug): ____ students
+- Make-up sessions (6-1 Sep): ____ students
 
 OVERALL ATTENDANCE: __% ✓ MET / ⚠ BELOW TARGET
 
@@ -823,7 +823,7 @@ Vehicles available: ______________________
 ## HOW TO USE THIS DOCUMENT
 
 1. **Pre-Planning (25-31 Juli):** Complete Parts A1-A5 with your team
-2. **Execution (1-10 Agustus):** Use Parts B1-B2 daily checklist
-3. **Post-OMB (11-14 Agustus):** Complete Parts C1-C2 for feedback & follow-up
+2. **Execution (28-29 Agustus):** Use Parts B1-B2 daily checklist
+3. **Post-PKKMB (31 Agustus - 4 September):** Complete Parts C1-C2 for feedback & follow-up
 4. **Reporting:** Document all metrics in Part D
 5. **Future Reference:** Archive this completed checklist for next year's planning

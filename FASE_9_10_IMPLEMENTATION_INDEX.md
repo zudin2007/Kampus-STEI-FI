@@ -9,15 +9,15 @@
 
 ## QUICK NAVIGATION
 
-### FASE 9: OMB MAHASISWA BARU (1-10 Agustus 2026)
+### FASE 9: PKKMB MAHASISWA BARU (28-29 Agustus 2026)
 
 | File | Purpose | Key Content | Owner | When to Use |
 |------|---------|-------------|-------|-------------|
-| **41_FASE_9_EMAIL_TEMPLATES.md** | Email communication | 7 ready-to-send emails | Kemahasiswaan | 27 Jul - 14 Aug |
+| **41_FASE_9_EMAIL_TEMPLATES.md** | Email communication | 7 ready-to-send emails | Kemahasiswaan | 17 Ags - 4 Sep |
 | **42_FASE_9_OMB_PLANNING_CHECKLIST.md** | Logistics & planning | Venue, materials, staff, tech setup | Kaprodi + WK1 | 25-31 Jul (prep) |
-| **43_FASE_9_ACTION_PLAN_AGUSTUS_1_10.md** | Day-by-day execution | Daily tasks, timing, success metrics | Kemahasiswaan | 1-14 Agustus |
+| **43_FASE_9_ACTION_PLAN_PKKMB_28_29_AGUSTUS.md** | Day-by-day execution | Daily tasks, timing, success metrics | Kemahasiswaan | 28 Ags - 4 Sep |
 
-### FASE 10: MONITORING DOSEN & ABK (1 Agustus onwards)
+### FASE 10: MONITORING DOSEN & ABK (1 September onwards)
 
 | File | Purpose | Key Content | Owner | When to Use |
 |------|---------|-------------|-------|-------------|
@@ -37,7 +37,7 @@
 - Email 2: Registration Confirmation (send upon registration)
 - Email 3: Pre-OMB Reminder (send 30 Jul)
 - Email 4: Daily Reminder (send each morning 1-5 Aug)
-- Email 5: Feedback Form (send 10 Aug)
+- Email 5: Feedback Form (send 1 Sep)
 - Email 6: Post-OMB Welcome & Resources (send 11 Aug)
 - Email 7: Follow-up to No-Shows (send 12 Aug)
 
@@ -65,7 +65,7 @@
 - 26 Jul: Detailed schedule & speaker assignments finalized
 - 28 Jul: All materials prepared
 - 29 Jul: Technology tested
-- 31 Jul: Final walkthrough, staff briefed, GO for August 1
+- 27 Ags: Final walkthrough, staff briefed, GO for PKKMB 28 Agustus
 
 **Key actions:**
 - [ ] Assign daily coordinators (one per day, 1-5 Aug)
@@ -75,7 +75,7 @@
 
 ---
 
-### FILE 43: QUICK ACTION PLAN (1-10 AGUSTUS)
+### FILE 43: QUICK ACTION PLAN (PKKMB 28-29 AGUSTUS)
 **When to use:** Start Day 0 (31 Jul), then daily during OMB  
 **Time to complete:** 15-30 min/day (during execution)  
 **Content:**
@@ -106,7 +106,7 @@
 ---
 
 ### FILE 44: WEEKLY MONITORING TEMPLATE
-**When to use:** Every Monday starting 4 Agustus, through semester end  
+**When to use:** Every Monday starting 7 September, through semester end  
 **Time to complete:** 30-40 minutes per week  
 **Content:**
 - Part 1: Dosen attendance tracking
@@ -170,7 +170,7 @@
 ---
 
 ### FILE 46: TRACKING SPREADSHEET TEMPLATES
-**When to use:** First use by Week 1 (4 Agustus), then ongoing weekly  
+**When to use:** First use by Week 1 kuliah (7 September), then ongoing weekly  
 **Time to complete:** 40 min/week (routine) + 2 hours for deep-dives (biweekly)  
 **Content:**
 - 5 Excel worksheets:
@@ -209,7 +209,7 @@
 
 ### How the files work together:
 
-**FASE 9 (Agustus 1-10):**
+**FASE 9 (PKKMB 28-29 Agustus):**
 1. **File 41** - Send emails on schedule
 2. **File 42** - Follow planning checklists (pre-planning done by 31 Jul)
 3. **File 43** - Execute daily using action plan checklist
@@ -244,13 +244,13 @@ EARLY JULY - PREPARATION:
 ☐ Prepare File 43 (action plan) for printing
 ☐ Brief all staff (31 Jul evening)
 
-1-10 AGUSTUS - FASE 9 EXECUTION:
+28-29 AGUSTUS - FASE 9 EXECUTION:
 ☐ File 43 - Execute daily (1-5 Aug)
 ☐ File 41 - Send emails on schedule
 ☐ File 42 - Daily setup & post-session checklists
 ☐ Daily coordinator logs outcomes
 
-1 AGUSTUS onwards - FASE 10 BEGINS:
+1 SEPTEMBER onwards - FASE 10 BEGINS:
 ☐ File 44 - Start weekly monitoring
 ☐ File 46 - Setup Excel file, daily tracking
 ☐ File 45 - Reference if issues arise

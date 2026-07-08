@@ -118,7 +118,7 @@ KETUA
 30-31 JUL:   FINAL PUSH
              - All readiness reports to Ketua
              - Approvals finalized
-             - Go-signal for August & semester start 10 Agustus
+             - Go-signal for August & semester start 1 September
 ```
 
 ---

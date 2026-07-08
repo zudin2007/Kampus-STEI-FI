@@ -34,7 +34,7 @@ PEMBAYARAN (TUITION):
 
 ```
 PERKULIAHAN (LECTURE PERIOD):
-- Start date (Awal Kuliah): [DATE] (Senin, 10 Agustus 2026)
+- Start date (Awal Kuliah): [DATE] (Selasa, 1 September 2026)
 - End date (Akhir Kuliah): [DATE]
 - Total weeks: 16 minggu
 - No break weeks (continuous)
@@ -207,7 +207,7 @@ AGUSTUS 2026
 MINGGU | SENIN | SELASA | RABU | KAMIS | JUMAT | SABTU
 -------|-------|--------|------|-------|-------|------
       |       |        |      |       |   1   |   2
-   3  |   4   |   5    |  6   |   7   |   8   |   9    ← Awal Kuliah (10 Agustus)
+   3  |   4   |   5    |  6   |   7   |   8   |   9    ← (contoh) — Awal Kuliah riil: 1 September
   10  |  11*  |   12   |  13  |  14   |  15   |  16    ← *First day of class
   17  |  18   |   19   |  20  |  21   |  22   |  23
   24  |  25   |   26   |  27  |  28   |  29   |  30
@@ -234,7 +234,7 @@ KEY:
 ```
 | DATE | EVENT | DETAILS | WHO |
 |------|-------|---------|-----|
-| 10 Aug | Awal Kuliah | First day of class | All |
+| 1 Sep | Awal Kuliah | First day of class | All |
 | 17 Aug | Quiz 1 | In-class | All students |
 | 20 Aug | RPS Deadline | All syllabi due | Dosen |
 | 24 Aug | KRS Revision Close | No more KRS changes | Students |
@@ -260,7 +260,7 @@ KALENDER AKADEMIK TA 2026/2027 - TANGGAL PENTING
 ☐ Pembayaran: 31 Agustus (deadline hard)
 
 📚 PERKULIAHAN:
-☐ Awal Kuliah: 10 Agustus (Senin)
+☐ Awal Kuliah: 1 September (Selasa)
 ☐ Akhir Kuliah: 30 November
 
 ✏️ ASSESSMENT:
@@ -281,7 +281,7 @@ KALENDER AKADEMIK TA 2026/2027 - TANGGAL PENTING
 ☐ Graduation: [DATE]
 
 🚫 JANGAN LUPA:
-- RPS deadline: 10 AGUSTUS (first day of class!)
+- RPS deadline: 1 SEPTEMBER (first day of class!)
 - Grade entry: NO EXTENSION (penalties apply)
 - Payment deadline: 31 AGUSTUS
 ```
@@ -311,7 +311,7 @@ Rector/Rector Representative           Date
 
 ---
 
-Effective Date: 10 Agustus 2026
+Effective Date: 1 September 2026
 This calendar is binding for all students, faculty, and staff.
 Any changes must be approved by Rector.
 ```

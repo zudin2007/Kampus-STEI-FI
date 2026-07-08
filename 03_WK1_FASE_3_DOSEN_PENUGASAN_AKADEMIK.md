@@ -4,7 +4,7 @@
 **Status:** READY TO EXECUTE
 **Timeline:** 1-27 Juli 2026 (Minggu 1-4)
 **Owner:** WK1 + Kaprodi + Admin Akademik
-**Priority:** CRITICAL - SK Mengajar wajib terbit min. 2 minggu sebelum hari pertama kuliah (≤ 27 Juli)
+**Priority:** CRITICAL - SK Mengajar wajib terbit min. 2 minggu sebelum hari pertama kuliah (≤ 18 Agustus; target internal akhir Juli)
 
 ---
 
@@ -65,7 +65,7 @@ Fase 3 berfokus pada:
 ---
 
 ### C4: Penerbitan SK Mengajar
-**Deadline:** ≤ 27 Juli (min. 2 minggu sebelum kuliah 10 Agustus)
+**Deadline:** target internal akhir Juli; batas kalender ≤ 18 Agustus (min. 2 minggu sebelum kuliah perdana 1 September)
 **PIC:** WK1 + Ketua + Admin
 **Status:** ☐
 

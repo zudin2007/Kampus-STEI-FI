@@ -125,7 +125,7 @@ By end of July 2026:
 - ✅ Sarpras: Semua inspeksi done, critical repairs selesai, ruang clean
 - ✅ UPT: Perpustakaan & TI siap untuk kuliah
 - ✅ Koordinasi: Semua unit tahu timeline & deliverable masing-masing
-- ✅ Overall: **KAMPUS SIAP untuk semester ganjil 10 Agustus 2026**
+- ✅ Overall: **KAMPUS SIAP untuk semester ganjil 1 September 2026**
 
 ---
 
