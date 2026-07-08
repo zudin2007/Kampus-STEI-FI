@@ -1,0 +1,48 @@
+name: Deploy Persiapan TA Baru ke Netlify
+
+on:
+  push:
+    branches: [master]
+    paths:
+      - '1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/**'
+      - '.github/workflows/netlify.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: netlify
+  cancel-in-progress: false
+
+env:
+  NETLIFY_SITE_ID: c24b4d5f-29fe-4dc6-b9dc-5119b429ba83  # ifbtc-steifi.netlify.app
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Prepare site folder
+        run: |
+          SRC="1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru"
+          SITE="site"
+          mkdir -p "$SITE"
+          cp "$SRC"/*.html "$SITE"/
+          cp "$SRC"/*.png "$SITE"/ 2>/dev/null || true
+          cp "$SRC"/*.pdf "$SITE"/ 2>/dev/null || true
+          cp "$SITE/Dashboard_Persiapan_TA_Baru_STEI_FI.html" "$SITE/index.html"
+
+      - name: Check auth token
+        run: |
+          if [ -z "${{ secrets.NETLIFY_AUTH_TOKEN }}" ]; then
+            echo "::error::Secret NETLIFY_AUTH_TOKEN belum diset. Buat Personal Access Token di https://app.netlify.com/user/applications lalu tambahkan di Settings > Secrets and variables > Actions."
+            exit 1
+          fi
+
+      - name: Deploy to Netlify
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+        run: npx --yes netlify-cli@17 deploy --prod --dir site --site "$NETLIFY_SITE_ID" --message "Deploy from GitHub Actions ${{ github.sha }}"
