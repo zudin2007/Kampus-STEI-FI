@@ -33,6 +33,12 @@ jobs:
           cp "$SRC"/*.html "$SITE"/
           cp "$SRC"/*.png "$SITE"/ 2>/dev/null || true
           cp "$SRC"/*.pdf "$SITE"/ 2>/dev/null || true
+          # bundle every linked document so downloads work without repo access
+          mkdir -p "$SITE/dokumen"
+          while IFS= read -r p; do
+            [ -z "$p" ] && continue
+            cp --parents "$p" "$SITE/dokumen/"
+          done < "$SRC/dokumen_manifest.txt"
           cp "$SITE/Dashboard_Persiapan_TA_Baru_STEI_FI.html" "$SITE/index.html"
 
       - name: Check auth token
