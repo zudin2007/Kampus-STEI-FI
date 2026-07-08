@@ -1,0 +1,901 @@
+00_COMPLETE_INSTITUTION_TOOLKIT_MASTER_SUMMARY.md
+00_QUICK_START_FASE_1.md
+010_KAPRODI_MINGGU_4_CHECKLIST.md
+010_LPPM_MINGGU_4_CHECKLIST.md
+01_FORM_VERIFIKASI_MAHASISWA_BARU.md
+01_WK1_FASE_1_DATA_MAHASISWA_AKADEMIK.md
+01_WK2_FASE_1_KEUANGAN_ANGGARAN.md
+01_WK3_FASE_1_PMB_REGISTRASI.md
+02_KAPRODI_BIDANG_B_AKADEMIK_BIMBINGAN.md
+02_LPPM_FASE_2_RESEARCH_EXECUTION.md
+02_TEMPLATE_TRACKING_KELENGKAPAN_MAHASISWA.md
+02_WK1_FASE_2_KURIKULUM_RPS_BAHAN_AJAR.md
+02_WK2_FASE_2_ADMINISTRASI_UMUM.md
+02_WK3_FASE_2_PKKMB_ORIENTASI.md
+03_KAPRODI_BIDANG_C_DOSEN_DEVELOPMENT.md
+03_LPPM_FASE_3_PKM_EXECUTION.md
+03_TEMPLATE_NOTIFIKASI_MAHASISWA.md
+03_WK1_FASE_3_DOSEN_PENUGASAN_AKADEMIK.md
+03_WK2_FASE_3_SDM_KEPEGAWAIAN.md
+03_WK3_FASE_3_ORGANISASI_KEMAHASISWAAN.md
+04_KAPRODI_BIDANG_D_KEILMUAN.md
+04_LPPM_FASE_4_PUBLICATION.md
+04_TEMPLATE_LAPORAN_VERIFIKASI_UNTUK_DEKAN.md
+04_WK1_FASE_4_JADWAL_RUANG_LABORATORIUM.md
+04_WK2_FASE_4_SARANA_PRASARANA.md
+04_WK3_FASE_4_BEASISWA_LAYANAN_MAHASISWA.md
+05_KAPRODI_BIDANG_E_TATA_USAHA.md
+05_LPPM_FASE_5_CENTER_DEVELOPMENT.md
+05_SOP_VERIFIKASI_MAHASISWA_BARU.md
+05_WK1_FASE_5_KALENDER_SISTEM_PENILAIAN.md
+05_WK2_FASE_5_6_UPT_KOORDINASI.md
+05_WK3_FASE_5_ALUMNI_KERJASAMA.md
+06_KAPRODI_BIDANG_F_QUALITY_ASSURANCE.md
+06_LPPM_FASE_6_COORDINATION.md
+06_QUICK_START_FASE_2_JADWAL.md
+06_WK1_FASE_6_KOORDINASI_OMB_VERIFIKASI_FINAL.md
+06_WK2_MINGGU_1_DETAIL_CHECKLIST.md
+06_WK3_FASE_6_KOORDINASI_LINTAS_BIDANG.md
+07_FORM_VERIFIKASI_JADWAL_RUANG.md
+07_KAPRODI_MINGGU_1_CHECKLIST.md
+07_LPM_MINGGU_1_CHECKLIST.md
+07_LPPM_MINGGU_1_CHECKLIST.md
+07_WK1_MINGGU_1_DETAIL_CHECKLIST.md
+07_WK2_EMAIL_RAPB_CONFIRMATION.md
+07_WK3_MINGGU_1_DETAIL_CHECKLIST.md
+08_KAPRODI_MINGGU_2_CHECKLIST.md
+08_LPM_MINGGU_2_CHECKLIST.md
+08_LPPM_MINGGU_2_CHECKLIST.md
+08_TEMPLATE_TRACKING_JADWAL.md
+08_WK1_MINGGU_2_DETAIL_CHECKLIST.md
+08_WK2_EMAIL_DOSEN_KONTRAK_FINAL.md
+08_WK3_MINGGU_2_DETAIL_CHECKLIST.md
+09_KAPRODI_MINGGU_3_CHECKLIST.md
+09_LPM_MINGGU_3_CHECKLIST.md
+09_LPPM_MINGGU_3_CHECKLIST.md
+09_TEMPLATE_NOTIFIKASI_JADWAL.md
+09_WK1_MINGGU_3_DETAIL_CHECKLIST.md
+09_WK2_EMAIL_MINGGU_2_STATUS.md
+09_WK2_TASKS_UPDATED.md
+09_WK3_MINGGU_3_DETAIL_CHECKLIST.md
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/LED FITRAH INSANI 2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RENOP STEI FI .docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RENSTRA STEI FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RIP STEI FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS Ekonomi Internasional.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Akhlak_Spiritualitas_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Bahasa_Inggris_Bisnis_STEI_FI_2026-1.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Bisnis_Digital_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Critical_Thinking_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Ekonomi_Internasional_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Ekonomi_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Ekonomi_Manajerial_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Ekonomi_Mikro_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Fiqh_Muamalat_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Keuangan_Mikro_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Kewirausahaan_III_Coaching_STEI_FI_2026-2.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Kewirausahaan_III_Coaching_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Kewirausahaan_II_Coaching_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Kewirausahaan_I_Coaching_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Manajemen_Keuangan_Syariah_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Manajemen_Risiko_Syariah_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Manajemen_Strategis_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Matematika_Ekonomi_STEI_FI_2026-3.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Metodologi_Penelitian_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Metodologi_Studi_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_PKL_Magang_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Pasar_Modal_Investasi_Syariah_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Pengantar_Manajemen_Bisnis_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Praktikum_Bank_Syariah_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Rekayasa_Sosial_Ekonomi_Syariah_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Sistem_Moneter_Islam_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Statistika_Ekonomi_II_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Teknik_Scale_Up_UMKM_Syariah_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Akuntansi_Syariah_ZISWAF_Muamalah_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Bahasa_Arab_Bisnis_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Bahasa_Indonesia_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Ekonomi_Makro_Islam_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Fiqih_Muamalah_Kontemporer_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Ilmu_Tauhid_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Kewirausahaan_II_Coaching_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Manajemen_SDI_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Maqashid_Syariah_Ekonomi_Keuangan_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_PPKn_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Pasar_Modal_Investasi_Syariah_STEI_FI_2025-1.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Pengantar_Akuntansi_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Pengantar_Ekonomi_Islam_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Pengantar_Kewirausahaan_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Sistem_Informasi_Manajemen_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Statistika_Ekonomi_I_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Teknik_Scale_Up_UMKM_Syariah_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Transaksi_Keuangan_Syariah_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Ushul_Fiqih_Qawaidul_Fiqhiyah_STEI_FI_2025.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/uts-uas/UAS_Ekonomi_Internasional_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/uts-uas/UAS_Fiqh_Muamalat_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/uts-uas/UAS_Metodologi_Studi_Islam_STEI_FI_2026-4.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/STATUTA STE FI-Revisi 2024 (1).docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_Ketua_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_LPM_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_LPPM_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_Prodi_ESPS_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_WK1_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_WK2_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_WK3_STEI_FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Checklist_Dokumen_SOP_LPM_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-01_Dokumen-Standar-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-02_Notulen-Rapat-Penyusunan-Standar-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-03_SK-Penetapan-Standar-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-04_Kebijakan-Mutu-STEI-FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-05_Matriks-Pemetaan-Standar-Unit.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-06_Rekap-Sasaran-Mutu-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-07_Laporan-Evaluasi-Pemenuhan-Standar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-01-08_SE-Pemenuhan-Standar-ke-Unit.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-01_Daftar-Dokumen-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-02_Manual-Mutu-Siklus-PPEPP.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-03_Notulen-Workshop-Manual-Prosedur.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-04_Manual-Pelaksanaan-Standar-Unit.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-05_Instruksi-Kerja-Penyusunan-Dokumen-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-06_Checklist-Kelengkapan-Dokumen-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-02-07_Laporan-Revisi-Dokumen-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-03-01_Program-Pelatihan-Budaya-Mutu.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-03-02_Materi-Sosialisasi-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-03-03_Daftar-Hadir-Pelatihan-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-03-04_Kuesioner-Evaluasi-Pelatihan-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-03-05_LPJ-Pelatihan-Sosialisasi-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-03-06_Rekap-Peserta-Pelatihan-SPMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-01_Jadwal-Pelaksanaan-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-02_SK-Tim-Auditor-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-03_Surat-Pemberitahuan-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-04_Borang-Self-Assessment-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-05_Instrumen-Audit-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-06_Checklist-Desk-Evaluation.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-07_Lembar-Catatan-Audit-Lapangan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-08_Form-Opening-Closing-Meeting.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-09_Konfirmasi-Temuan-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-10_Rekap-Skor-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-11_Laporan-AMI-Final.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-04-12_Grafik-Tren-Skor-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-01_Laporan-Temuan-AMI-Unit.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-02_Rekap-Semua-Temuan-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-03_SE-Kewajiban-CAP.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-04_Form-CAP-Unit.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-05_Lembar-Verifikasi-CAP-LPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-06_Laporan-Perkembangan-CAP.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-07_Bukti-Pelaksanaan-CAP.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-08_Laporan-Status-TL-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-05-09_Arsip-Riwayat-Temuan-TL-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-01_Agenda-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-02_Daftar-Hadir-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-03_Bahan-Paparan-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-04_Notulen-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-05_SK-Sasaran-Mutu-Hasil-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-06_Program-Peningkatan-Mutu-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-06-07_Laporan-TL-Keputusan-RTM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-01_Jadwal-Roadmap-Persiapan-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-02_SK-Tim-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-03_Instrumen-Gap-Analysis-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-04_Checklist-Data-LED.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-05_Template-LED-9-Kriteria.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-06_Notulen-Rapat-Koordinasi-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-07_Form-Review-Internal-LED.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-08_Panduan-Simulasi-Visitasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-09_BA-Pengajuan-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-10_Protokol-Penerimaan-Asesor.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-11_Notulen-Dokumentasi-Visitasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-07-12_Arsip-Sertifikat-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-01_Laporan-Hasil-Penilaian-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-02_Analisis-Kesenjangan-Pasca-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-03_Rencana-TL-Rekomendasi-Asesor.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-04_Laporan-Berkala-TL-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-05_Monitoring-Masa-Berlaku-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-06_Laporan-Tahunan-LPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-07_Data-Kelembagaan-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/Dokumen_SOP_LPM_STEI_FI_2026/F-LPM-08-08_Arsip-Dokumen-Persiapan-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/SOP_LPM_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lpm/TUPOKSI_LPM_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Checklist_Dokumen_SOP_LPPM_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-01_RIP-STEI-FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-01_Rencana-Induk-Penelitian-RIP.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-02_Kalender-Kegiatan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-02_Panduan-Penelitian-Internal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-02_Program-Kerja-Tahunan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-03_Formulir-Proposal-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-03_Kalender-Kegiatan-Penelitian-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-03_RAB-LPPM-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-04_Lembar-Review-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-04_Panduan-Umum-Program-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-04_Rekap-Data-Penelitian-PKM-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-05_SK-Penelitian-Didanai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-05_SK-Program-Penelitian-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-05_Sosialisasi-Program-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-06_Kontrak-Penelitian-Internal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-06_Notulen-Rapat-Perencanaan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-06_Rekap-Penelitian-PKM-Aktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-07_Anggaran-Penelitian-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-07_Notulen-Rapat-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-07_Rekap-Program-Penelitian-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-08_Laporan-Evaluasi-Program-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-08_Laporan-Semester-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-08_Notulen-Rapat-Koordinasi-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-09_Database-Dosen-Aktif-Meneliti.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-09_Laporan-Tahunan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-09_Panduan-Ketentuan-Penelitian-Internal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-01-10_Laporan-Penelitian-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-01_Kartu-Monitoring-Kemajuan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-01_Pengumuman-Program-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-01_Template-Proposal-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-02_Laporan-Kemajuan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-02_Pengumuman-Proposal-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-02_Template-Proposal-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-03_Checklist-Monitoring-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-03_Rekap-Proposal-Masuk.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-04_BA-Seminar-Proposal-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-04_Lembar-Review-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-04_Panduan-Kriteria-Penilaian-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-05_BA-Seminar-Hasil-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-05_Lembar-Penilaian-Proposal-Reviewer.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-05_Rekap-Hasil-Review-Penetapan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-06_Daftar-Hadir-Seminar-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-06_Rekap-Hasil-Penilaian-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-06_SK-Penelitian-Didanai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-07_Formulir-Penelitian-Eksternal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-07_Kontrak-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-07_Pengumuman-Hasil-Seleksi-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-08_Kontrak-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-08_Surat-Pengantar-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-08_Surat-Penolakan-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-09_Rekap-Pelaksanaan-Penelitian-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-09_Surat-Penugasan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-09_Surat-Pernyataan-Keaslian-Proposal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-10_BA-Penandatanganan-Kontrak-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-02-10_BA-Penetapan-Proposal-Didanai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-01_Jadwal-Monitoring-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-01_Log-Book-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-02_Laporan-Kemajuan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-03_Checklist-Monitoring-Lapangan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-03_Lembar-Monitoring-Lapangan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-04_BA-Pencairan-Dana-Tahap2.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-04_BA-Seminar-Kemajuan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-05_Formulir-Perubahan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-05_Laporan-Akhir-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-06_Checklist-Laporan-Akhir-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-06_Template-Laporan-Akhir-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-07_BA-Penerimaan-Laporan-Akhir.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-07_Checklist-Laporan-Akhir-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-08_Rekap-Status-Penelitian-Aktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-08_Rekap-Status-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-09_Form-Perpanjangan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-03-09_Laporan-Monitoring-ke-WK1.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-01_Panduan-PKM-STEI-FI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-01_Pengumuman-Program-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-02_Template-Proposal-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-03_Lembar-Review-Proposal-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-03_Surat-Kesediaan-Mitra-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-04_Lembar-Penilaian-Proposal-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-04_Rekap-Penetapan-PKM-Didanai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-05_Rekap-Seleksi-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-05_SK-PKM-Didanai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-06_Kontrak-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-06_Pengumuman-Hasil-Seleksi-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-07_Kontrak-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-07_Surat-Kesediaan-Mitra-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-08_Rekap-PKM-Aktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-08_Surat-Penugasan-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-09_BA-Penandatanganan-Kontrak-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-04-09_Surat-Penolakan-Proposal-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-01_Jadwal-Monitoring-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-01_Log-Book-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-02_Daftar-Hadir-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-02_Laporan-Kemajuan-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-03_BA-Pelaksanaan-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-03_Checklist-Monitoring-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-04_Instrumen-Evaluasi-Dampak-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-04_Laporan-Kemajuan-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-05_Lembar-Monitoring-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-05_Template-Laporan-Akhir-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-06_Checklist-Laporan-Akhir-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-06_Laporan-Akhir-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-07_BA-Seminar-Hasil-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-07_SK-Pelaksanaan-PKM-dari-Mitra.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-08_Rekap-Status-PKM-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-08_Rekap-Status-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-09_Kuesioner-Evaluasi-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-05-09_Laporan-Monitoring-PKM-WK1.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-01_Panduan-Publikasi-Ilmiah.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-02_Database-Publikasi-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-02_Form-Pendampingan-Penulisan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-03_Formulir-Pendaftaran-Publikasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-03_Lembar-Umpan-Balik-Artikel.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-04_Database-Publikasi-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-04_Rekap-Publikasi-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-05_Panduan-HKI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-05_Permohonan-Bantuan-APC.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-06_Form-Permohonan-HKI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-06_Panduan-HKI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-07_Database-HKI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-07_Rekap-HKI-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-08_Laporan-Publikasi-HKI-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-08_Rekap-Publikasi-HKI-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-09_Form-Klaim-Insentif-Publikasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-09_Notulen-Klinik-Manuskrip.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-10_Laporan-Tahunan-Publikasi-HKI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-06-10_Laporan-Uji-Similarity.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-01_Program-Seminar-Diseminasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-01_Rencana-Seminar-Hasil-Penelitian-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-02_Panduan-Presenter-Seminar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-02_Panduan-Teknis-Seminar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-03_Form-Pendaftaran-Seminar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-03_Lembar-Penilaian-Presentasi-Seminar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-04_BA-Seminar-Hasil.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-04_Daftar-Hadir-Prosiding-Seminar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-05_LPJ-Seminar-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-05_Prosiding-Seminar-Internal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-06_Form-Dukungan-Konferensi-Eksternal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-06_Permohonan-Dukungan-Konferensi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-07_Laporan-Pasca-Konferensi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-07_Rekap-Keikutsertaan-Konferensi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-08_LPJ-Seminar-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-08_Rekap-Konferensi-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-09_Laporan-Diseminasi-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-07-09_Panduan-Jurnal-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-01_Panduan-Etika-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-01_Pedoman-Etika-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-02_Informed-Consent-Subjek.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-02_Surat-Pernyataan-Orisinalitas.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-03_Laporan-Cek-Plagiarisme.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-03_Surat-Pernyataan-Etika-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-04_Formulir-Informed-Consent.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-04_Laporan-Dugaan-Pelanggaran-Etika.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-05_Form-Pengaduan-Pelanggaran-Integritas.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-05_Prosedur-Penanganan-Pelanggaran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-06_BA-Sidang-Etik-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-06_Daftar-Jurnal-Rekomendasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-07_Panduan-Penulisan-Artikel-IMRaD.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-07_SK-Hasil-Sidang-Etik.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-08_Panduan-Workshop-Etika-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-08_Rekap-Hasil-Uji-Etika.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-09_Kartu-Integritas-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-09_Rekap-Kepatuhan-Etika.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-10_Laporan-Etika-Integritas-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-08-10_Laporan-Etika-ke-Senat.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-01_Panduan-Pengarsipan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-01_Struktur-Organisasi-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-02_Buku-Agenda-Surat-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-02_SOP-Surat-Administrasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-03_Panduan-SIMLITABMAS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-03_Rekap-Anggaran-LPPM-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-04_Form-Pencairan-Dana-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-04_Rekap-Input-SIMLITABMAS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-05_Kuesioner-Kepuasan-Layanan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-05_Laporan-Semester-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-06_Laporan-Tahunan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-06_RTL-Evaluasi-Layanan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-07_Laporan-Borang-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-07_Rekap-Keuangan-Penelitian-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-08_Data-PDDIKTI-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-08_Notulen-Evaluasi-Akhir-Tahun.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-09_Kuesioner-Kepuasan-Dosen-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-09_Notulen-Workshop-Kapasitas-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-10_Laporan-Kinerja-Tahunan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/Dokumen_SOP_LPPM_STEI_FI_2026/F-LPPM-09-10_Rekap-Kepuasan-Layanan-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/SOP_LPPM_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/lppm/TUPOKSI_LPPM_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Checklist_Dokumen_SOP_Prodi_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-01-01_Usulan-Dosen-Pengampu-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-01-02_Jadwal-Perkuliahan-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-01-03_Penawaran-MK-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-01-04_SK-Tugas-Mengajar-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-01-05_Rekap-Beban-Mengajar-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-02-01_Template-RPS-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-02-02_SE-Kaprodi-Penyusunan-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-02-03_Rekap-Status-Penyerahan-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-02-04_Form-Catatan-Koreksi-RPS-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-02-05_Arsip-RPS-Final-Divalidasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-01_Rekap-Kehadiran-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-02_Rekap-Kehadiran-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-03_Laporan-Monitoring-Mid-Semester-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-04_Catatan-Tindak-Lanjut-Kehadiran-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-05_Surat-Peringatan-Kehadiran-Mhs-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-06_Laporan-Perkuliahan-Akhir-Semester-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-03-07_Form-Kesesuaian-Materi-RPS-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-01_Pedoman-Penilaian-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-02_Rekap-Status-Input-Nilai-SIAKAD.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-03_Form-Permohonan-Koreksi-Nilai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-04_Rekap-Nilai-Akhir-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-05_Laporan-Distribusi-Nilai-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-06_Kuesioner-EDOM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-04-07_Laporan-Analisis-EDOM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-05-01_Panduan-KRS-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-05-02_Rekap-KRS-Disetujui-DPA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-05-03_Daftar-Mahasiswa-Belum-KRS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-05-04_Form-KRS-Susulan-Perubahan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-05-05_Laporan-Mahasiswa-Aktif-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-01_Usulan-Pembagian-DPA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-02_SK-Penetapan-DPA-Arsip-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-03_Kartu-Bimbingan-Akademik-DPA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-04_Rekap-Bimbingan-DPA-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-05_Daftar-Mahasiswa-Bermasalah-Akademik-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-06_Notulen-Konseling-Mahasiswa-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-06-07_Proyeksi-Kelulusan-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-01_Panduan-Penulisan-Skripsi-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-02_Form-Pengajuan-Judul-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-03_Rekap-Pengajuan-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-04_Usulan-Pembimbing-Skripsi-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-05_SK-Pembimbingan-Skripsi-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-06_Kartu-Konsultasi-Skripsi-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-07_Form-Permohonan-Sidang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-08_Hasil-Uji-Plagiarisme.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-09_SK-Tim-Penguji-Sidang-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-10_Form-Penilaian-Penguji-Sidang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-11_BA-Sidang-Skripsi-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-12_Lembar-Pengesahan-Skripsi-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-07-13_Rekap-Mahasiswa-Sidang-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-08-01_Jadwal-Rapat-Dosen-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-08-02_Daftar-Hadir-Rapat-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-08-03_Notulen-Rapat-Dosen-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-08-04_Rekap-Kegiatan-Ilmiah-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-08-05_Rekam-Jejak-Dosen-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-08-06_Laporan-Kebutuhan-Dosen-Baru.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-09-01_Form-Penilaian-Kinerja-Dosen-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-09-02_Rekap-EDOM-per-Dosen-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-09-03_Form-BKD-Dosen-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-09-04_Catatan-Pembinaan-Dosen-EDOM-Rendah.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-09-05_Laporan-Kinerja-Dosen-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-10-01_Rekap-Penelitian-Aktif-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-10-02_Rekap-Publikasi-Ilmiah-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-10-03_Rekap-HKI-Dosen-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-10-04_Laporan-Penelitian-Kolaboratif-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-10-05_Data-Penelitian-Publikasi-Akreditasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-11-01_Proposal-Seminar-Kuliah-Tamu.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-11-02_Daftar-Hadir-Seminar-Kuliah-Tamu.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-11-03_Dokumentasi-Seminar-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-11-04_LPJ-Seminar-Kuliah-Tamu.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-11-05_Rekap-Seminar-Kuliah-Tamu-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-12-01_Dokumen-Kurikulum-Aktif-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-12-02_Laporan-Tracer-Study-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-12-03_Survei-Kepuasan-Pengguna-Lulusan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-12-04_Notulen-FGD-Peninjauan-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-12-05_Peta-CPL-CPMK-BahanKajian-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-12-06_Rekap-Saran-Stakeholder-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-01_Buku-Induk-Mahasiswa-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-02_Data-Progress-Studi-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-03_Buku-Agenda-Surat-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-04_Arsip-SK-Kaprodi-Sekprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-05_Rekap-Data-Mahasiswa-PDDIKTI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-06_Surat-Keterangan-Mahasiswa-Aktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-07_Surat-Keterangan-Lulus.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-13-08_Kalender-Akademik-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-14-01_Laporan-Semesteran-Kaprodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-14-02_Laporan-Tahunan-Program-Studi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-14-03_Rekap-KPI-Prodi-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-14-04_Laporan-Yudisium-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-14-05_Data-Profil-Lulusan-PDDIKTI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-15-01_Borang-Self-Evaluation-Prodi-AMI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-15-02_Rekap-Capaian-Standar-SPMI-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-15-03_Corrective-Action-Plan-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-15-04_Laporan-Tindak-Lanjut-CAP-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-15-05_Sasaran-Mutu-Prodi-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-16-01_RPS-Final-Cover-Sheet-Portofolio.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-16-02_Contoh-Soal-UTS-UAS-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-16-03_Contoh-Karya-Tugas-Terbaik-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-16-04_Rubrik-Penilaian-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-16-05_Rekap-Distribusi-Nilai-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Dokumen_SOP_Prodi_STEI_FI_2026/F-PRODI-16-06_Matriks-CPL-CPMK-Aktivitas-Penilaian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/SOP_Program_Studi_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/prodi/Tupoksi_SOP_Program_Studi_STEI_Fitrah_Insani_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Checklist_Dokumen_SOP_WK1_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-01_SK-Tim-Pengembang-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-02_Dokumen-Kurikulum-Prodi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-03_Notulen-Workshop-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-04_BA-Persetujuan-Senat-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-05_SK-Pemberlakuan-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-06_Peta-Transisi-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-01-07_Dokumentasi-Sosialisasi-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-02-01_Template-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-02-02_SE-Penyusunan-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-02-03_Checklist-Review-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-02-04_Form-Catatan-Koreksi-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-02-05_Lembar-Penerimaan-RPS-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-01_Daftar-Hadir-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-02_Daftar-Hadir-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-03_Laporan-Monitoring-Mid-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-04_Surat-Peringatan-Kehadiran-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-05_Laporan-Perkuliahan-Akhir-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-06_Form-Izin-Tidak-Hadir-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-03-07_Form-Kesesuaian-Materi-vs-RPS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-01_SE-Jadwal-UTS-UAS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-02_Jadwal-Resmi-UTS-UAS.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-03_Surat-Tugas-Pengawas-Ujian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-04_Daftar-Hadir-Peserta-Ujian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-05_BA-Pelaksanaan-Ujian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-06_Arsip-Naskah-Soal-Ujian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-07_Arsip-Lembar-Jawaban-Ujian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-04-08_Laporan-Kelengkapan-Input-Nilai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-05-01_SK-Penetapan-DPA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-05-02_Kartu-Bimbingan-Akademik.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-05-03_Form-KRS-Ditandatangani-DPA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-05-04_Laporan-Rekap-Bimbingan-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-05-05_Laporan-Mahasiswa-Bermasalah-Akademik.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-05-06_Notulen-Konseling-Mahasiswa-Bermasalah.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-01_Form-Pengajuan-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-02_Surat-Penetapan-Pembimbing-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-03_SK-Pembimbingan-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-04_Kartu-Konsultasi-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-05_Laporan-Uji-Plagiarisme.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-06_Form-Pendaftaran-Sidang-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-07_SK-Tim-Penguji-Sidang-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-08_Form-Penilaian-Penguji-Sidang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-09_BA-Sidang-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-06-10_Lembar-Pengesahan-Skripsi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-07-01_SE-Dorongan-Proposal-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-07-02_Agenda-Riset-Tahunan-WK1-LPPM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-07-03_Keterkaitan-Riset-Dosen-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-07-04_Laporan-Monitoring-Kemajuan-Penelitian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-07-05_Rekap-Capaian-Penelitian-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-08-01_SE-Dorongan-Proposal-PKM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-08-02_Rencana-Program-PKM-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-08-03_Catatan-Integrasi-PKM-Kurikulum.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-08-04_Rekap-PKM-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-09-01_Notulen-Koordinasi-SIAKAD.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-09-02_Data-PDDIKTI-per-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-09-03_Laporan-Evaluasi-SIAKAD.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-09-04_Laporan-Gangguan-SIAKAD.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-10-01_Program-Pelatihan-Bahasa-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-10-02_Pengumuman-Jadwal-Kelas-Bahasa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-10-03_Daftar-Hadir-Kelas-Bahasa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-10-04_Daftar-Nilai-Tes-Kemampuan-Bahasa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-10-05_Daftar-Mahasiswa-Remedial-Bahasa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-10-06_Laporan-Semester-UPT-Bahasa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-01_Rencana-Tahunan-PIB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-02_Form-Pendaftaran-Peserta-PIB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-03_Kartu-Kegiatan-PIB-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-04_Dokumentasi-Orientasi-Kewirausahaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-05_Catatan-Integrasi-PIB-MK.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-06_Laporan-Keuangan-Unit-Usaha-PIB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-07_Laporan-Program-PIB-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/Dokumen_SOP_WK1_STEI_FI_2026/F-WK1-11-08_Notulen-Evaluasi-PIB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/SOP_REVISI_WAKIL_KETUA_1_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk1/TUPOKSI_REVISI_WAKIL_KETUA_1_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Checklist_Dokumen_SOP_WK2_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-01_Form-Usulan-Anggaran-Unit.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-02_Rekap-Kompilasi-Usulan-Anggaran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-03_Draft-RAPB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-04_Notulen-Rapat-Pembahasan-RAPB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-05_RAPB-Final-ke-Senat.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-06_BA-Persetujuan-Senat-RAPB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-07_SK-Yayasan-APB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-01-08_SE-Sosialisasi-APB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-02-01_Daftar-Tagihan-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-02-02_Buku-Kas-Penerimaan-Harian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-02-03_Kuitansi-Penerimaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-02-04_Rekap-Penerimaan-Mingguan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-02-05_Laporan-Penerimaan-Bulanan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-02-06_Rekap-Piutang-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-01_Form-Pengajuan-Dana-Operasional.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-02_Lembar-Verifikasi-Kesesuaian-RAPB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-03_Lembar-Persetujuan-WK2-Dana.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-04_Bukti-Transfer-Pembayaran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-05_Form-LPJ-Keuangan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-06_Cover-Sheet-Nota-Kwitansi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-07_LPJ-Terverifikasi-WK2.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-03-08_Buku-Kas-Pengeluaran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-04-01_Template-Laporan-Keuangan-Bulanan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-04-02_Laporan-Keuangan-Bulanan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-04-03_Laporan-Realisasi-Anggaran-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-04-04_Laporan-Keuangan-Tahunan-Senat.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-04-05_Laporan-Keuangan-Tahunan-Yayasan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-04-06_Arsip-Dokumen-Keuangan-Inventaris.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-01_Buku-Agenda-Surat-Masuk.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-02_Buku-Agenda-Surat-Keluar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-03_Lembar-Disposisi-Surat.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-04_Inventaris-Surat-Masuk.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-05_Inventaris-Surat-Keluar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-06_Template-Surat-Resmi-Institusi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-05-07_Daftar-Nomor-Surat-Keluar.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-01_Inventaris-Arsip-Institusi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-02_Panduan-Klasifikasi-Arsip.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-03_Label-Kode-Arsip.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-04_Laporan-Audit-Arsip-Semesteran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-05_BA-Pemusnahan-Arsip.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-06_Daftar-Dokumen-Vital-Institusi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-06-07_Log-Peminjaman-Arsip.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-01_Form-Permohonan-Pengadaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-02_Cek-Stok-Inventaris.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-03_Survei-Perbandingan-Harga-Vendor.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-04_Persetujuan-WK2-Pengadaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-05_Purchase-Order-PO.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-06_BA-Penerimaan-Barang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-07_Buku-Inventaris-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-08_Template-Label-Kode-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-07-09_Bukti-Pembayaran-Vendor.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-01_Form-Permohonan-Rekrutmen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-02_Notulen-Rapat-Kebutuhan-SDM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-03_Pengumuman-Lowongan-Kerja.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-04_Rekap-Berkas-Lamaran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-05_Lembar-Seleksi-Administrasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-06_Soal-Tes-Lembar-Jawaban-Seleksi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-07_Lembar-Penilaian-Wawancara.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-08_Lembar-Penilaian-Micro-Teaching.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-09_Laporan-Rekap-Nilai-Seleksi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-10_SK-Pengangkatan-Pegawai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-11_Kontrak-Kerja-Pegawai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-08-12_Materi-Orientasi-Pegawai-Baru.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-01_Self-Assessment-Dosen.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-02_Self-Assessment-Tendik.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-03_Kuesioner-EDOM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-04_Form-Penilaian-Kinerja-Atasan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-05_Rekap-Nilai-Kinerja-Pegawai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-06_Laporan-Evaluasi-Kinerja-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-07_Notulen-Feedback-Individual.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-08_SK-Penyesuaian-Gaji-atau-Pembinaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-09-09_File-Kepegawaian-Individual.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-01_Laporan-TNA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-02_Rencana-Pengembangan-SDM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-03_SK-Rencana-Pengembangan-SDM.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-04_SK-Izin-Studi-Lanjut.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-05_Bukti-Pendaftaran-Pelatihan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-06_Daftar-Hadir-Materi-Pelatihan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-07_Sertifikat-Pelatihan-Arsip.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-08_Laporan-Hasil-Pelatihan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-09_Dokumentasi-Knowledge-Transfer.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-10-10_Daftar-Riwayat-Pelatihan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-01_Buku-Inventaris-Aset-Institusi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-02_Label-Kode-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-03_BA-Opname-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-04_Laporan-Selisih-Temuan-Opname.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-05_Form-Laporan-Kerusakan-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-06_Work-Order-Perbaikan-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-07_Kartu-Pemeliharaan-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-08_BA-Penghapusan-Aset.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-11-09_Laporan-Inventarisasi-Aset-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-01_Rencana-Pengembangan-Perpustakaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-02_Daftar-Usulan-Koleksi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-03_Katalog-Koleksi-Perpustakaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-04_Buku-Sirkulasi-Perpustakaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-05_Form-Pendaftaran-Anggota-Perpustakaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-06_Daftar-Hadir-Literasi-Informasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-07_Laporan-Bulanan-UPT-Perpustakaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-08_Laporan-Evaluasi-Semester-Perpustakaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-12-09_Bukti-Langganan-E-Resources.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-01_Rencana-Tahunan-UPT-TI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-02_Kondisi-Inventarisasi-Aset-IT.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-03_Daftar-Software-Lab-Komputer.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-04_Log-Penggunaan-Lab-Komputer.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-05_Log-Sistem-SIAKAD.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-06_Laporan-Backup-Data.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-07_Form-Laporan-Gangguan-IT.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-08_Disaster-Recovery-Plan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-09_Laporan-Bulanan-UPT-TI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/Dokumen_SOP_WK2_STEI_FI_2026/F-WK2-13-10_Bukti-Pelaporan-PDDIKTI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/SOP_REVISI_WAKIL_KETUA_2_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk2/TUPOKSI_REVISI_WAKIL_KETUA_2_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-01_Rencana-Program-PMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-02_Formulir-Pendaftaran-Mahasiswa-Baru.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-03_Rekap-Data-Pendaftar-PMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-04_Soal-Lembar-Jawaban-Seleksi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-05_Lembar-Penilaian-Wawancara-PMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-06_Pengumuman-Hasil-Seleksi-PMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-07_Form-Daftar-Ulang-Herregistrasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-08_Laporan-Rekap-PMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-09_Materi-Jadwal-Promosi-PMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-01-10_Evaluasi-PMB-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-01_Program-Jadwal-OMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-02_Daftar-Hadir-Peserta-OMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-03_Materi-Pengenalan-Kampus-Tatatertib.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-04_Kuesioner-Evaluasi-OMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-05_LPJ-Kegiatan-OMB.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-06_Template-KTM-Prosedur-Penerbitan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-07_Daftar-NIM-Mahasiswa-Baru.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-02-08_Laporan-Rekap-Mahasiswa-Aktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-01_Panduan-Daftar-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-02_Pengumuman-Pembukaan-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-03_Formulir-Pendaftaran-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-04_Lembar-Seleksi-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-05_SK-Penetapan-Penerima-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-06_Surat-Pernyataan-Penerima-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-07_Kartu-Monitoring-Penerima-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-08_Rekap-Penyaluran-Beasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-03-09_Laporan-Beasiswa-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-01_Pedoman-Organisasi-Kemahasiswaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-02_SK-Pengesahan-Pengurus-Ormawa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-03_Program-Kerja-Ormawa-Disetujui.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-04_Form-Permohonan-Kegiatan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-05_Daftar-Hadir-Kegiatan-Kemahasiswaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-06_LPJ-Kegiatan-Ormawa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-07_Rekap-Kegiatan-Kemahasiswaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-08_Notulen-Pembinaan-Ormawa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-04-09_Laporan-Keaktifan-Ormawa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-01_Rencana-Kegiatan-Kemahasiswaan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-02_Daftar-Prestasi-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-03_Sertifikat-Penghargaan-Mahasiswa-Berprestasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-04_Proposal-POSMA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-05_Laporan-Kegiatan-Seminar-Kajian.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-06_Rekap-Keikutsertaan-Perlombaan-Eksternal.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-07_Laporan-Kegiatan-PHBI.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-05-08_Laporan-Tahunan-Kemahasiswaan-Prestasi.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-01_Panduan-Konseling-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-02_Form-Konseling-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-03_Kartu-Riwayat-Konseling.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-04_Form-Cuti-Akademik.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-05_Form-Pengunduran-Diri.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-06_Rekap-Kasus-Konseling-Mahasiswa.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-07_Laporan-Mahasiswa-Aktif-Cuti-Nonaktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-06-08_Form-SKBA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-01_Program-Karir-Magang-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-02_MoU-PKS-Magang-Mitra.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-03_Form-Pendaftaran-Magang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-04_Surat-Pengantar-Magang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-05_Kartu-Bimbingan-Magang.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-06_Form-Penilaian-Magang-Lapangan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-07_Rekap-Magang-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-08_Dokumentasi-Job-Expo.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-09_Laporan-Workshop-Persiapan-Kerja.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-07-10_Laporan-Karir-Magang-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-01_Database-Alumni.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-02_Kuesioner-Tracer-Study-Alumni.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-03_Laporan-Tracer-Study.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-04_Program-Kegiatan-IKA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-05_Formulir-Anggota-IKA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-06_Notulen-Koordinasi-WK3-IKA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-07_Sertifikat-Anggota-IKA.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-08_Rekap-Partisipasi-Alumni.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-08-09_Laporan-Alumni-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-01_Daftar-MoU-PKS-Aktif.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-02_Proposal-Kerjasama.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-03_Naskah-MoU-Kerjasama.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-04_BA-Penandatanganan-MoU.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-05_Laporan-Realisasi-Kegiatan-MoU.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-06_Permohonan-Perpanjangan-MoU.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-07_Monitoring-Masa-Berlaku-MoU.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-08_Laporan-Kerjasama-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-09-09_Laporan-Tahunan-Kerjasama.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-01_Panduan-Yudisium.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-02_Form-Pendaftaran-Yudisium.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-03_BA-Yudisium.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-04_Panduan-Wisuda.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-05_Daftar-Wisudawan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-06_Template-Ijazah-Sarjana.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-07_Template-Transkrip-Nilai.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-08_LPJ-Wisuda.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-10-09_Laporan-Lulusan-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-01_Rencana-Komunikasi-Pemasaran.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-02_Panduan-Media-Sosial.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-03_Laporan-Medsos-Bulanan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-04_Template-Press-Release.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-05_Rekap-Liputan-Media.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-06_Template-Newsletter-Kampus.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-07_Checklist-Konten-Website.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-08_Laporan-Evaluasi-Komunikasi-Semester.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-09_Panduan-Identitas-Visual-Brand.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/Dokumen_SOP_WK3_STEI_FI_2026/F-WK3-11-10_Laporan-Komunikasi-Tahunan.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/SOP_REVISI_WAKIL_KETUA_3_STEI_FI_2026.docx
+1. AKREDITASI & REGULASI/Akreditasi versi revisi/wk3/TUPOKSI_REVISI_WAKIL_KETUA_3_STEI_FI_2026.docx
+10_LPM_MINGGU_4_CHECKLIST.md
+10_SOP_KOORDINASI_JADWAL.md
+10_WK1_MINGGU_4_DETAIL_CHECKLIST.md
+10_WK2_MINGGU_2_DETAIL_CHECKLIST.md
+10_WK3_MINGGU_4_DETAIL_CHECKLIST.md
+11_KAPRODI_EMAIL_JADWAL_DOSEN.md
+11_LPM_EMAIL_SPMI_SOSIALISASI.md
+11_LPPM_EMAIL_RIP_APPROVAL.md
+11_QUICK_START_FASE_3_RAPAT.md
+11_WK1_EMAIL_RPS_DEADLINE.md
+11_WK2_MINGGU_3_DETAIL_CHECKLIST.md
+11_WK3_EMAIL_PMB_PLAN_FINAL.md
+12_FORM_PERSIAPAN_RAPAT_DOSEN.md
+12_KAPRODI_EMAIL_RPS_SUBMISSION.md
+12_LPM_EMAIL_AMI_SCHEDULE.md
+12_LPPM_EMAIL_RESEARCH_CALL.md
+12_WK1_EMAIL_UNDANGAN_RAPAT_DOSEN.md
+12_WK2_MINGGU_4_DETAIL_CHECKLIST.md
+13_KAPRODI_EMAIL_MID_SEMESTER_REPORT.md
+13_LPM_EMAIL_RTM_INVITATION.md
+13_LPPM_EMAIL_PKM_BRIEFING.md
+13_TEMPLATE_AGENDA_RAPAT_DOSEN.md
+13_WK1_EMAIL_KALENDER_JADWAL_SOSIALISASI.md
+13_WK3_EMAIL_MINGGU_3_STATUS.md
+14_KAPRODI_EMAIL_NILAI_ENTRY_REMINDER.md
+14_LPM_EMAIL_CAP_STATUS.md
+14_LPPM_EMAIL_PUBLICATION_STATUS.md
+14_TEMPLATE_UNDANGAN_RAPAT_DOSEN.md
+14_WK1_EMAIL_SK_MENGAJAR.md
+14_WK3_EMAIL_MINGGU_4_FINAL.md
+15_KAPRODI_EMAIL_LAPORAN_KESIAPAN.md
+15_LPM_EMAIL_LAPORAN_KESIAPAN.md
+15_LPPM_EMAIL_LAPORAN_KESIAPAN.md
+15_QUICK_START_FASE_4_SILABUS.md
+15_WK1_EMAIL_LAPORAN_KESIAPAN.md
+15_WK3_EMAIL_TRACER_STUDY.md
+16_FORM_VERIFIKASI_RPS.md
+16_KAPRODI_CRITICAL_JADWAL_DOSEN.md
+16_LPM_CRITICAL_AMI_EXECUTION.md
+16_LPPM_CRITICAL_RIP_DEVELOPMENT.md
+16_WK1_CRITICAL_A1_KALENDER_AKADEMIK.md
+16_WK2_CRITICAL_A1_RAPB_EXECUTION.md
+16_WK3_CRITICAL_A2_PMB_PLAN.md
+17_FASE_5_PENUGASAN_DOSEN.md
+17_KAPRODI_CRITICAL_RPS_QUALITY.md
+17_LPM_CRITICAL_RTM_FACILITATION.md
+17_LPPM_CRITICAL_PROPOSAL_SELECTION.md
+17_WK1_CRITICAL_A3_RPS_QUALITY.md
+17_WK2_CRITICAL_C2_DOSEN_KONTRAK.md
+17_WK3_CRITICAL_C2_BEM_SELECTION.md
+18_FASE_6_UNIT_PENDUKUNG.md
+18_KAPRODI_CRITICAL_MONITORING_SEMESTER.md
+18_LPM_CRITICAL_ACCREDITATION_READINESS.md
+18_LPPM_CRITICAL_PKM_IMPACT.md
+18_WK1_CRITICAL_A4_SK_MENGAJAR.md
+18_WK2_CRITICAL_D1_SARPRAS_INSPECTION.md
+18_WK3_CRITICAL_D5_EARLY_WARNING.md
+19_FASE_8_SISTEM_PENILAIAN.md
+19_KAPRODI_CRITICAL_SKRIPSI_SUPERVISION.md
+19_LPM_CRITICAL_CAP_MONITORING.md
+19_LPPM_CRITICAL_PUBLICATION_TARGETS.md
+19_WK1_CRITICAL_D5_EARLY_WARNING_AKADEMIK.md
+19_WK2_CRITICAL_B4_CAP_STEMPEL.md
+19_WK3_CRITICAL_E4_TRACER_STUDY.md
+20_FASE_13_KALENDER_AKADEMIK.md
+20_KAPRODI_WEEKLY_STATUS_REPORT.md
+20_LPM_WEEKLY_STATUS_REPORT.md
+20_LPPM_WEEKLY_STATUS_REPORT.md
+20_WK1_WEEKLY_STATUS_REPORT.md
+20_WK2_WEEKLY_STATUS_REPORT.md
+20_WK3_STATUS_REPORT_WEEKLY.md
+21_FASE_7_SKRIPSI_TUGAS_AKHIR.md
+21_KAPRODI_MONTHLY_SUMMARY.md
+21_LPM_MONTHLY_SUMMARY.md
+21_LPPM_MONTHLY_SUMMARY.md
+21_WK1_MONTHLY_SUMMARY.md
+21_WK2_MONTHLY_SUMMARY_REPORT.md
+21_WK3_STATUS_REPORT_MONTHLY.md
+22_FASE_9_OMB_MAHASISWA_BARU.md
+22_WK1_TOOLKIT_SUMMARY.md
+22_WK3_TOOLKIT_SUMMARY.md
+23_FASE_10_MONITORING_DOSEN_ABK.md
+24_FASE_11_AKREDITASI_2027.md
+25_FASE_12_RAPAT_INTERNAL_WK1.md
+26_FASE_7_EMAIL_TEMPLATES.md
+27_FASE_7_EXCEL_TEMPLATES.md
+28_FASE_7_MINGGU_1_ACTION_CHECKLIST.md
+30_FASE_8_EMAIL_TEMPLATES.md
+31_FASE_8_EXCEL_TEMPLATES.md
+32_FASE_8_ACTION_CHECKLIST.md
+34_FASE_13_EMAIL_TEMPLATES.md
+35_FASE_13_CALENDAR_TEMPLATE.md
+36_FASE_13_ACTION_CHECKLIST.md
+38_FASE_12_MEETING_PREP.md
+39_FASE_12_UNIT_STATUS_REPORTS.md
+40_FASE_12_ACTION_ITEMS.md
+41_FASE_9_EMAIL_TEMPLATES.md
+42_FASE_9_OMB_PLANNING_CHECKLIST.md
+43_FASE_9_ACTION_PLAN_PKKMB_28_29_AGUSTUS.md
+44_FASE_10_WEEKLY_MONITORING_TEMPLATE.md
+45_FASE_10_RED_FLAGS_ESCALATION.md
+46_FASE_10_TRACKING_SPREADSHEET_TEMPLATE.md
+47_DOKUMENTASI_COLLECTION_PLAN.md
+48_EVIDENCE_ORGANIZATION_TRACKING.md
+49_SELF_ASSESSMENT_REPORT_CREATION.md
+50_MONTHLY_PROGRESS_TRACKING.md
+51_SITE_VISIT_PREPARATION.md
+DELIVERY_MANIFEST_130_FILES_COMPLETE.md
+FASE_12_SUMMARY.md
+FASE_13_SUMMARY.md
+FASE_7_SUMMARY.md
+FASE_8_SUMMARY.md
+FASE_9_10_IMPLEMENTATION_INDEX.md
+KAPRODI_01_FASE_A_JADWAL_RPS.md
+KAPRODI_COMPLETE_TOOLKIT_STRUCTURE.md
+KAPRODI_TOOLKIT_FILELIST.md
+LPM_01_FASE_1_SPMI_DEVELOPMENT.md
+LPM_02_FASE_2_AMI_EXECUTION.md
+LPM_03_FASE_3_PENILAIAN_KINERJA.md
+LPM_04_05_06_PHASES_SUMMARY.md
+LPM_COMPLETE_TOOLKIT_STRUCTURE.md
+LPM_TOOLKIT_FILELIST.md
+LPPM_01_FASE_1_PLANNING.md
+LPPM_COMPLETE_TOOLKIT_STRUCTURE.md
+LPPM_TOOLKIT_FILELIST.md
+WK2_IMMEDIATE_ACTION_CHECKLIST.md
+WK2_PROJECT_STATUS.md
+WK2_TOOLKIT_SUMMARY.md
+WK3_REMAINING_FILES_MANIFEST.md
