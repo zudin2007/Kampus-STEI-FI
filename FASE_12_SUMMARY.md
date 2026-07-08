@@ -147,7 +147,7 @@ By end of 3 August:
 ✅ Budget approvals processed  
 ✅ Action items assigned with deadlines  
 ✅ Team aligned & confident  
-✅ **READY FOR SEMESTER START (10 AUG)**
+✅ **READY FOR SEMESTER START (1 SEP)**
 
 ---
 

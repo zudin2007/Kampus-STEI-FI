@@ -260,7 +260,7 @@ WK3
 Ongoing:        Weekly check-in, monthly review
 ```
 
-**DEADLINE: 17 JULI** (before semester starts 10 Agustus, so intervention can start immediately)
+**DEADLINE: 17 JULI** (before semester starts 1 September, so intervention can start immediately)
 
 ---
 

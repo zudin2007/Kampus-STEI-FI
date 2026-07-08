@@ -330,7 +330,7 @@ Fase 4 fokus pada:
 ✅ D4: Internet/WiFi capacity confirmed by 14 Juli  
 ✅ D5: Room capacity verified & matched by 14 Juli  
 ✅ D6: Inventory updated by 21 Juli  
-✅ D7: Cleaning selesai H-7 kuliah (3 Agustus)  
+✅ D7: Cleaning selesai H-7 kuliah (25 Agustus)  
 
 ---
 

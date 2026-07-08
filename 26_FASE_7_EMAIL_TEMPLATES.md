@@ -63,7 +63,7 @@ TIMELINE SELANJUTNYA:
 21-24 Juni: Review topik bersama dosen
 25 Juni: Hasil review dikomunikasikan ke Anda
 27 Juni-5 Juli: Pembimbing assignment & confirmation
-10 Agustus: Semester dimulai - first meeting dengan pembimbing
+1 September: Semester dimulai - first meeting dengan pembimbing
 
 ========================================================
 PENTING!
@@ -405,7 +405,7 @@ JADWAL PENTING:
    → Email atau phone untuk arrange first meeting
    → Target: First meeting dalam 1-2 minggu ke depan
    
-10 Agustus: SEMESTER DIMULAI
+1 September: SEMESTER DIMULAI
    → Anda harus sudah meet dengan pembimbing sebelumnya
    
 Week 1-2: Literature Review + Research Design

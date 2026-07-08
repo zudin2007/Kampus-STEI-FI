@@ -32,7 +32,7 @@ GATHER DATES FROM:
 ☐ Phase 6: Lab/library opening dates
 ☐ Phase 7: Skripsi timeline (if applicable for academic year)
 ☐ Phase 8: Assessment schedule (UTS week 8-9, UAS week 15-16)
-☐ Phase 9: OMB dates (1-10 August)
+☐ Phase 9: PKKMB dates (28-29 August)
 ☐ Phase 13: Holidays & breaks (from original doc)
 ☐ University-wide: Yudisium, graduation dates (from Dekan office)
 
@@ -82,7 +82,7 @@ CRITICAL SECTIONS - DOUBLE-CHECK:
 ☐ UAS dates: Week 15-16 [CHECK: Nov 17-23] ← From Phase 8
 ☐ Grade entry UTS: [CHECK: Sep 30] - NO EXTENSION
 ☐ Grade entry UAS: [CHECK: Nov 25] - NO EXTENSION
-☐ RPS deadline: [CHECK: Aug 10] - FIRST DAY OF CLASS
+☐ RPS deadline: [CHECK: Sep 1] - FIRST DAY OF CLASS
 ☐ Holidays: [CHECK: All national holidays listed]
 
 SAVE FILE:
@@ -349,7 +349,7 @@ GO-LIVE STATUS:
 ☐ Calendar FINALIZED? YES
 ☐ Calendar APPROVED? YES
 ☐ Calendar DISTRIBUTED? YES
-☐ READY FOR SEMESTER (10 AUG)? YES
+☐ READY FOR SEMESTER (1 SEP)? YES
 
 ISSUES FOUND & RESOLVED:
 [List any issues & solutions here - should be NONE]
@@ -373,7 +373,7 @@ WK1: _________________ Date: _______
 | Posters displayed | 10 | | ⏳ |
 | Portal upload complete | Yes | | ⏳ |
 | Announcement sent | 3x | | ⏳ |
-| Ready for semester | 10 Aug | | ⏳ |
+| Ready for semester | 1 Sep | | ⏳ |
 
 ---
 

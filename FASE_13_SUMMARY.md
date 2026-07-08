@@ -64,12 +64,12 @@ FILE #36: 36_FASE_13_ACTION_CHECKLIST.md
 ## 📊 KEY DATES IN CALENDAR
 
 Must include:
-- ✅ Awal Kuliah: **10 Agustus 2026** (first day of class)
+- ✅ Awal Kuliah: **1 September 2026** (first day of class)
 - ✅ UTS (Midterm): **Week 8-9** (Sep 22-28)
   - Grade entry deadline: **30 Sept** - NO EXTENSION
 - ✅ UAS (Final): **Week 15-16** (Nov 17-23)
   - Grade entry deadline: **25 Nov** - NO EXTENSION
-- ✅ RPS Deadline: **10 Agustus** (FIRST DAY)
+- ✅ RPS Deadline: **1 September** (FIRST DAY)
 - ✅ KRS Deadline: **20 Agustus** - Hard deadline
 - ✅ Payment Deadline: **31 Agustus** - Hard deadline
 - ✅ All national holidays & breaks
@@ -111,7 +111,7 @@ By end of Friday 31 July:
 ✅ Posters displayed across campus  
 ✅ Calendar uploaded to portal  
 ✅ All stakeholders informed  
-✅ **READY FOR SEMESTER START (10 AUG)**
+✅ **READY FOR SEMESTER START (1 SEP)**
 
 ---
 

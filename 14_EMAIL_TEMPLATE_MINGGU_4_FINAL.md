@@ -124,7 +124,7 @@ OVERALL READINESS: ██████████ 100%
 ## 📅 NEXT STEPS:
 
 - **5-8 Agustus:** PKKMB eksekusi
-- **10 Agustus:** Perkuliahan mulai
+- **1 September:** Perkuliahan mulai
 - **Minggu 1-2:** D5 intervention active, student engagement monitor
 - **Weekly:** Rapat coordination dengan BEM/HMPS, konseling check-in
 - **Monthly:** Report progress ke leadership

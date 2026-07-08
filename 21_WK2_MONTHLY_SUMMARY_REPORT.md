@@ -32,7 +32,7 @@ Juli 2026 adalah bulan KRITIS: semua foundational systems untuk operasional tahu
 | **D** | Sarana & Prasarana | 100% | ✅ | WK2 Facilities |
 | **E-F** | UPT & Koordinasi | 100% | ✅ | WK2 Coord |
 
-**Overall:** All 6 phases 100% complete by 31 Juli. Systems ready for operational start 10 Agustus.
+**Overall:** All 6 phases 100% complete by 31 Juli. Systems ready for operational start 1 September.
 
 ---
 
@@ -69,7 +69,7 @@ Juli 2026 adalah bulan KRITIS: semua foundational systems untuk operasional tahu
   - Emergency exits & safety: ✅ All compliant
   - Furniture & aesthetics: ✅ Acceptable condition
 - **Minor issues identified:** 2 items (AC ruang Lt3, WiFi Lt1) → resolved by 15 Juli
-- **Risk:** None. Facilities 100% operational by 10 Agustus.
+- **Risk:** None. Facilities 100% operational by 1 September.
 
 ### B4: CAP & STEMPEL STANDARDISASI
 - **Timeline:** 15-25 Juli ✅
@@ -112,7 +112,7 @@ Juli 2026 adalah bulan KRITIS: semua foundational systems untuk operasional tahu
 
 | Risk | Likelihood | Impact | Current Status | Mitigation |
 |------|------------|--------|-----------------|-----------|
-| Unexpected sarpras failure before 10 Agustus | Low | High | ✅ Monitored | Preventive maintenance schedule |
+| Unexpected sarpras failure before 1 September | Low | High | ✅ Monitored | Preventive maintenance schedule |
 | Dosen no-show on Day 1 of semester | Very Low | High | ✅ Confirmed | Backup dosen identified |
 | Revenue shortfall >20% | Low | High | ✅ Scenario modeled | Contingency budget in place |
 | IT infrastructure failure | Very Low | High | ✅ Tested | UPS backup system |
@@ -147,8 +147,8 @@ Juli 2026 adalah bulan KRITIS: semua foundational systems untuk operasional tahu
 
 ### What Ketua Should Know:
 - By 31 Juli: Hand over to WK1, WK3, KAPRODI to execute their semester prep
-- By 10 Agustus: All systems should be operationally live
-- By 10 Agustus 08:00: Ready for semester start
+- By 1 September: All systems should be operationally live
+- By 1 September 08:00: Ready for semester start
 
 ---
 

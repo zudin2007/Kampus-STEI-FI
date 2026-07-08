@@ -43,7 +43,7 @@ SAMPLE DATA ROW:
 | Week | Date Range | Dosen % | Classes | Issues | Flags | ABK | Overall | Notes |
 |------|------------|---------|---------|--------|-------|-----|---------|-------|
 | 1    | 1-3 Aug    | 98%     | Yes     | No     | 0     | GREEN | ✓ GOOD | Smooth start |
-| 2    | 4-10 Aug   | 95%     | Yes     | 1      | 1     | YELLOW | ⚠ CAUTION | 1 dosen sick, covered |
+| 2    | 7-13 Sep   | 95%     | Yes     | 1      | 1     | YELLOW | ⚠ CAUTION | 1 dosen sick, covered |
 
 FORMULAS:
 - Dosen % = Average of daily attendance rate
@@ -218,7 +218,7 @@ SAMPLE DATA:
 | ID | Date/Time | Category | Description | Severity | Reported By | Escalated To | Time | Actions | Resolution | Status | FU |
 |----|-----------|----------|-------------|----------|------------|--------------|------|---------|------------|--------|-----|
 |INC-001|1Aug 14:00|FLAG 1|Dr.X no-show|URGENT|Academic Admin|Kaprodi|14:30|Substitute assigned, students notified|Covered by Dr.Y|CLOSED|N|
-|INC-002|3Aug 10:00|FLAG 6|Dr.Z sick|HIGH|Kaprodi|None|N/A|Monitor, covered by backup|3 weeks, then back|CLOSED|Y-check morale|
+|INC-002|3Sep 1:00|FLAG 6|Dr.Z sick|HIGH|Kaprodi|None|N/A|Monitor, covered by backup|3 weeks, then back|CLOSED|Y-check morale|
 |INC-003|6Aug 09:00|FLAG 8|Backlog in registrations|URGENT|Admin|Kaprodi|09:30|Hired temp staff, extended deadline|50% processed|OPEN|Y-check resolution|
 
 ISSUE CATEGORIES:

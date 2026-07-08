@@ -360,7 +360,7 @@
 - [ ] Persiapkan sambutan Dekan dan WK1
 - [ ] Coordasi peserta: dosen, mahasiswa baru, orang tua
 - [ ] Sosialisasikan visi-misi dan target tahun akademik
-- **Timeline:** 1 Agustus (sesuai jadwal institusi)
+- **Timeline:** 31 Agustus (sesuai jadwal institusi; PKKMB 28-29 Agustus)
 - **PIC:** Dekan + WK1 + Kemahasiswaan
 
 #### K.2 First Day of Class
@@ -369,7 +369,7 @@
 - [ ] Monitor kehadiran dosen dan mahasiswa hari pertama
 - [ ] Address issues dan problematic situations
 - [ ] Dokumentasikan feedback dari dosen dan mahasiswa
-- **Timeline:** 3 Agustus (atau sesuai jadwal)
+- **Timeline:** 1 September (sesuai kalender akademik)
 - **PIC:** WK1 + Admin Akademik + Kaprodi
 
 #### K.3 Monitoring Awal Semester
@@ -378,7 +378,7 @@
 - [ ] Address issues yang muncul segera
 - [ ] Verifikasi semua sistem berjalan normal
 - [ ] Laporan first week kepada Dekan
-- **Timeline:** 3-10 Agustus
+- **Timeline:** 1-8 September
 - **PIC:** WK1
 
 ---
@@ -397,7 +397,7 @@
 | Sosialisasi jadwal | - | 1-10 | - | Admin |
 | Verifikasi sistem | - | 20-31 | - | IT |
 | Final check kelengkapan | - | 25 | 1-5 | Admin |
-| Launching TA | - | - | 1-10 | Dekan |
+| Launching TA | - | - | 28-31 (kuliah 1 Sep) | Dekan |
 
 ---
 

@@ -139,7 +139,7 @@ ASSESSMENT REQUIREMENTS FOR YOUR MK:
 
 BEFORE SEMESTER:
 ☐ Finalize assessment rubrics (use template provided)
-☐ Upload RPS dengan assessment detail [Deadline: 10 AGUSTUS]
+☐ Upload RPS dengan assessment detail [Deadline: 1 SEPTEMBER]
 ☐ Prepare assessment materials (quizzes, exam questions, project specs)
 
 DURING SEMESTER:
@@ -506,7 +506,7 @@ CHECKLIST DOSEN:
 Mohon reply email ini dengan menceklis:
 
 SYLLABUS & ASSESSMENT:
-☐ RPS updated dengan penilaian detail (uploaded by 10 Agustus)
+☐ RPS updated dengan penilaian detail (uploaded by 1 September)
 ☐ Assessment rubrics ready untuk semua assignments
 ☐ Exam questions prepared (at least outline/topics)
 ☐ Quiz schedule planned (weekly or biweekly?)
@@ -561,7 +561,7 @@ Current status: _____
 NEXT STEP:
 ========================================================
 
-Semester dimulai 10 AGUSTUS 2026.
+Semester dimulai 1 SEPTEMBER 2026.
 
 By then, semua harus SIAP:
 - Dosen: Can access SIAKNG

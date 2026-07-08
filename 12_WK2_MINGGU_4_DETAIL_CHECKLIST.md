@@ -32,6 +32,6 @@ Fokus: A6, C6, C7, D7, Final readiness
 **HARI SABTU-MINGGU (30-31 JULI)**
 - [ ] Final walkthrough kampus
 - [ ] Verify semua preparation items sesuai checklist
-- [ ] Celebrate! 🎉 Semester start 10 Agustus ready!
+- [ ] Celebrate! 🎉 Semester start 1 September ready!
 
 ---

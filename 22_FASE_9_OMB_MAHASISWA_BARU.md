@@ -1,7 +1,7 @@
 # FASE 9: PROGRAM PENGENALAN KAMPUS MAHASISWA BARU
 ## OMB (Orientasi Mahasiswa Baru) - TA 2026/2027
 
-**Timeline:** 1-10 Agustus 2026  
+**Timeline:** PKKMB 28-29 Agustus 2026 (persiapan 17-27 Agustus)  
 **PIC:** Kemahasiswaan + WK1  
 **Owner:** Dekan
 
@@ -17,7 +17,7 @@
 
 ## FASE 9 CHECKLIST
 
-### COORDINATION (1-3 AGUSTUS):
+### COORDINATION (17-21 AGUSTUS):
 
 ```
 PLAN:
@@ -35,7 +35,7 @@ PREPARE:
 ☐ Transportation (if campus is spread out)
 ```
 
-### CONTENT SESSIONS (3-5 AGUSTUS - Planning Phase):
+### CONTENT SESSIONS (24-27 AGUSTUS - Planning Phase):
 
 ```
 SESSION 1: WELCOME & CAMPUS TOUR (1 hour)
@@ -67,7 +67,7 @@ SESSION 5: OPEN Q&A & SOCIAL (45 min)
 └─ Informal networking
 ```
 
-### EXECUTION (5-10 AGUSTUS):
+### EXECUTION (28-29 AGUSTUS):
 
 ```
 LOGISTICS:
