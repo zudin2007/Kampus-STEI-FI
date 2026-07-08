@@ -21,8 +21,8 @@ Bersama ini kami sampaikan **Jadwal Perkuliahan dan Kalender Akademik Semester G
 | Kegiatan | Tanggal |
 |----------|---------|
 | Registrasi & KRS | [tanggal] |
-| OMB/PKKMB Mahasiswa Baru | 1-10 Agustus 2026 |
-| **Hari pertama perkuliahan** | **10 Agustus 2026** |
+| PKKMB Mahasiswa Baru | 28-29 Agustus 2026 |
+| **Hari pertama perkuliahan** | **1 September 2026** |
 | UTS | [tanggal] |
 | UAS | [tanggal] |
 | Batas entry nilai | [tanggal] |

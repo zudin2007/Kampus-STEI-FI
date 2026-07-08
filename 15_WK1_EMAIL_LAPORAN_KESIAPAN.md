@@ -33,7 +33,7 @@ Menjelang Rapat Penyelarasan 1-2 Agustus, berikut laporan kesiapan bidang akadem
 1. [Isu 1 — usulan penyelesaian]
 2. [Isu 2 — usulan penyelesaian]
 
-**Rekomendasi:** bidang akademik [siap/belum siap] mendukung dimulainya perkuliahan **10 Agustus 2026**.
+**Rekomendasi:** bidang akademik [siap/belum siap] mendukung dimulainya perkuliahan **1 September 2026**.
 
 Lampiran: rekap RPS, salinan SK Mengajar, kalender akademik, jadwal final.
 

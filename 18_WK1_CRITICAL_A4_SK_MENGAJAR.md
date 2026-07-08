@@ -1,7 +1,7 @@
 # CRITICAL GUIDE: A4 — SK MENGAJAR & KESIAPAN DOSEN
 
 **Owner:** WK1 + Ketua + Admin Akademik
-**Deadline:** SK terbit ≤ 27 Juli 2026 (min. 2 minggu sebelum kuliah 10 Agustus)
+**Deadline:** target internal akhir Juli; batas kalender ≤ 18 Agustus 2026 (min. 2 minggu sebelum kuliah perdana 1 September)
 **Risk level:** 🚨 CRITICAL — tanpa SK, penugasan tidak sah (risiko PDDIKTI & akreditasi)
 
 ---
@@ -10,7 +10,7 @@
 
 - ✅ Seluruh MK semester ganjil punya dosen pengampu definitif
 - ✅ Beban mengajar adil (12-16 SKS/dosen), tanpa konflik jadwal
-- ✅ SK Mengajar ditandatangani Ketua & diterima semua dosen ≤ 27 Juli
+- ✅ SK Mengajar ditandatangani Ketua & diterima semua dosen ≤ 18 Agustus (target internal akhir Juli)
 - ✅ Penugasan sinkron dengan kontrak dosen (item C2 WK2 — deadline 14 Juli)
 
 ---
