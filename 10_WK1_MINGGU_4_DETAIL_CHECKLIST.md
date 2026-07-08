@@ -40,7 +40,7 @@
 **HARI KAMIS 31 JULI**
 - [ ] **08:00-10:00:** Kirim LAPORAN KESIAPAN AKADEMIK ke Ketua (bahan Rapat Penyelarasan 1-2 Agustus)
 - [ ] **10:00-12:00:** Kirim ringkasan bulanan Juli (template file 21)
-- [ ] **13:00-15:00:** Siapkan agenda WK1 untuk Rapat Penyelarasan & minggu OMB (1-10 Agustus)
+- [ ] **13:00-15:00:** Siapkan agenda WK1 untuk Rapat Penyelarasan, registrasi Agustus & PKKMB (28-29 Agustus)
 
 ---
 
@@ -57,5 +57,5 @@
 ## 🎯 AGUSTUS PREVIEW
 
 - 1-2 Agustus: Rapat Penyelarasan pimpinan (bawa laporan kesiapan)
-- 1-10 Agustus: dukungan akademik OMB/PKKMB; tutorial SIAKAD mahasiswa baru
-- 10 Agustus: HARI PERTAMA KULIAH — monitoring kehadiran dosen & mahasiswa (Fase 6 F5)
+- Agustus: registrasi & KRS; 28-29 Agustus: PKKMB; tutorial SIAKAD mahasiswa baru
+- 1 September: HARI PERTAMA KULIAH — monitoring kehadiran dosen & mahasiswa (Fase 6 F5)

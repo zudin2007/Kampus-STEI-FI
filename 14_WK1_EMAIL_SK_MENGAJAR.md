@@ -23,7 +23,7 @@ Bersama ini kami sampaikan **SK Mengajar Semester Ganjil TA 2026/2027** (terlamp
 
 **Total beban:** [XX] SKS
 
-**Mohon dipastikan sebelum perkuliahan dimulai (10 Agustus 2026):**
+**Mohon dipastikan sebelum perkuliahan dimulai (1 September 2026):**
 1. RPS mata kuliah di atas telah disahkan & terupload di portal
 2. Materi ajar pertemuan 1-4 telah diupload ke e-learning
 3. Konfirmasi penerimaan SK ini dengan membalas email (paling lambat H+3)

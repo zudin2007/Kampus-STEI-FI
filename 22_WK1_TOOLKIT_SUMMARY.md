@@ -3,7 +3,7 @@
 
 **Status:** 🟢 READY TO EXECUTE
 **Files:** 22 files
-**Timeline:** 1 Juli - 10 Agustus 2026
+**Timeline:** 1 Juli - 1 September 2026
 **Owner:** Wakil Ketua I + Kaprodi + Admin Akademik + Unit Pendukung
 
 ---
@@ -34,7 +34,7 @@
 ### Panduan Kritis (4 files)
 16. **16_WK1_CRITICAL_A1_KALENDER_AKADEMIK.md** — Kalender akademik (≤ 31 Juli)
 17. **17_WK1_CRITICAL_A3_RPS_QUALITY.md** — Kualitas & kelengkapan RPS
-18. **18_WK1_CRITICAL_A4_SK_MENGAJAR.md** — SK Mengajar (≤ 27 Juli)
+18. **18_WK1_CRITICAL_A4_SK_MENGAJAR.md** — SK Mengajar (target akhir Juli; batas ≤ 18 Agustus)
 19. **19_WK1_CRITICAL_D5_EARLY_WARNING_AKADEMIK.md** — Early warning retensi mahasiswa
 
 ### Laporan Status (2 files)
@@ -51,7 +51,7 @@
 | Item | Deadline | Dampak jika terlambat |
 |------|----------|----------------------|
 | **B2/A3: Pengumpulan RPS** | 14 Juli | Review & pengesahan mundur; evidence akreditasi bolong |
-| **A4: SK Mengajar** | 27 Juli | Penugasan tidak sah; risiko PDDIKTI & audit |
+| **A4: SK Mengajar** | target akhir Juli (batas kalender 18 Ags) | Penugasan tidak sah; risiko PDDIKTI & audit |
 | **A1: Kalender akademik** | 31 Juli | Seluruh jadwal & KRS tanpa acuan |
 | **D5: Early warning aktif** | 17 Juli (daftar awal) | Mahasiswa berisiko lolos deteksi |
 
@@ -70,7 +70,7 @@
 
 ---
 
-## ✅ SUCCESS = AKADEMIK SIAP 10 AGUSTUS
+## ✅ SUCCESS = AKADEMIK SIAP 1 SEPTEMBER
 
 **By 31 Juli 2026:**
 ✅ Data mahasiswa: 100% terverifikasi di SIAKAD

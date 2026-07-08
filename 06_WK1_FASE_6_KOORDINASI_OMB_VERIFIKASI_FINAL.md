@@ -2,7 +2,7 @@
 ## WK1 TA 2026/2027 - Master Documentation
 
 **Status:** READY TO EXECUTE
-**Timeline:** 1 Juli - 10 Agustus 2026
+**Timeline:** 1 Juli - 1 September 2026
 **Owner:** WK1 + Kaprodi + Unit Pendukung
 **Priority:** HIGH - memastikan seluruh fase terintegrasi & siap pada hari pertama kuliah
 
@@ -14,7 +14,7 @@ Fase 6 berfokus pada:
 1. **Rapat & sosialisasi internal** - tim akademik, pengarahan dosen, unit pendukung
 2. **Dukungan program mahasiswa baru** - materi akademik OMB/PKKMB, dosen wali (sinkron Fase 9 institusi)
 3. **Persiapan akreditasi 2027** - sosialisasi standar, dokumentasi, training dosen (sinkron Fase 11)
-4. **Verifikasi final & monitoring awal semester** - go/no-go akademik sebelum 10 Agustus
+4. **Verifikasi final & monitoring awal semester** - go/no-go akademik sebelum 1 September
 
 ---
 
@@ -47,7 +47,7 @@ Fase 6 berfokus pada:
 ---
 
 ### F3: Dukungan Akademik OMB/PKKMB & Dosen Wali
-**Deadline:** 25 Juli - 10 Agustus (OMB 1-10 Agustus)
+**Deadline:** 25 Juli - 29 Agustus (PKKMB 28-29 Agustus)
 **PIC:** WK1 + Kaprodi + Kemahasiswaan (WK3 pemilik proses)
 **Status:** ☐
 
@@ -73,11 +73,11 @@ Fase 6 berfokus pada:
 ---
 
 ### F5: Verifikasi Final & Monitoring Awal Semester
-**Deadline:** 25 Juli - 10 Agustus
+**Deadline:** 25 Juli - 29 Agustus
 **PIC:** WK1 + Admin Akademik + Kaprodi
 **Status:** ☐
 
-**Checklist Go/No-Go (H-7 sebelum 10 Agustus):**
+**Checklist Go/No-Go (H-7 sebelum 1 September):**
 - ☐ 100% mahasiswa terdaftar di SIAKAD
 - ☐ Seluruh dosen siap; SK mengajar sudah diterima semua dosen
 - ☐ Jadwal tanpa konflik; ruang & lab siap
@@ -85,7 +85,7 @@ Fase 6 berfokus pada:
 - ☐ SIAKAD & e-learning lolos uji
 - ☐ Laporan kesiapan akademik dikirim ke Ketua (Template Email 15) — bahan rapat penyelarasan 1-2 Agustus
 
-**Monitoring minggu pertama (10-17 Agustus):**
+**Monitoring minggu pertama (1-8 September):**
 - ☐ Kehadiran dosen & mahasiswa hari pertama dimonitor
 - ☐ Masalah yang muncul ditangani harian
 - ☐ Laporan minggu pertama ke Ketua
@@ -97,7 +97,7 @@ Fase 6 berfokus pada:
 ✅ Rapat pengarahan dosen terlaksana dengan dokumentasi lengkap
 ✅ Materi akademik OMB & dosen wali siap sebelum 1 Agustus
 ✅ Evidence akreditasi bidang akademik terkumpul rapi
-✅ Go-signal akademik diberikan ke Ketua sebelum 10 Agustus
+✅ Go-signal akademik diberikan ke Ketua sebelum 1 September
 
 ---
 

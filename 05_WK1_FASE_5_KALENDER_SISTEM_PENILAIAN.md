@@ -26,7 +26,7 @@ Fase 5 berfokus pada:
 **Status:** ☐
 
 **Checklist:**
-- ☐ Kalender lengkap disusun: registrasi, awal kuliah (10 Agustus), UTS, UAS, libur, yudisium
+- ☐ Kalender lengkap disusun: registrasi, awal kuliah (1 September), UTS, UAS, libur, yudisium
 - ☐ Silang-cek dengan kalender tahun lalu (KALENDER AKADEMIK STEI FITRAH INSANI TA 2025/2026) untuk pola & tanggal keramat
 - ☐ Approval Ketua/Rektorat diperoleh
 - ☐ Kalender disosialisasikan ke seluruh stakeholder & diupload ke portal (Template Email 13)

@@ -14,7 +14,7 @@ Assalamu'alaikum Wr. Wb.
 
 Yth. Bapak/Ibu Dosen Pengampu Mata Kuliah STEI Fithrah Insani,
 
-Dalam rangka persiapan Semester Ganjil TA 2026/2027 (perkuliahan dimulai **10 Agustus 2026**), kami mohon Bapak/Ibu menyusun dan mengumpulkan **RPS (Rencana Pembelajaran Semester)** untuk setiap mata kuliah yang diampu, dengan ketentuan:
+Dalam rangka persiapan Semester Ganjil TA 2026/2027 (perkuliahan dimulai **1 September 2026**), kami mohon Bapak/Ibu menyusun dan mengumpulkan **RPS (Rencana Pembelajaran Semester)** untuk setiap mata kuliah yang diampu, dengan ketentuan:
 
 1. **Batas akhir pengumpulan: Senin, 14 Juli 2026 pukul 15:00 WIB**
 2. RPS memuat: identitas mata kuliah, CPL-CPMK, rencana pertemuan mingguan, metode pembelajaran, bobot penilaian, dan referensi
