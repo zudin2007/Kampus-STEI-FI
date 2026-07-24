@@ -191,14 +191,59 @@ a{color:inherit}
   display: none !important;
 }
 
+
+#searchBar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #1a6b3c;
+  padding: 8px 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  z-index: 999999;
+  box-sizing: border-box;
+  border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+#searchBar input {
+  flex: 1;
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 13px;
+  font-family: inherit;
+}
+
+#searchBar button {
+  padding: 8px 12px;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  display: none;
+}
+
+#searchBar button:hover {
+  background: rgba(255,255,255,0.3);
+}
+
+body {
+  padding-top: 50px !important;
+}
+
 </style>
 </head>
 
 <body>
-<div class="search-container">
-  <input type="text" id="searchInput" class="search-input" placeholder="🔍 Cari jabatan, unit, atau konten... (WK1, LPM, akreditasi)">
-  <button id="clearSearch" class="search-clear" style="display:none">Bersihkan</button>
-  <span class="search-results-info" id="searchInfo"></span>
+<div id="searchBar">
+  <input type="text" id="searchInput" placeholder="🔍 Cari (WK1, LPM, akreditasi)...">
+  <button id="clearBtn">Bersihkan</button>
+  <span id="searchInfo" style="color:white;font-size:12px;"></span>
 </div>
 
 <div class="gate-overlay" id="gateOverlay">
@@ -921,5 +966,39 @@ if (clearBtn) {
     performSearch('');
   });
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  const inp = document.getElementById('searchInput');
+  const btn = document.getElementById('clearBtn');
+  const info = document.getElementById('searchInfo');
+
+  if (!inp) return;
+
+  inp.addEventListener('input', function() {
+    const q = this.value.toLowerCase();
+    const cards = document.querySelectorAll('.role-card');
+    let count = 0;
+
+    cards.forEach(c => {
+      const text = c.textContent.toLowerCase();
+      if (!q || text.includes(q)) {
+        c.style.display = '';
+        count++;
+      } else {
+        c.style.display = 'none';
+      }
+    });
+
+    btn.style.display = q ? 'block' : 'none';
+    info.textContent = q ? (count + ' hasil') : '';
+  });
+
+  btn.addEventListener('click', function() {
+    inp.value = '';
+    inp.dispatchEvent(new Event('input'));
+    inp.focus();
+  });
+});
 
 </script>
