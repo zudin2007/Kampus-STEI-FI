@@ -12,7 +12,7 @@
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--krem);color:var(--gelap);min-height:100vh}
 a{color:inherit}
-.hdr{background:linear-gradient(135deg,#0f4a27,#1a6b3c 50%,var(--accent));padding:32px 20px 24px;text-align:center;position:relative;overflow:hidden}
+.hdr{background:linear-gradient(135deg,#0f4a27,#1a6b3c 50%,var(--accent));padding:0px 20px 24px;text-align:center;position:relative;overflow:visible}
 .hdr::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E")}
 .hdr-logo-wrap{display:flex;justify-content:center;align-items:center;margin-bottom:10px;position:relative}
 .hdr-logo-img{height:72px;max-width:80%;object-fit:contain;filter:drop-shadow(0 2px 12px rgba(0,0,0,0.3));border-radius:6px}
@@ -125,8 +125,7 @@ a{color:inherit}
   flex-wrap: wrap;
   justify-content: center;
   border-bottom: 1px solid rgba(255,255,255,0.1);
-  position: relative;
-  z-index: 99;
+  width: 100%;
 }
 .search-input {
   flex: 1;
