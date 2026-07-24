@@ -114,6 +114,82 @@ a{color:inherit}
 .gate-logout-btn{position:fixed;bottom:14px;right:14px;z-index:9000;background:rgba(17,24,39,.75);color:#fff;border:none;border-radius:999px;padding:8px 13px;font-size:10.5px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 @media print{.gate-overlay,.gate-logout-btn{display:none !important}}
 
+
+.search-container {
+  background: var(--krem);
+  padding: 20px;
+  border-bottom: 2px solid var(--abu-muda);
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  flex-wrap: wrap;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.search-input {
+  flex: 1;
+  min-width: 250px;
+  padding: 12px 16px;
+  border: 2px solid var(--abu-muda);
+  border-radius: 8px;
+  font-size: 14px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  transition: all 0.3s ease;
+}
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(26, 107, 60, 0.1);
+  background: #fff;
+}
+.search-clear {
+  padding: 8px 14px;
+  background: var(--abu-muda);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--abu);
+  transition: all 0.2s ease;
+}
+.search-clear:hover {
+  background: var(--emas-muda);
+  color: var(--gelap);
+}
+.search-results-info {
+  font-size: 12px;
+  color: var(--abu);
+  padding: 0 4px;
+  white-space: nowrap;
+}
+.role-card.hidden {
+  display: none !important;
+}
+.section-title.hidden {
+  display: none !important;
+}
+.role-grid.empty {
+  display: none !important;
+}
+.search-no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--abu);
+}
+.search-no-results h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: var(--gelap);
+}
+.search-highlight {
+  background: rgba(200, 151, 58, 0.3);
+  padding: 2px 4px;
+  border-radius: 3px;
+  font-weight: 600;
+}
+
 </style>
 </head>
 
@@ -206,6 +282,11 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="go">Buka Workflow Terpadu →</div>
 </a>
 <div class="section-title">🗂️ Checklist per Jabatan / Unit</div>
+<div class="search-container">
+  <input type="text" id="searchInput" class="search-input" placeholder="🔍 Cari jabatan, unit, atau konten... (contoh: WK1, LPM, akreditasi)">
+  <button id="clearSearch" class="search-clear" style="display:none">Bersihkan</button>
+  <span class="search-results-info" id="searchInfo"></span>
+</div>
 <div class="role-grid">
 <a class="role-card" style="--card-accent:#1a6b3c" href="Checklist_Persiapan_TA_Baru_Ketua_STEI_FI.html">
 <h3>Ketua</h3><p>Ketua STEI Fithrah Insani</p>
@@ -359,5 +440,121 @@ function countdown(targetISO){
 }
 function printPage(){ window.print(); }
 </script>
-<script>countdown("2026-09-01T00:00:00");</script>
+<script>countdown("2026-09-01T00:00:00");
+
+// Search functionality
+const searchInput = document.getElementById('searchInput');
+const clearBtn = document.getElementById('clearSearch');
+const searchInfo = document.getElementById('searchInfo');
+
+function performSearch(query) {
+  query = query.toLowerCase().trim();
+
+  // Get all cards and sections
+  const cards = document.querySelectorAll('.role-card');
+  const sections = document.querySelectorAll('.section-title');
+  const grids = document.querySelectorAll('.role-grid');
+
+  let visibleCount = 0;
+
+  // Hide all cards initially
+  cards.forEach(card => {
+    card.classList.add('hidden');
+  });
+
+  if (!query) {
+    // Show all when search is empty
+    cards.forEach(card => card.classList.remove('hidden'));
+    sections.forEach(sec => sec.classList.remove('hidden'));
+    grids.forEach(grid => grid.classList.remove('empty'));
+    clearBtn.style.display = 'none';
+    searchInfo.textContent = '';
+    return;
+  }
+
+  clearBtn.style.display = 'inline-block';
+
+  // Search through cards
+  cards.forEach(card => {
+    const h3 = card.querySelector('h3');
+    const p = card.querySelector('p');
+    const stats = card.querySelector('.stats');
+    const text = (h3?.textContent || '') + ' ' + (p?.textContent || '') + ' ' + (stats?.textContent || '');
+
+    if (text.toLowerCase().includes(query)) {
+      card.classList.remove('hidden');
+      visibleCount++;
+    }
+  });
+
+  // Show/hide sections and grids based on visible cards
+  grids.forEach(grid => {
+    const visibleCardsInGrid = grid.querySelectorAll('.role-card:not(.hidden)').length;
+    if (visibleCardsInGrid > 0) {
+      grid.classList.remove('empty');
+    } else {
+      grid.classList.add('empty');
+    }
+  });
+
+  sections.forEach(section => {
+    // Check if next role-grid or cards after this section are visible
+    let nextElement = section.nextElementSibling;
+    let hasVisibleContent = false;
+
+    while (nextElement) {
+      if (nextElement.classList.contains('section-title')) {
+        break; // Stop at next section
+      }
+      if (nextElement.classList.contains('role-grid')) {
+        const visibleInGrid = nextElement.querySelectorAll('.role-card:not(.hidden)').length;
+        if (visibleInGrid > 0) {
+          hasVisibleContent = true;
+        }
+        break;
+      }
+      if (nextElement.classList.contains('role-card') && !nextElement.classList.contains('hidden')) {
+        hasVisibleContent = true;
+        break;
+      }
+      nextElement = nextElement.nextElementSibling;
+    }
+
+    if (hasVisibleContent) {
+      section.classList.remove('hidden');
+    } else {
+      section.classList.add('hidden');
+    }
+  });
+
+  // Update info
+  if (visibleCount === 0) {
+    searchInfo.textContent = 'Tidak ada hasil untuk "' + query + '"';
+    searchInfo.style.color = 'var(--merah)';
+  } else {
+    searchInfo.textContent = visibleCount + ' hasil ditemukan';
+    searchInfo.style.color = 'var(--hijau)';
+  }
+}
+
+// Event listeners
+searchInput.addEventListener('input', function() {
+  performSearch(this.value);
+});
+
+clearBtn.addEventListener('click', function() {
+  searchInput.value = '';
+  searchInput.focus();
+  performSearch('');
+});
+
+// Allow Escape key to clear search
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape' && document.activeElement === searchInput) {
+    searchInput.value = '';
+    performSearch('');
+  }
+});
+
+</script>
 </body></html>
