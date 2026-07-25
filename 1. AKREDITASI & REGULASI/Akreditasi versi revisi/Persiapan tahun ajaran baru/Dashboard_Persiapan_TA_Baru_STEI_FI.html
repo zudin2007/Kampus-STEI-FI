@@ -10,7 +10,7 @@
 
 :root{--hijau:#1a6b3c;--hijau-muda:#2d9653;--emas:#c8973a;--emas-muda:#e8b84b;--krem:#faf7f0;--abu:#6b7280;--abu-muda:#f3f4f6;--merah:#dc2626;--oranye:#d97706;--biru:#1d4ed8;--gelap:#111827;--shadow:0 4px 24px rgba(26,107,60,.1);--accent:#1a6b3c}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--krem);color:var(--gelap);min-height:100vh;padding-top:60px}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:var(--krem);color:var(--gelap);min-height:100vh;padding-top:50px !important;}
 a{color:inherit}
 .hdr{background:linear-gradient(135deg,#0f4a27,#1a6b3c 50%,var(--accent));padding:0px 20px 24px;text-align:center;position:relative;overflow:visible}
 .hdr::before{content:'';position:absolute;inset:0;background:url("data:image/svg+xml,%3Csvg width='60' height='60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23fff' fill-opacity='.04'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/svg%3E")}
@@ -240,9 +240,9 @@ body {
 </head>
 
 <body>
-<div id="searchBar">
-  <input type="text" id="searchInput" placeholder="🔍 Cari (WK1, LPM, akreditasi)...">
-  <button id="clearBtn">Bersihkan</button>
+<div style="position:fixed;top:0;left:0;width:100%;height:50px;background:#1a6b3c;padding:8px 20px;display:flex;gap:10px;align-items:center;z-index:999999;box-sizing:border-box;border-bottom:2px solid rgba(255,255,255,0.2);" id="searchBar">
+  <input type="text" id="searchInput" placeholder="🔍 Cari (WK1, LPM, akreditasi)..." style="flex:1;padding:8px 12px;border:1px solid #ddd;border-radius:5px;font-size:13px;font-family:inherit;">
+  <button id="clearBtn" style="padding:8px 12px;background:rgba(255,255,255,0.2);color:white;border:1px solid rgba(255,255,255,0.3);border-radius:5px;cursor:pointer;font-size:12px;display:none;" onmouseover="this.style.background='rgba(255,255,255,0.3)'" onmouseout="this.style.background='rgba(255,255,255,0.2)'">Bersihkan</button>
   <span id="searchInfo" style="color:white;font-size:12px;"></span>
 </div>
 
