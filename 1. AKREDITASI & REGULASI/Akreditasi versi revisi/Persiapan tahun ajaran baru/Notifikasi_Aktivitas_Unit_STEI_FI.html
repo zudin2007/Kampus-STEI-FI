@@ -128,6 +128,14 @@ a{color:inherit}
 .nbtn.wa{background:#dcfce7;color:#166534}
 .nbtn.wa:hover{background:#bbf7d0}
 
+
+.notif-item.sent{background:#f0fdf4;border-left-color:#059669}
+.notif-item.sent .notif-msg{opacity:.6}
+.sent-badge{display:none;font-size:10.5px;font-weight:800;color:#059669;background:#dcfce7;border-radius:999px;padding:3px 10px}
+.nbtn.mark{background:#fef3c7;color:#92400e}
+.nbtn.mark:hover{background:#fde68a}
+.cnt-sent{font-weight:700;color:#059669}
+
 </style>
 </head>
 
@@ -207,8 +215,8 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#1a6b3c">
-<div class="notif-head"><span class="notif-when">📅 Awal September 2026</span><span class="notif-title">Monev Awal Semester Ganjil</span></div>
+<div class="notif-item" data-nid="ketua-1" style="--n-accent:#1a6b3c">
+<div class="notif-head"><span class="notif-when">📅 Awal September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monev Awal Semester Ganjil</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Ketua* — STEI Fithrah Insani
 📅 Awal September 2026: *Monev Awal Semester Ganjil*
 
@@ -217,10 +225,10 @@ document.addEventListener('DOMContentLoaded', function(){
 • Pastikan arahan konsistensi nama institusi (Fithrah/Fitrah) dijalankan
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#1a6b3c">
-<div class="notif-head"><span class="notif-when">📅 September–Oktober 2026</span><span class="notif-title">Keputusan Strategis Akreditasi</span></div>
+<div class="notif-item" data-nid="ketua-2" style="--n-accent:#1a6b3c">
+<div class="notif-head"><span class="notif-when">📅 September–Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Keputusan Strategis Akreditasi</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Ketua* — STEI Fithrah Insani
 📅 September–Oktober 2026: *Keputusan Strategis Akreditasi*
 
@@ -229,10 +237,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 _Target submisi LED ke SAPTO: April 2027._
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#1a6b3c">
-<div class="notif-head"><span class="notif-when">📅 19–24 Oktober 2026</span><span class="notif-title">Monitoring Pelaksanaan UTS</span></div>
+<div class="notif-item" data-nid="ketua-3" style="--n-accent:#1a6b3c">
+<div class="notif-head"><span class="notif-when">📅 19–24 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monitoring Pelaksanaan UTS</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Ketua* — STEI Fithrah Insani
 📅 19–24 Oktober 2026: *Monitoring Pelaksanaan UTS*
 
@@ -240,10 +248,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Terima laporan pelaksanaan dari WK1 setelah UTS selesai
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#1a6b3c">
-<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="notif-title">Rapat Tinjauan Tengah Semester</span></div>
+<div class="notif-item" data-nid="ketua-4" style="--n-accent:#1a6b3c">
+<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Rapat Tinjauan Tengah Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Ketua* — STEI Fithrah Insani
 📅 November 2026: *Rapat Tinjauan Tengah Semester*
 
@@ -251,10 +259,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Tindak lanjut hasil monev LPM tengah semester
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#1a6b3c">
-<div class="notif-head"><span class="notif-when">📅 14–26 Desember 2026</span><span class="notif-title">UAS &amp; Penutupan Semester</span></div>
+<div class="notif-item" data-nid="ketua-5" style="--n-accent:#1a6b3c">
+<div class="notif-head"><span class="notif-when">📅 14–26 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">UAS &amp; Penutupan Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Ketua* — STEI Fithrah Insani
 📅 14–26 Desember 2026: *UAS &amp; Penutupan Semester*
 
@@ -263,7 +271,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Arahkan persiapan Semester Genap 2026/2027
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -274,8 +282,8 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#2563eb">
-<div class="notif-head"><span class="notif-when">📅 Minggu 1–2 September 2026</span><span class="notif-title">Monitoring Awal Perkuliahan</span></div>
+<div class="notif-item" data-nid="wk1-1" style="--n-accent:#2563eb">
+<div class="notif-head"><span class="notif-when">📅 Minggu 1–2 September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monitoring Awal Perkuliahan</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK1* — STEI Fithrah Insani
 📅 Minggu 1–2 September 2026: *Monitoring Awal Perkuliahan*
 
@@ -284,10 +292,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Pastikan SK Mengajar sudah diterima seluruh dosen
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#2563eb">
-<div class="notif-head"><span class="notif-when">📅 s.d. 12 Oktober 2026</span><span class="notif-title">Persiapan UTS (H-7)</span></div>
+<div class="notif-item" data-nid="wk1-2" style="--n-accent:#2563eb">
+<div class="notif-head"><span class="notif-when">📅 s.d. 12 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Persiapan UTS (H-7)</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK1* — STEI Fithrah Insani
 📅 s.d. 12 Oktober 2026: *Persiapan UTS (H-7)*
 
@@ -297,10 +305,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 _UTS: 19–24 Oktober 2026._
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#2563eb">
-<div class="notif-head"><span class="notif-when">📅 Batas 1 November 2026</span><span class="notif-title">Input Nilai UTS</span></div>
+<div class="notif-item" data-nid="wk1-3" style="--n-accent:#2563eb">
+<div class="notif-head"><span class="notif-when">📅 Batas 1 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Input Nilai UTS</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK1* — STEI Fithrah Insani
 📅 Batas 1 November 2026: *Input Nilai UTS*
 
@@ -308,10 +316,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Rekap dosen yang belum input dan lakukan penagihan
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#2563eb">
-<div class="notif-head"><span class="notif-when">📅 s.d. 7 Desember 2026</span><span class="notif-title">Persiapan UAS (H-7)</span></div>
+<div class="notif-item" data-nid="wk1-4" style="--n-accent:#2563eb">
+<div class="notif-head"><span class="notif-when">📅 s.d. 7 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Persiapan UAS (H-7)</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK1* — STEI Fithrah Insani
 📅 s.d. 7 Desember 2026: *Persiapan UAS (H-7)*
 
@@ -321,10 +329,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 _UAS: 14–19 Desember 2026._
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#2563eb">
-<div class="notif-head"><span class="notif-when">📅 Batas 26 Desember 2026</span><span class="notif-title">Nilai Akhir &amp; Tutup Semester</span></div>
+<div class="notif-item" data-nid="wk1-5" style="--n-accent:#2563eb">
+<div class="notif-head"><span class="notif-when">📅 Batas 26 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Nilai Akhir &amp; Tutup Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK1* — STEI Fithrah Insani
 📅 Batas 26 Desember 2026: *Nilai Akhir &amp; Tutup Semester*
 
@@ -332,7 +340,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Rekap kehadiran dosen satu semester untuk laporan ke Ketua
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -343,8 +351,8 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#d97706">
-<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="notif-title">Realisasi Anggaran &amp; Honor Awal Semester</span></div>
+<div class="notif-item" data-nid="wk2-1" style="--n-accent:#d97706">
+<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Realisasi Anggaran &amp; Honor Awal Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK2* — STEI Fithrah Insani
 📅 September 2026: *Realisasi Anggaran &amp; Honor Awal Semester*
 
@@ -353,10 +361,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Pastikan sarana kelas siap (AC, proyektor, kursi) sepanjang semester
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#d97706">
-<div class="notif-head"><span class="notif-when">📅 s.d. 17 Oktober 2026</span><span class="notif-title">Dukungan Logistik UTS</span></div>
+<div class="notif-item" data-nid="wk2-2" style="--n-accent:#d97706">
+<div class="notif-head"><span class="notif-when">📅 s.d. 17 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Dukungan Logistik UTS</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK2* — STEI Fithrah Insani
 📅 s.d. 17 Oktober 2026: *Dukungan Logistik UTS*
 
@@ -365,10 +373,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 _UTS: 19–24 Oktober 2026._
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#d97706">
-<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="notif-title">Monitoring Serapan Anggaran</span></div>
+<div class="notif-item" data-nid="wk2-3" style="--n-accent:#d97706">
+<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monitoring Serapan Anggaran</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK2* — STEI Fithrah Insani
 📅 November 2026: *Monitoring Serapan Anggaran*
 
@@ -376,10 +384,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Jadwalkan pemeliharaan sarpras sebelum UAS
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#d97706">
-<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="notif-title">Tutup Buku Semester</span></div>
+<div class="notif-item" data-nid="wk2-4" style="--n-accent:#d97706">
+<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Tutup Buku Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK2* — STEI Fithrah Insani
 📅 Desember 2026: *Tutup Buku Semester*
 
@@ -387,7 +395,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Susun laporan keuangan semester ganjil untuk Yayasan
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -398,8 +406,8 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#7c3aed">
-<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="notif-title">Pendampingan Mahasiswa Baru</span></div>
+<div class="notif-item" data-nid="wk3-1" style="--n-accent:#7c3aed">
+<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Pendampingan Mahasiswa Baru</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK3* — STEI Fithrah Insani
 📅 September 2026: *Pendampingan Mahasiswa Baru*
 
@@ -407,10 +415,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Pastikan program kerja BEM/HMPS semester ganjil berjalan sesuai pengesahan
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#7c3aed">
-<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="notif-title">Mulai Perencanaan PMB 2027/2028</span></div>
+<div class="notif-item" data-nid="wk3-2" style="--n-accent:#7c3aed">
+<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Mulai Perencanaan PMB 2027/2028</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK3* — STEI Fithrah Insani
 📅 Oktober 2026: *Mulai Perencanaan PMB 2027/2028*
 
@@ -418,10 +426,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Evaluasi efektivitas kanal promosi PMB tahun ini
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#7c3aed">
-<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="notif-title">Alumni &amp; Kerjasama</span></div>
+<div class="notif-item" data-nid="wk3-3" style="--n-accent:#7c3aed">
+<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Alumni &amp; Kerjasama</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK3* — STEI Fithrah Insani
 📅 November 2026: *Alumni &amp; Kerjasama*
 
@@ -429,10 +437,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Tindak lanjuti MoU kerjasama yang jatuh tempo/berpeluang
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#7c3aed">
-<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="notif-title">Laporan Kemahasiswaan Semester</span></div>
+<div class="notif-item" data-nid="wk3-4" style="--n-accent:#7c3aed">
+<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Laporan Kemahasiswaan Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT WK3* — STEI Fithrah Insani
 📅 Desember 2026: *Laporan Kemahasiswaan Semester*
 
@@ -440,7 +448,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Laporkan capaian &amp; evaluasi PMB kepada Ketua
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -451,8 +459,8 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#0891b2">
-<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="notif-title">Verifikasi KRS &amp; Data PDDIKTI</span></div>
+<div class="notif-item" data-nid="prodi-1" style="--n-accent:#0891b2">
+<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Verifikasi KRS &amp; Data PDDIKTI</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Prodi ES &amp; PS* — STEI Fithrah Insani
 📅 September 2026: *Verifikasi KRS &amp; Data PDDIKTI*
 
@@ -461,10 +469,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Identifikasi mahasiswa berisiko DO / skripsi molor untuk pendampingan
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#0891b2">
-<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="notif-title">Monitoring Pembelajaran &amp; Soal UTS</span></div>
+<div class="notif-item" data-nid="prodi-2" style="--n-accent:#0891b2">
+<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monitoring Pembelajaran &amp; Soal UTS</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Prodi ES &amp; PS* — STEI Fithrah Insani
 📅 Oktober 2026: *Monitoring Pembelajaran &amp; Soal UTS*
 
@@ -473,10 +481,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 _UTS: 19–24 Oktober 2026._
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#0891b2">
-<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="notif-title">Evaluasi Tengah Semester</span></div>
+<div class="notif-item" data-nid="prodi-3" style="--n-accent:#0891b2">
+<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Evaluasi Tengah Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Prodi ES &amp; PS* — STEI Fithrah Insani
 📅 November 2026: *Evaluasi Tengah Semester*
 
@@ -484,10 +492,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Evaluasi MK bermasalah dan tindak lanjut bimbingan skripsi
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#0891b2">
-<div class="notif-head"><span class="notif-when">📅 Batas 26 Desember 2026</span><span class="notif-title">Rekap Nilai Akhir</span></div>
+<div class="notif-item" data-nid="prodi-4" style="--n-accent:#0891b2">
+<div class="notif-head"><span class="notif-when">📅 Batas 26 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Rekap Nilai Akhir</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT Prodi ES &amp; PS* — STEI Fithrah Insani
 📅 Batas 26 Desember 2026: *Rekap Nilai Akhir*
 
@@ -495,7 +503,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Nilai bersih adalah prasyarat transkrip, KRS genap, dan feeder PDDIKTI akurat
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -506,8 +514,8 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#be185d">
-<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="notif-title">Monev Pembelajaran Awal Semester</span></div>
+<div class="notif-item" data-nid="lpm-1" style="--n-accent:#be185d">
+<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monev Pembelajaran Awal Semester</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPM* — STEI Fithrah Insani
 📅 September 2026: *Monev Pembelajaran Awal Semester*
 
@@ -515,10 +523,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Jalankan tindak lanjut RTM hasil AMI semester lalu
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#be185d">
-<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="notif-title">Gap Dokumen Akreditasi IAPT 4.0</span></div>
+<div class="notif-item" data-nid="lpm-2" style="--n-accent:#be185d">
+<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Gap Dokumen Akreditasi IAPT 4.0</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPM* — STEI Fithrah Insani
 📅 Oktober 2026: *Gap Dokumen Akreditasi IAPT 4.0*
 
@@ -527,10 +535,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Sebarkan survey kepuasan pembelajaran tengah semester
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#be185d">
-<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="notif-title">Audit Mutu Internal (Siklus PPEPP)</span></div>
+<div class="notif-item" data-nid="lpm-3" style="--n-accent:#be185d">
+<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Audit Mutu Internal (Siklus PPEPP)</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPM* — STEI Fithrah Insani
 📅 November 2026: *Audit Mutu Internal (Siklus PPEPP)*
 
@@ -538,10 +546,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Dokumentasikan temuan untuk RTM akhir semester
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#be185d">
-<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="notif-title">Monev Akhir &amp; Laporan Mutu</span></div>
+<div class="notif-item" data-nid="lpm-4" style="--n-accent:#be185d">
+<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monev Akhir &amp; Laporan Mutu</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPM* — STEI Fithrah Insani
 📅 Desember 2026: *Monev Akhir &amp; Laporan Mutu*
 
@@ -549,7 +557,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Susun laporan mutu semester dan agenda RTM persiapan genap
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -560,8 +568,8 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 <div class="ctog">▾</div>
 </div>
 <div class="cbody">
-<div class="notif-item" style="--n-accent:#059669">
-<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="notif-title">Kontrak Penelitian &amp; PKM Semester Ganjil</span></div>
+<div class="notif-item" data-nid="lppm-1" style="--n-accent:#059669">
+<div class="notif-head"><span class="notif-when">📅 September 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Kontrak Penelitian &amp; PKM Semester Ganjil</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPPM* — STEI Fithrah Insani
 📅 September 2026: *Kontrak Penelitian &amp; PKM Semester Ganjil*
 
@@ -569,10 +577,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Mulai pendampingan aktif dosen tanpa publikasi 12 bulan terakhir
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#059669">
-<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="notif-title">Monitoring Kemajuan &amp; Jurnal OJS</span></div>
+<div class="notif-item" data-nid="lppm-2" style="--n-accent:#059669">
+<div class="notif-head"><span class="notif-when">📅 Oktober 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Monitoring Kemajuan &amp; Jurnal OJS</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPPM* — STEI Fithrah Insani
 📅 Oktober 2026: *Monitoring Kemajuan &amp; Jurnal OJS*
 
@@ -580,10 +588,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Pastikan penerbitan jurnal OJS edisi semester berjalan
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#059669">
-<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="notif-title">Laporan Kemajuan &amp; Seminar</span></div>
+<div class="notif-item" data-nid="lppm-3" style="--n-accent:#059669">
+<div class="notif-head"><span class="notif-when">📅 November 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Laporan Kemajuan &amp; Seminar</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPPM* — STEI Fithrah Insani
 📅 November 2026: *Laporan Kemajuan &amp; Seminar*
 
@@ -591,10 +599,10 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Persiapkan seminar hasil penelitian akhir semester
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
-<div class="notif-item" style="--n-accent:#059669">
-<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="notif-title">Laporan Akhir &amp; Rekap Publikasi</span></div>
+<div class="notif-item" data-nid="lppm-4" style="--n-accent:#059669">
+<div class="notif-head"><span class="notif-when">📅 Desember 2026</span><span class="sent-badge" style="display:none"></span><span class="notif-title">Laporan Akhir &amp; Rekap Publikasi</span></div>
 <pre class="notif-msg">🔔 *PENGINGAT LPPM* — STEI Fithrah Insani
 📅 Desember 2026: *Laporan Akhir &amp; Rekap Publikasi*
 
@@ -602,7 +610,7 @@ _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_
 • Rekap publikasi &amp; HKI dosen 2026 untuk indikator BAN-PT IAPT 4.0
 
 _Sumber: Kalender Akademik TA 2026/2027 — Dashboard Persiapan TA Baru STEI FI_</pre>
-<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a></div>
+<div class="notif-actions"><button class="nbtn" onclick="salinNotif(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="kirimWA(this);return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="tandaiTerkirim(this)">✅ Tandai Terkirim</button></div>
 </div>
 </div>
 </div>
@@ -665,6 +673,41 @@ function fallbackCopy(t){
   document.body.appendChild(ta); ta.select(); try{document.execCommand('copy');}catch(e){} document.body.removeChild(ta);
 }
 function kirimWA(el){ window.open('https://wa.me/?text='+encodeURIComponent(ambilPesan(el)),'_blank'); }
+
+
+function loadTerkirim(){try{return JSON.parse(localStorage.getItem('notifTerkirim')||'{}')}catch(e){return {}}}
+function saveTerkirim(s){try{localStorage.setItem('notifTerkirim',JSON.stringify(s))}catch(e){}}
+function tandaiTerkirim(btn){
+  var item = btn.closest('.notif-item'), id = item.getAttribute('data-nid'), s = loadTerkirim();
+  if (s[id]) { delete s[id]; } else { s[id] = new Date().toISOString().slice(0,10); }
+  saveTerkirim(s); terapkanTerkirim();
+}
+function terapkanTerkirim(){
+  var s = loadTerkirim();
+  document.querySelectorAll('.notif-item').forEach(function(it){
+    var id = it.getAttribute('data-nid');
+    var badge = it.querySelector('.sent-badge'), btn = it.querySelector('.nbtn.mark');
+    if (s[id]) {
+      it.classList.add('sent');
+      if (badge) { badge.textContent = '\u2713 Terkirim ' + s[id]; badge.style.display = 'inline-block'; }
+      if (btn) btn.textContent = '\u21A9 Batalkan';
+    } else {
+      it.classList.remove('sent');
+      if (badge) badge.style.display = 'none';
+      if (btn) btn.textContent = '\u2705 Tandai Terkirim';
+    }
+  });
+  document.querySelectorAll('.cluster').forEach(function(c){
+    var tot = c.querySelectorAll('.notif-item').length;
+    if (!tot) return;
+    var done = c.querySelectorAll('.notif-item.sent').length;
+    var cp = c.querySelector('.cper'); if (!cp) return;
+    var sc = cp.querySelector('.cnt-sent');
+    if (!sc) { sc = document.createElement('span'); sc.className = 'cnt-sent'; cp.appendChild(sc); }
+    sc.textContent = ' \u00B7 ' + done + '/' + tot + ' terkirim' + (done === tot ? ' \u2713' : '');
+  });
+}
+document.addEventListener('DOMContentLoaded', terapkanTerkirim);
 
 </script>
 </body></html>
