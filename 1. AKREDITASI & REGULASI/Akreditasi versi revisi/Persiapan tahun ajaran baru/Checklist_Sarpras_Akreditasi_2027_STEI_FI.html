@@ -634,4 +634,54 @@ function countdown(targetISO){
 function printPage(){ window.print(); }
 </script>
 <script>initChecks("stei_akred_sarpras_2027");</script>
+<script>(function(){
+var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8',SKEY='stei_akred_sarpras_2027',DUNIT='',online=false;
+function hd(x){var h={apikey:K,Authorization:'Bearer '+K};for(var k in(x||{}))h[k]=x[k];return h;}
+function getIdent(){try{var s=localStorage.getItem('steifiIdentitas')||localStorage.getItem('akredIdentitas');return s?JSON.parse(s):null;}catch(e){return null;}}
+function setIdent(o){try{localStorage.setItem('steifiIdentitas',JSON.stringify(o));localStorage.setItem('akredIdentitas',JSON.stringify(o));}catch(e){}}
+function pick(cb){
+ var ov=document.createElement('div');ov.style.cssText='position:fixed;inset:0;background:rgba(8,20,12,.55);z-index:99990;display:flex;align-items:center;justify-content:center;padding:20px';
+ var units=['Ketua','WK1','WK2','WK3','Prodi','LPM','LPPM','Lainnya'];
+ var cur=getIdent()||{unit:DUNIT,nama:''};
+ var box=document.createElement('div');box.style.cssText='background:#fff;border-radius:16px;max-width:340px;width:100%;padding:18px;box-shadow:0 10px 40px rgba(0,0,0,.3);font-family:inherit';
+ box.innerHTML='<div style="font-weight:800;font-size:14px;margin-bottom:4px;color:#111827">Identitas Pengisi</div><div style="font-size:11.5px;color:#6b7280;margin-bottom:10px">Centang Anda tersimpan bersama & terlihat semua unit — pilih unit sesuai peran Anda.</div><div class="uchips" style="display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px"></div><input class="unama" placeholder="Nama (opsional)" style="width:100%;box-sizing:border-box;border:1px solid #d1d5db;border-radius:9px;padding:8px 10px;font-size:12px;margin-bottom:12px"><button class="usimpan" style="width:100%;background:#1a6b3c;color:#fff;border:none;border-radius:10px;padding:10px;font-weight:800;font-size:13px;cursor:pointer">Simpan &amp; Lanjut</button>';
+ ov.appendChild(box);document.body.appendChild(ov);
+ var sel=cur.unit||'';var chips=box.querySelector('.uchips');
+ units.forEach(function(u){var c=document.createElement('button');c.textContent=u;
+  function paint(on){c.style.cssText='border:1.5px solid '+(on?'#1a6b3c':'#d1d5db')+';background:'+(on?'#1a6b3c':'#fff')+';color:'+(on?'#fff':'#374151')+';border-radius:999px;padding:6px 13px;font-size:12px;font-weight:700;cursor:pointer';}
+  paint(sel===u);
+  c.addEventListener('click',function(){sel=u;chips.querySelectorAll('button').forEach(function(b){b.style.background='#fff';b.style.color='#374151';b.style.borderColor='#d1d5db';});paint(true);});
+  chips.appendChild(c);});
+ box.querySelector('.unama').value=cur.nama||'';
+ box.querySelector('.usimpan').addEventListener('click',function(){
+  if(!sel){alert('Pilih unit dulu.');return;}
+  var o={unit:sel,nama:box.querySelector('.unama').value.trim()};setIdent(o);document.body.removeChild(ov);badge();if(cb)cb(o);});
+}
+window.steifiPickIdent=pick;
+var bd=document.createElement('div');
+bd.style.cssText='position:fixed;right:12px;bottom:12px;z-index:9000;background:#fff;border-radius:999px;box-shadow:0 3px 14px rgba(0,0,0,.18);padding:7px 13px;font-size:11px;font-weight:700;display:flex;gap:7px;align-items:center;cursor:pointer;font-family:inherit';
+bd.title='Klik untuk ubah identitas pengisi';bd.addEventListener('click',function(){pick();});
+document.body.appendChild(bd);
+function badge(){var id=getIdent();bd.innerHTML=(online?'<span style="color:#166534">🟢 Sinkron bersama</span>':'<span style="color:#92400e">🟠 Offline — tersimpan lokal</span>')+(id?'<span style="color:#6b7280">· '+id.unit+(id.nama?' — '+id.nama:'')+'</span>':'');}
+badge();
+fetch(U+'/rest/v1/unit_checks?select=item_id,checked&item_id=like.'+encodeURIComponent(SKEY)+'%7C*',{headers:hd()})
+.then(function(r){if(!r.ok)throw 0;return r.json();})
+.then(function(rows){
+ online=true;
+ var S={};try{S=JSON.parse(localStorage.getItem(SKEY)||'{}');}catch(e){}
+ rows.forEach(function(r){S[r.item_id.slice(SKEY.length+1)]=r.checked;});
+ try{localStorage.setItem(SKEY,JSON.stringify(S));}catch(e){}
+ document.querySelectorAll('input[type=checkbox][data-code]').forEach(function(b){var c=b.getAttribute('data-code');if(c in S){b.checked=!!S[c];var it=b.closest('.item');if(it)it.classList.toggle('done',b.checked);}});
+ if(typeof upd==='function'){try{upd(SKEY);}catch(e){}}
+ badge();
+}).catch(function(){online=false;badge();});
+document.querySelectorAll('input[type=checkbox][data-code]').forEach(function(b){
+ b.addEventListener('change',function(){
+  if(!online)return;
+  function send(id){var row={item_id:SKEY+'|'+b.getAttribute('data-code'),checked:b.checked,unit:id.unit,updated_by:id.nama,updated_at:new Date().toISOString()};
+   fetch(U+'/rest/v1/unit_checks?on_conflict=item_id',{method:'POST',headers:hd({'Content-Type':'application/json',Prefer:'resolution=merge-duplicates'}),body:JSON.stringify([row])}).catch(function(){});}
+  var id=getIdent();if(id)send(id);else pick(send);
+ });
+});
+})();</script>
 </body></html>
