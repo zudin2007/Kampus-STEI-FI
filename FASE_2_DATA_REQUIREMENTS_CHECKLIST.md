@@ -203,26 +203,27 @@ Each data point has:
 
 ## **STANDAR 6: SARANA & PRASARANA (CONTINUED FROM STANDAR 3)**
 
-**Owner:** WK2 & WK3 (shared)  
+**Owner:** WK2 (PRIMARY - Wakil Rektor Keuangan & Sarana Prasarana)  
+**Support:** WK3 (Student-facing facilities perspective)  
 **Focus:** Do we have adequate facilities for teaching and learning?
 
 | # | Data Point | Type | Source | Format | Priority | Owner |
 |---|-----------|------|--------|--------|----------|-------|
-| 6.1 | Ruang Kelas (inventory & capacity) | List | Facilities | Excel | W2 50% | WK2/3 |
-| 6.2 | Ruang Laboratorium (inventory & equipment) | List | Facilities | Excel | W2 50% | WK2/3 |
-| 6.3 | Ruang Perpustakaan | Narrative | Facilities | Document | W2 50% | WK2/3 |
-| 6.4 | Koleksi Buku Perpustakaan | Quantitative | Library | Excel | W3 | WK2/3 |
-| 6.5 | E-Resources Perpustakaan | Quantitative | Library | Excel | W3 | WK2/3 |
-| 6.6 | Ruang Kantor (dosen & staff) | List | Facilities | Excel | W2 50% | WK2/3 |
-| 6.7 | Aula & Ruang Pertemuan | List | Facilities | Excel | W2 50% | WK2/3 |
-| 6.8 | Fasilitas Parkir | Quantitative | Facilities | Excel | W3 | WK2/3 |
-| 6.9 | Fasilitas Toilet & Shower | Quantitative | Facilities | Excel | W3 | WK2/3 |
-| 6.10 | Fasilitas Kantin/Kafeteria | Document | Facilities | Photo | W3 | WK2/3 |
-| 6.11 | Fasilitas Olahraga | Document | Facilities | Photo | W3 | WK2/3 |
-| 6.12 | Fasilitas Kesehatan | Document | Facilities | Photo | W3 | WK2/3 |
-| 6.13 | Internet Access di Kampus | Document | IT/Facilities | Photo + description | W2 50% | WK2/3 |
-| 6.14 | Green Area/Taman | Document | Facilities | Photo | W3 | WK2/3 |
-| 6.15 | Rencana Perluasan Fasilitas | Plan | Master plan | Document | W4 | WK2/3 |
+| 6.1 | Ruang Kelas (inventory & capacity) | List | Facilities | Excel | W2 50% | WK2 |
+| 6.2 | Ruang Laboratorium (inventory & equipment) | List | Facilities | Excel | W2 50% | WK2 |
+| 6.3 | Ruang Perpustakaan | Narrative | Facilities | Document | W2 50% | WK2 |
+| 6.4 | Koleksi Buku Perpustakaan | Quantitative | Library | Excel | W3 | WK2 |
+| 6.5 | E-Resources Perpustakaan | Quantitative | Library | Excel | W3 | WK2 |
+| 6.6 | Ruang Kantor (dosen & staff) | List | Facilities | Excel | W2 50% | WK2 |
+| 6.7 | Aula & Ruang Pertemuan | List | Facilities | Excel | W2 50% | WK2 |
+| 6.8 | Fasilitas Parkir | Quantitative | Facilities | Excel | W3 | WK2 |
+| 6.9 | Fasilitas Toilet & Shower | Quantitative | Facilities | Excel | W3 | WK2 |
+| 6.10 | Fasilitas Kantin/Kafeteria | Document | Facilities | Photo | W3 | WK2 |
+| 6.11 | Fasilitas Olahraga | Document | Facilities | Photo | W3 | WK2 |
+| 6.12 | Fasilitas Kesehatan | Document | Facilities | Photo | W3 | WK2 |
+| 6.13 | Internet Access di Kampus | Document | IT/Facilities | Photo + description | W2 50% | WK2 |
+| 6.14 | Green Area/Taman | Document | Facilities | Photo | W3 | WK2 |
+| 6.15 | Rencana Perluasan Fasilitas | Plan | Master plan | Document | W4 | WK2 |
 
 **Accuracy Target:** ≥95% - Physical inventory must match actual facilities
 

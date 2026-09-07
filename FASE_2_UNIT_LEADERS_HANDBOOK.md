@@ -177,7 +177,7 @@ Support: LPM contact for quality questions
 
 ## 2️⃣ WK2 HANDBOOK - WAKIL REKTOR KEUANGAN & SARANA PRASARANA
 
-**Your Responsibility:** Standar 3 (Finance & Infrastructure), Standar 6 (Facilities - shared with WK3)
+**Your Responsibility:** Standar 3 (Finance & Infrastructure), Standar 6 (Facilities - PRIMARY OWNER)
 
 ### **Your Phase 2 Mission**
 
@@ -333,9 +333,9 @@ Coordination Point: You meet daily with Finance Officer
 
 ---
 
-## 3️⃣ WK3 HANDBOOK - WAKIL REKTOR KEMAHASISWAAN & SARANA PRASARANA
+## 3️⃣ WK3 HANDBOOK - WAKIL REKTOR KEMAHASISWAAN
 
-**Your Responsibility:** Standar 4 (Students - shared with WK1), Standar 6 (Facilities - shared with WK2)
+**Your Responsibility:** Standar 4 (Students - shared with WK1), Standar 6 Support (Student-facing facilities coordination with WK2)
 
 ### **Your Phase 2 Mission**
 
@@ -380,30 +380,30 @@ Gathering Tips:
 → Counseling: Counselor or student affairs
 ```
 
-**Standar 6: Facilities (Student-facing - Shared with WK2)**
+**Standar 6: Facilities (Support Role - WK2 is PRIMARY)**
 ```
-Student Facilities Part:
+YOUR SUPPORT ROLE (Student-facing facilities coordination):
 Priority 1 (MUST by Fri W2):
-☐ Dormitory/accommodation inventory
-☐ Cafeteria/food service facilities
-☐ Health center facilities
-☐ Counseling office facilities
-☐ Student center/activity center
-☐ Sports/recreation facilities
-☐ Prayer room/spiritual facilities
-☐ Photos of student areas (comprehensive)
+☐ Coordinate with WK2 on dormitory/accommodation status
+☐ Input on cafeteria/food service quality
+☐ Health center facility coordination
+☐ Counseling office support
+☐ Student center/activity center input
+☐ Sports/recreation facilities (if under your department)
 
 Priority 2 (W3):
-☐ Facility condition assessment (student areas)
-☐ Capacity vs. actual usage
-☐ Cleanliness/maintenance standards
-☐ Safety compliance in student areas
-☐ Accessibility for disabled students
+☐ Student perspective on facility condition
+☐ Student satisfaction with facilities
+☐ Support WK2's comprehensive facility assessment
 
-WK2 Part (General facilities):
-→ Classroom/lab facilities
-→ Finance/administrative facility condition
-→ Utility systems (power, water, internet)
+WK2 PRIMARY OWNERSHIP:
+→ Full facility inventory & master list
+→ ALL facility condition assessments
+→ Photos, maintenance records, budgets
+→ Safety compliance & certification
+→ Maintenance planning & execution
+
+YOUR ROLE: Provide student-services context to WK2's facility data
 
 Gathering Tips:
 → Dorm: Residential life office
@@ -462,11 +462,15 @@ Student Services Lead: You (WK3)
 ├─ Activity Coordinator (organizations, events)
 └─ Health/Counseling Staff (services overview)
 
-Facilities Lead: Facilities Manager
-├─ Building Inspector (condition assessment)
-├─ Dorm Manager (residential data)
-├─ Food Service Manager (cafeteria info)
-└─ Your team (photography & documentation)
+Facilities Coordination (SUPPORT ROLE):
+└─ Coordinate with WK2 on:
+   ├─ Student-facing facility quality assessment
+   ├─ Student satisfaction input
+   └─ Student facility needs feedback
+   
+NOTE: WK2 is PRIMARY owner of all facility data collection,
+      inventory, photos, maintenance records, and documentation.
+      You provide student-services perspective only.
 ```
 
 ### **Critical Success Factors for WK3**
@@ -652,9 +656,9 @@ Measure: % participation, # of student outputs
 - **Coordination:** Make sure publication lists are consistent between sources.
 
 **Standar 6 (Facilities):**
-- **WK2 owns:** General facility condition, IT infrastructure, maintenance budgets
-- **WK3 owns:** Student-facing facilities, student satisfaction with facilities
-- **Coordination:** Schedule joint facility walk-through. Divide inspection areas.
+- **WK2 PRIMARY:** All facility data, inventory, photos, condition assessment, maintenance, IT infrastructure
+- **WK3 SUPPORT:** Student-facing facilities perspective, student satisfaction, student services context
+- **Coordination:** WK3 provides input to WK2's comprehensive facility assessment (student needs, satisfaction)
 
 **Standar 7 (Research):**
 - **LPPM owns:** Research output, funding, publications, community service
