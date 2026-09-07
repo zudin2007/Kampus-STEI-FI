@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard Persiapan Akreditasi STEI FI 2026</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: #667eea;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            color: #666;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+        }
+
+        .status-bar {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .status-item {
+            background: #f8f9fa;
+            padding: 15px 20px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+        }
+
+        .status-label {
+            font-size: 0.9em;
+            color: #999;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .status-value {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-top: 5px;
+        }
+
+        .phases-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .phase-card {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            border-top: 5px solid #667eea;
+        }
+
+        .phase-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .phase-card.completed {
+            border-top-color: #28a745;
+        }
+
+        .phase-card.active {
+            border-top-color: #ffc107;
+            background: #fffbf0;
+        }
+
+        .phase-card.pending {
+            border-top-color: #6c757d;
+        }
+
+        .phase-number {
+            display: inline-block;
+            background: #667eea;
+            color: white;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .phase-card.completed .phase-number {
+            background: #28a745;
+        }
+
+        .phase-card.active .phase-number {
+            background: #ffc107;
+        }
+
+        .phase-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .phase-date {
+            color: #666;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+
+        .phase-description {
+            color: #555;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .phase-status {
+            display: inline-block;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+
+        .status-completed {
+            background: #d4edda;
+            color: #155724;
+        }
+
+        .status-active {
+            background: #fff3cd;
+            color: #856404;
+        }
+
+        .status-pending {
+            background: #e2e3e5;
+            color: #383d41;
+        }
+
+        .wk-monitoring {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .wk-monitoring h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .wk-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+        }
+
+        .wk-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: transform 0.3s;
+        }
+
+        .wk-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .wk-name {
+            font-size: 1.2em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .wk-standar {
+            font-size: 0.9em;
+            opacity: 0.9;
+            margin-bottom: 5px;
+        }
+
+        .wk-status {
+            font-size: 0.85em;
+            opacity: 0.8;
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid rgba(255,255,255,0.3);
+        }
+
+        .timeline {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .timeline h2 {
+            color: #667eea;
+            margin-bottom: 25px;
+            font-size: 1.5em;
+        }
+
+        .timeline-item {
+            display: flex;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .timeline-item:not(:last-child)::before {
+            content: '';
+            position: absolute;
+            left: 19px;
+            top: 50px;
+            width: 2px;
+            height: 50px;
+            background: #ddd;
+        }
+
+        .timeline-dot {
+            width: 40px;
+            height: 40px;
+            background: #667eea;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+            flex-shrink: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .timeline-item.completed .timeline-dot {
+            background: #28a745;
+        }
+
+        .timeline-content h3 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .timeline-content p {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .key-metrics {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .key-metrics h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .metrics-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+
+        .metric-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .metric-label {
+            font-size: 0.9em;
+            opacity: 0.9;
+        }
+
+        .resources {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            margin-bottom: 30px;
+        }
+
+        .resources h2 {
+            color: #667eea;
+            margin-bottom: 20px;
+            font-size: 1.5em;
+        }
+
+        .resource-list {
+            list-style: none;
+        }
+
+        .resource-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #eee;
+            color: #555;
+        }
+
+        .resource-list li:before {
+            content: "📄 ";
+            margin-right: 10px;
+        }
+
+        .resource-list a {
+            color: #667eea;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .resource-list a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            color: #666;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .last-updated {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 1.8em;
+            }
+
+            .phases-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .wk-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎓 Dashboard Persiapan Akreditasi BAN-PT 2026</h1>
+            <p class="subtitle">Kampus STEI FI - Persiapan Akreditasi Institusi</p>
+
+            <div class="status-bar">
+                <div class="status-item">
+                    <div class="status-label">Periode Persiapan</div>
+                    <div class="status-value">19 Minggu</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-label">Timeline</div>
+                    <div class="status-value">Sept 7 - Dec 20, 2026</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-label">Fase Aktif</div>
+                    <div class="status-value">Phase 1 (Persiapan)</div>
+                </div>
+                <div class="status-item">
+                    <div class="status-label">Target Akreditasi</div>
+                    <div class="status-value">A / Terakreditasi B</div>
+                </div>
+            </div>
+        </header>
+
+        <section class="phases-grid">
+            <div class="phase-card completed">
+                <div class="phase-number">1</div>
+                <div class="phase-title">Persiapan & Setup</div>
+                <div class="phase-date">Sept 9-13, 2026</div>
+                <div class="phase-description">
+                    Alignment leadership, definisi strategi, distribusi Navigator, persiapan data collection
+                </div>
+                <span class="phase-status status-completed">✓ COMPLETED</span>
+            </div>
+
+            <div class="phase-card active">
+                <div class="phase-number">2</div>
+                <div class="phase-title">Pengumpulan Data & Validasi</div>
+                <div class="phase-date">Sept 15 - Oct 4, 2026</div>
+                <div class="phase-description">
+                    Intensive data collection dari 7 Standar, quality verification, validation gates (≥95% accuracy)
+                </div>
+                <span class="phase-status status-active">→ UPCOMING (Sept 15)</span>
+            </div>
+
+            <div class="phase-card pending">
+                <div class="phase-number">3</div>
+                <div class="phase-title">Penyusunan SER Draft</div>
+                <div class="phase-date">Oct 7 - Nov 15, 2026</div>
+                <div class="phase-description">
+                    SER drafting, 2-cycle quality review, target ≥85/100 per Standar
+                </div>
+                <span class="phase-status status-pending">⏳ PENDING</span>
+            </div>
+
+            <div class="phase-card pending">
+                <div class="phase-number">4</div>
+                <div class="phase-title">Finalisasi & Submission</div>
+                <div class="phase-date">Nov 4-22, 2026</div>
+                <div class="phase-description">
+                    SER finalization, leadership approval, BAN-PT submission (target Nov 13)
+                </div>
+                <span class="phase-status status-pending">⏳ PENDING</span>
+            </div>
+
+            <div class="phase-card pending">
+                <div class="phase-number">5</div>
+                <div class="phase-title">Visitasi & Post-Visitasi</div>
+                <div class="phase-date">Nov 18 - Dec 20+, 2026</div>
+                <div class="phase-description">
+                    Asesor visit prep (W14), asesor visitasi (W15-18 Dec 2-20), continuous improvement (W19+)
+                </div>
+                <span class="phase-status status-pending">⏳ PENDING</span>
+            </div>
+        </section>
+
+        <section class="wk-monitoring">
+            <h2>📋 WK Monitoring & Tanggung Jawab</h2>
+            <div class="wk-grid">
+                <a href="WK1_MONITORING_PEKERJAAN_AKREDITASI.md" class="wk-card">
+                    <div class="wk-name">WK1 - Akademik</div>
+                    <div class="wk-standar">Standar 1-2, 4-5, 7</div>
+                    <div class="wk-standar">Governance, Academic, Research</div>
+                    <div class="wk-status">Status: Ready for Phase 2</div>
+                </a>
+
+                <a href="WK2_MONITORING_PEKERJAAN_AKREDITASI.md" class="wk-card">
+                    <div class="wk-name">WK2 - Keuangan & Sarana</div>
+                    <div class="wk-standar">Standar 3, 6</div>
+                    <div class="wk-standar">Finance, Infrastructure</div>
+                    <div class="wk-status">Status: Ready for Phase 2</div>
+                </a>
+
+                <a href="WK3_MONITORING_PEKERJAAN_AKREDITASI.md" class="wk-card">
+                    <div class="wk-name">WK3 - Kemahasiswaan & Sarana</div>
+                    <div class="wk-standar">Standar 4, 6</div>
+                    <div class="wk-standar">Student Affairs, Facilities</div>
+                    <div class="wk-status">Status: Ready for Phase 2</div>
+                </a>
+            </div>
+        </section>
+
+        <section class="timeline">
+            <h2>📅 Timeline & Milestone Kritis</h2>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">1</div>
+                <div class="timeline-content">
+                    <h3>Phase 1 Completion</h3>
+                    <p><strong>Sept 13, 2026</strong> - Leadership alignment, Navigator distribution 100%, role clarity 95%</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">2</div>
+                <div class="timeline-content">
+                    <h3>Phase 2 Launch</h3>
+                    <p><strong>Sept 15, 2026</strong> - Data collection kickoff (Standar 1-7)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">3</div>
+                <div class="timeline-content">
+                    <h3>Phase 2 Completion</h3>
+                    <p><strong>Oct 4, 2026</strong> - All Standar ≥95% data accuracy, ready for Phase 3</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">4</div>
+                <div class="timeline-content">
+                    <h3>Phase 3 Launch</h3>
+                    <p><strong>Oct 7, 2026</strong> - SER writing workshop & draft development</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">5</div>
+                <div class="timeline-content">
+                    <h3>Draft Submission</h3>
+                    <p><strong>Oct 18, 2026</strong> - All Standar drafts submitted (estimated 75-80/100)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">6</div>
+                <div class="timeline-content">
+                    <h3>Phase 3 Completion</h3>
+                    <p><strong>Nov 15, 2026</strong> - All Standar ≥85/100 quality verified, ready for Phase 4</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">7</div>
+                <div class="timeline-content">
+                    <h3>Rektor Sign-off</h3>
+                    <p><strong>Nov 11, 2026</strong> - Formal sign-off & institutional seal applied</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">★</div>
+                <div class="timeline-content">
+                    <h3>BAN-PT Submission</h3>
+                    <p><strong>Nov 13, 2026 (Target)</strong> - SER submitted to BAN-PT (deadline: Nov 30)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">8</div>
+                <div class="timeline-content">
+                    <h3>Phase 5 Launch</h3>
+                    <p><strong>Nov 18, 2026</strong> - Asesor visit preparation intensive (W14)</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-dot">9</div>
+                <div class="timeline-content">
+                    <h3>Asesor Visitasi</h3>
+                    <p><strong>Dec 2-20, 2026 (W15-18)</strong> - Accreditation assessment visit</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="key-metrics">
+            <h2>📊 Target Metrik Sukses</h2>
+            <div class="metrics-grid">
+                <div class="metric-box">
+                    <div class="metric-value">100%</div>
+                    <div class="metric-label">Role Clarity (Phase 1)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">≥95%</div>
+                    <div class="metric-label">Data Accuracy (Phase 2)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">≥85/100</div>
+                    <div class="metric-label">SER Quality (Phase 3)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">17 days</div>
+                    <div class="metric-label">Buffer Submission (sebelum Nov 30)</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">7 Standar</div>
+                    <div class="metric-label">Coverage Akreditasi</div>
+                </div>
+                <div class="metric-box">
+                    <div class="metric-value">3 WK</div>
+                    <div class="metric-label">Leadership Teams</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="resources">
+            <h2>📚 Dokumen & Panduan Lengkap</h2>
+            <ul class="resource-list">
+                <li><a href="FASE_1_PERSIAPAN_MEETING.md">FASE 1 - Persiapan Meeting Materials</a> (Strategi alignment, data collection planning)</li>
+                <li><a href="FASE_1_TRACKER_IMPLEMENTASI.md">FASE 1 - Tracker & Status Update</a> (Completed Sept 13, 2026)</li>
+                <li><a href="FASE_2_PENGUMPULAN_DATA_DETAIL.md">FASE 2 - Data Collection Framework</a> (W2-4: 3-week intensive)</li>
+                <li><a href="FASE_2_TRACKER_IMPLEMENTASI.md">FASE 2 - Weekly Data Tracking</a> (Progress monitoring, validation gates)</li>
+                <li><a href="FASE_2_WEEKLY_REPORTS_TEMPLATE.md">FASE 2 - Friday Status Report Template</a> (Standardized reporting)</li>
+                <li><a href="FASE_3_PENYUSUNAN_SER_DETAIL.md">FASE 3 - SER Drafting Framework</a> (W5-10: 2-cycle quality review)</li>
+                <li><a href="FASE_3_TRACKER_IMPLEMENTASI.md">FASE 3 - SER Development Tracking</a> (100-point rubric, writer coaching)</li>
+                <li><a href="FASE_4_TRACKER_IMPLEMENTASI.md">FASE 4 - SER Finalization Toolkit</a> (Leadership approval, BAN-PT submission)</li>
+                <li><a href="FASE_5_TRACKER_IMPLEMENTASI.md">FASE 5 - Asesor Visitasi & Improvement</a> (W14-20+: visit prep & post-visit)</li>
+                <li><a href="WK1_MONITORING_PEKERJAAN_AKREDITASI.md">WK1 Monitoring Dashboard</a> (Real-time progress tracking)</li>
+                <li><a href="WK2_MONITORING_PEKERJAAN_AKREDITASI.md">WK2 Monitoring Dashboard</a> (Finance & Infrastructure)</li>
+                <li><a href="WK3_MONITORING_PEKERJAAN_AKREDITASI.md">WK3 Monitoring Dashboard</a> (Student Affairs & Facilities)</li>
+            </ul>
+        </section>
+
+        <footer>
+            <p>© 2026 Kampus STEI FI - Persiapan Akreditasi BAN-PT</p>
+            <p style="margin-top: 15px; font-size: 0.95em; color: #555;">
+                <strong>Hard Deadline:</strong> Nov 30, 2026 (BAN-PT Submission)<br>
+                <strong>Asesor Visit Window:</strong> Dec 2-20, 2026<br>
+                <strong>Leadership Team:</strong> Rektor + WK1/WK2/WK3 + Koordinator Akreditasi + LPM Director
+            </p>
+            <div class="last-updated">
+                Last Updated: Sept 7, 2026 | All materials synced to repository
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
