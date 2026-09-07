@@ -53,14 +53,41 @@ Laporan progress dan komunikasi:
 
 ---
 
+## 🔗 INTEGRASI DENGAN FOLDER 1
+
+**Folder ini terintegrasi dengan Folder 1 (AKREDITASI & REGULASI):**
+
+- **Folder 1**: Berisi material operasional & detail (SOP, forms, data dosen, existing materials)
+- **Folder 14**: Berisi strategic framework & monitoring system (strategi, timeline, KPI, monitoring)
+
+**Lihat:** `../1. AKREDITASI & REGULASI/INTEGRASI_DENGAN_FOLDER_14.md` untuk detail mapping dan cross-referencing.
+
+---
+
 ## 🎯 QUICK LINKS
 
-| File | Deskripsi |
-|------|-----------|
-| **AKREDITASI_OVERVIEW.md** | Strategi & timeline akreditasi |
-| **BAN_PT_7_STANDAR.md** | Penjelasan 7 standar BAN-PT |
-| **AKREDITASI_CHECKLIST.md** | Master checklist persiapan |
-| **TIMELINE_AKREDITASI.md** | Detail timeline akreditasi |
+| File | Deskripsi | Tujuan |
+|------|-----------|--------|
+| **AKREDITASI_OVERVIEW.md** | Strategi & timeline akreditasi | Strategic direction |
+| **BAN_PT_7_STANDAR.md** | Penjelasan 7 standar BAN-PT | Framework & standards |
+| **AKREDITASI_CHECKLIST.md** | Master checklist persiapan | Task tracking |
+| **TIMELINE_AKREDITASI.md** | Detail timeline akreditasi | Scheduling & deadlines |
+| **KPI_INDIKATOR_AKREDITASI.md** | 55+ KPI indicators & metrics | Performance targets |
+| **AKREDITASI_MONITORING_CHECKLIST.md** | Daily/weekly/monthly tracking | Operational monitoring |
+| **LPM_AKREDITASI_KOORDINASI.md** | LPM quality assurance role | Quality oversight |
+
+---
+
+## 📂 FOLDER REFERENCE
+
+| Folder 14 | Folder 1 Reference | Mapping |
+|-----------|-------------------|---------|
+| **Standar_Akreditasi/** | BAN_PT_7_STANDAR.md | Standards mapping |
+| **Dokumen_Pendukung/** | AKREDITASI STEIFI 2027/ | Evidence collection |
+| **Self_Evaluation_Report/** | Previous SER docs | SER drafting |
+| **Timeline_Checklist/** | AKREDITASI_CHECKLIST.md | Planning & tracking |
+| **Data_Indikator/** | Data dari unit (Folder 1 source) | KPI & metrics |
+| **Laporan_Komunikasi/** | Status reports & memos | Communication |
 
 ---
 
