@@ -57,15 +57,16 @@ Fri 15:00-17:00   ← Phase 2 completion ceremony
 - **W4 Target:** All supporting documents
 - **Attend:** Mon kickoff, Thu (Standar 3 validation), Fri status
 
-### **IF YOU ARE WK3 (WR Kemahasiswaan & Sarana):**
-- **Standar Owner:** 4, 6 (shared)
-- **W2 Target:** Student & facility data 50%
+### **IF YOU ARE WK3 (WR Kemahasiswaan):**
+- **Standar Owner:** 4 (shared with WK1), Standar 6 support (WK2 is primary)
+- **W2 Target:** Student data 50% (facilities support WK2)
   - [ ] Enrollment data
   - [ ] Student services list
-  - [ ] Facility inventory
-- **W3 Target:** Student satisfaction survey, facility details
-- **W4 Target:** All supporting evidence
-- **Attend:** Mon kickoff, Wed/Thu validation, Fri status
+  - [ ] Student support coordination
+- **W3 Target:** Student satisfaction survey, student facility feedback
+- **W4 Target:** All student support evidence
+- **Attend:** Mon kickoff, Wed validation (Standar 4), Fri status
+- **Note:** WK2 is primary owner of Standar 6 (Facilities). Provide student input to WK2's facility data.
 
 ### **IF YOU ARE LPPM (Research Director):**
 - **Standar Owner:** 7

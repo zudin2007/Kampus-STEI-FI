@@ -79,7 +79,7 @@
 - **Contains:**
   - Section 1: WK1 Handbook (Standar 1-2, 4-5, 7)
   - Section 2: WK2 Handbook (Standar 3, 6)
-  - Section 3: WK3 Handbook (Standar 4, 6)
+  - Section 3: WK3 Handbook (Standar 4, Standar 6 support)
   - Section 4: LPPM Handbook (Standar 7)
   - Section 5: Cross-unit coordination
   - Each unit section has:
