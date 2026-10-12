@@ -449,19 +449,36 @@ page().then(function(rows){
 </div>
 <script>(function(){
 var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8';
-var MAP={f1d:0,f1m:0,f1t:0,f1n:0,f2:1,f2t:1,f2w:1,f2r:1,f3:2,f3t:2,f4:3,f4t:3,f5:4,f5t:4,ci:5,cm:5,kpi:5,lm:6,lk:6},TOT=[230,318,123,213,185,468,90];
+var FILES=[
+ ['f1d',0,'FASE_1_PERSIAPAN_DETAIL.md'],['f1m',0,'FASE_1_PERSIAPAN_MEETING.md'],['f1t',0,'FASE_1_TRACKER_IMPLEMENTASI.md'],['f1n',0,'FASE_1_DISTRIBUSI_NAVIGATOR.md'],
+ ['f2',1,'FASE_2_PENGUMPULAN_DATA_DETAIL.md'],['f2t',1,'FASE_2_TRACKER_IMPLEMENTASI.md'],['f2w',1,'FASE_2_W2_PELAKSANAAN_DETAIL.md'],['f2r',1,'FASE_2_DATA_REQUIREMENTS_CHECKLIST.md'],
+ ['f3',2,'FASE_3_PENYUSUNAN_SER_DETAIL.md'],['f3t',2,'FASE_3_TRACKER_IMPLEMENTASI.md'],
+ ['f4',3,'FASE_4_FINALISASI_SUBMISSION_DETAIL.md'],['f4t',3,'FASE_4_TRACKER_IMPLEMENTASI.md'],
+ ['f5',4,'FASE_5_VISITASI_POSTVISITASI_DETAIL.md'],['f5t',4,'FASE_5_TRACKER_IMPLEMENTASI.md'],
+ ['ci',5,'14. AKREDITASI_LEMBAGA/AKREDITASI_CHECKLIST.md'],['cm',5,'14. AKREDITASI_LEMBAGA/AKREDITASI_MONITORING_CHECKLIST.md'],['kpi',5,'14. AKREDITASI_LEMBAGA/KPI_INDIKATOR_AKREDITASI.md'],
+ ['lm',6,'11. LPM_QUALITY_ASSURANCE/LPM_AKREDITASI_MONITORING.md'],['lk',6,'14. AKREDITASI_LEMBAGA/LPM_AKREDITASI_KOORDINASI.md']];
+function h8(s){var h=5381;for(var i=0;i<s.length;i++){h=((h<<5)+h+s.charCodeAt(i))>>>0;}return ('00000000'+h.toString(16)).slice(-8);}
+function norm(s){return s.toLowerCase().replace(/\s+/g,' ').trim();}
+function parse(k,txt){var out=[],idx=0;txt.split('\n').forEach(function(L){var m=L.match(/^\s*[-*]\s\[([ xX])\]\s+(.*)/);if(!m)return;var tx=m[2].replace(/\*\*/g,'').replace(/`/g,'').trim();out.push({id:k+'|'+idx+'|'+h8(norm(tx)),base:m[1]!==' '});idx++;});return out;}
+function hd(x){var h={apikey:K,Authorization:'Bearer '+K};for(var q in(x||{}))h[q]=x[q];return h;}
 var all=[],from=0;
-function page(){return fetch(U+'/rest/v1/akred_checks?select=item_id&checked=eq.true&order=item_id',{headers:{apikey:K,Authorization:'Bearer '+K,Range:from+'-'+(from+999)}}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(rows){all=all.concat(rows);if(rows.length===1000){from+=1000;return page();}return all;});}
-page().then(function(rows){
-  var g=[0,0,0,0,0,0,0];
-  rows.forEach(function(r){var k=r.item_id.split('|')[0];if(k in MAP)g[MAP[k]]++;});
+function page(){return fetch(U+'/rest/v1/akred_checks?select=item_id,checked&order=item_id',{headers:hd({Range:from+'-'+(from+999)})}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(rows){all=all.concat(rows);if(rows.length===1000){from+=1000;return page();}return all;});}
+var items=[];
+var filesP=Promise.all(FILES.map(function(f){return fetch('dokumen/'+encodeURI(f[2])).then(function(r){if(!r.ok)throw 0;return r.text();}).then(function(tx){parse(f[0],tx).forEach(function(x){x.g=f[1];items.push(x);});}).catch(function(){});}));
+var rowsP=page().catch(function(){return null;});
+Promise.all([filesP,rowsP]).then(function(res){
+  var rows=res[1],st={};
+  if(rows)rows.forEach(function(r){st[r.item_id]=r.checked;});
+  var c=[0,0,0,0,0,0,0],t=[0,0,0,0,0,0,0];
+  items.forEach(function(x){t[x.g]++;if(x.id in st?st[x.id]:x.base)c[x.g]++;});
+  if(!items.length)return;
   document.querySelectorAll('[data-akred-g]').forEach(function(el){
-    var i=+el.getAttribute('data-akred-g'),c=g[i],tt=TOT[i],p=tt?Math.round(100*c/tt):0;
+    var i=+el.getAttribute('data-akred-g'),tt=t[i],cc=c[i],p=tt?Math.round(100*cc/tt):0;
     var cn=el.querySelector('.akred-cnt'),br=el.querySelector('.akred-bar');
-    if(cn){var st=cn.textContent.split('·');cn.textContent=c+'/'+tt+' task ·'+(st[1]||'');if(c>0)cn.textContent=c+'/'+tt+' task · 🟢 '+p+'%';}
-    if(br)br.style.width=Math.max(p,(c>0?2:0))+'%';
+    if(cn){var s=cn.textContent.split('·');cn.textContent=cc+'/'+tt+' task ·'+(s[1]||'');if(cc>0)cn.textContent=cc+'/'+tt+' task · '+(rows?'🟢 ':'')+p+'%';}
+    if(br)br.style.width=(cc>0?Math.max(p,2):0)+'%';
   });
-}).catch(function(){});
+});
 })();</script>
 <script>(function(){var t=new Date(2027,3,30),n=new Date(),dd=Math.ceil((t-n)/864e5);var el=document.getElementById('akredCountdown');if(el)el.textContent='⏳ '+dd+' hari lagi';})();</script>
 
