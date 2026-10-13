@@ -116,6 +116,12 @@ a{color:inherit}
 .gate-logout-btn{position:fixed;bottom:14px;right:14px;z-index:9000;background:rgba(17,24,39,.75);color:#fff;border:none;border-radius:999px;padding:8px 13px;font-size:10.5px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.25)}
 @media print{.gate-overlay,.gate-logout-btn{display:none !important}}
 
+.countdown{display:flex;justify-content:center;gap:10px;padding:14px 16px;background:#fff;border-bottom:1px solid #e5e7eb;flex-wrap:wrap}
+.cd-box{background:#fdf8ee;border-radius:10px;padding:8px 14px;text-align:center;min-width:56px}
+.cd-num{font-size:20px;font-weight:800;color:#1a6b3c;line-height:1}
+.cd-lbl{font-size:9px;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.cd-title{font-size:11px;color:#6b7280;font-weight:600;align-self:center}
+@media print{.countdown{display:none}}
 </style>
 </head>
 
@@ -178,6 +184,12 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="hdr-title">Indeks Toolkit Dokumen</div>
 <div class="hdr-sub">Template, arsip, dan dokumen inti — dapat diunduh per jabatan</div>
 <div class="badge">🎓 794 Dokumen · 7 Jabatan</div>
+</div>
+<div class="countdown">
+  <span class="cd-title">⏳ Target Submisi LED Akreditasi<br>ke SAPTO — Akhir April 2027 (estimasi)</span>
+  <div class="cd-box"><div class="cd-num" id="cdD">-</div><div class="cd-lbl">Hari</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdH">-</div><div class="cd-lbl">Jam</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdM">-</div><div class="cd-lbl">Menit</div></div>
 </div>
 <div class="summ">
 <div class="sc"><span class="sc-ico">📋</span><div><div class="sc-num">794</div><div class="sc-lbl">Total Dokumen Diunduh</div></div></div>
@@ -250,4 +262,12 @@ document.addEventListener('DOMContentLoaded', function(){
 </div>
 <div class="footer-note" style="margin-top:18px">Seluruh dokumen bersumber dari folder resmi masing-masing jabatan di repository — STEI Fithrah Insani, Revisi 2026.</div>
 </div>
+<script>function countdown(targetISO){
+  var t=new Date(targetISO).getTime();
+  function tick(){var d=Math.max(0,t-Date.now());
+    var a=document.getElementById('cdD'),b=document.getElementById('cdH'),c=document.getElementById('cdM');
+    if(a)a.textContent=Math.floor(d/86400000);if(b)b.textContent=Math.floor((d%86400000)/3600000);if(c)c.textContent=Math.floor((d%3600000)/60000);}
+  tick();setInterval(tick,60000);
+}
+countdown("2027-04-30T23:59:59");</script>
 </body></html>

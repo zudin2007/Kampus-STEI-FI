@@ -179,6 +179,12 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="hdr-sub">Centang task akreditasi — tersimpan bersama, terlihat semua unit, tersinkron ke panel dashboard</div>
 <div class="badge">🎓 STEI Fithrah Insani · 1.627 Task · 7 Kelompok</div>
 </div>
+<div class="countdown">
+  <span class="cd-title">⏳ Target Submisi LED Akreditasi<br>ke SAPTO — Akhir April 2027 (estimasi)</span>
+  <div class="cd-box"><div class="cd-num" id="cdD">-</div><div class="cd-lbl">Hari</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdH">-</div><div class="cd-lbl">Jam</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdM">-</div><div class="cd-lbl">Menit</div></div>
+</div>
 <div class="summ">
 <div class="sc"><span class="sc-ico">🧭</span><div><div class="sc-num">5</div><div class="sc-lbl">Fase Implementasi</div></div></div>
 <div class="sc warn"><span class="sc-ico">📋</span><div><div class="sc-num" style="font-size:12px">1.627</div><div class="sc-lbl">Total Task</div></div></div>
@@ -462,4 +468,5 @@ function countdown(targetISO){
 }
 function printPage(){ window.print(); }
 </script>
+<script>countdown("2027-04-30T23:59:59");</script>
 </body></html>
