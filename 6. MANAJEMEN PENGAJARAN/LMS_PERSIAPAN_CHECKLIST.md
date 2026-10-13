@@ -1,6 +1,6 @@
 # Checklist Persiapan LMS — STEI Fithrah Insani
 
-Arsip repo dari halaman *Checklist Persiapan LMS* (`Checklist_Persiapan_LMS_STEI_FI.html`). Status centang diambil dari penyimpanan bersama (Supabase, tabel `unit_checks`, kunci `stei_lms_persiapan`) dan disinkronkan berkala. Kode item (A1, B2, ...) bersifat tetap dan menjadi kunci sinkron.
+Arsip repo dari halaman *Checklist Persiapan LMS* (`Checklist_Persiapan_LMS_STEI_FI.html`). Status centang diambil dari penyimpanan bersama (Supabase, tabel `unit_checks`, kunci `stei_lms_persiapan`) dan disinkronkan berkala. Kode item (A1, B2, ...) bersifat tetap dan menjadi kunci sinkron. Item yang sedang dikerjakan tetap `[ ]` dan diberi akhiran ` — 🔄 Dikerjakan (unit, tanggal): catatan`; item selesai `[x]`.
 
 ## A. Penemuan & Keputusan (Fase 0)
 *10 item · Okt–Des 2026*
