@@ -180,6 +180,12 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="hdr-sub">Bidang Akademik dan Sistem (Revisi 2026)</div>
 <div class="badge">🎓 STEI Fithrah Insani · 69 Dokumen</div>
 </div>
+<div class="countdown">
+  <span class="cd-title">⏳ Target Submisi LED Akreditasi<br>ke SAPTO — Akhir April 2027 (estimasi)</span>
+  <div class="cd-box"><div class="cd-num" id="cdD">-</div><div class="cd-lbl">Hari</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdH">-</div><div class="cd-lbl">Jam</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdM">-</div><div class="cd-lbl">Menit</div></div>
+</div>
 <div class="summ">
 <div class="sc"><span class="sc-ico">📋</span><div><div class="sc-num">69</div><div class="sc-lbl">Total Dokumen</div></div></div>
 <div class="sc warn"><span class="sc-ico">📑</span><div><div class="sc-num">11</div><div class="sc-lbl">SOP</div></div></div>
@@ -753,4 +759,5 @@ fetch(U+'/rest/v1/unit_checks?select=item_id,checked,status,note,unit,updated_at
  boxes.forEach(refresh);badge();
 }).catch(function(){online=false;badge();});
 })();</script>
+<script>countdown("2027-04-30T23:59:59");</script>
 </body></html>
