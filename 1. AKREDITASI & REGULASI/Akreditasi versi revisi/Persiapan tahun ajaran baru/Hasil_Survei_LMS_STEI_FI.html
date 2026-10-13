@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hasil Survei Kebutuhan LMS — STEI FI</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>*{box-sizing:border-box}body{margin:0;font-family:'Plus Jakarta Sans',system-ui,sans-serif;background:#f4f6f1;color:#1f2937;font-size:14px;line-height:1.55}
+.hdr{background:linear-gradient(135deg,#14532d,#1a6b3c);color:#fff;padding:26px 18px 22px;text-align:center}
+.hdr h1{margin:0;font-size:19px;font-weight:800;line-height:1.3}.hdr p{margin:6px 0 0;font-size:12px;color:#dcfce7}
+.wrap{max-width:640px;margin:0 auto;padding:16px}
+.card{background:#fff;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.07);padding:16px;margin-bottom:14px}
+.info{background:#fffbeb;border:1px solid #fcd34d;color:#92400e;border-radius:12px;padding:12px 14px;font-size:12px;margin-bottom:14px}
+h2{font-size:13px;font-weight:800;color:#14532d;margin:0 0 12px;text-transform:uppercase;letter-spacing:.4px}
+.q{margin-bottom:18px}.q:last-child{margin-bottom:0}.ql{font-weight:700;margin-bottom:3px}.qh{font-size:11.5px;color:#6b7280;margin-bottom:7px}
+.req{color:#dc2626}.opt{display:flex;gap:9px;align-items:flex-start;padding:8px 10px;border:1.5px solid #e5e7eb;border-radius:10px;margin-bottom:6px;cursor:pointer}
+.opt:has(input:checked){border-color:#1a6b3c;background:#f0fdf4}.opt input{margin-top:3px;accent-color:#1a6b3c;width:17px;height:17px;flex-shrink:0}
+.opt.dis{opacity:.45;cursor:not-allowed}
+.scale{display:flex;gap:6px}.scale label{flex:1;text-align:center;border:1.5px solid #e5e7eb;border-radius:10px;padding:9px 0;cursor:pointer;font-weight:700}
+.scale label:has(input:checked){border-color:#1a6b3c;background:#1a6b3c;color:#fff}.scale label{position:relative}.scale input{position:absolute;opacity:0;inset:0;width:100%;height:100%;margin:0;cursor:pointer}
+.sl{display:flex;justify-content:space-between;font-size:10.5px;color:#6b7280;margin-top:4px}
+textarea{width:100%;min-height:90px;border:1.5px solid #e5e7eb;border-radius:10px;padding:10px;font:inherit;resize:vertical}
+.btn{width:100%;background:#1a6b3c;color:#fff;border:none;border-radius:12px;padding:13px;font:inherit;font-weight:800;font-size:15px;cursor:pointer}
+.btn:disabled{opacity:.6}.btn.sec{background:#fff;color:#1a6b3c;border:1.5px solid #1a6b3c;margin-top:10px}
+.err{color:#dc2626;font-size:12px;font-weight:600;margin-top:10px;display:none}.q.bad{outline:2px solid #fecaca;border-radius:10px;padding:6px}
+.foot{text-align:center;font-size:11px;color:#9ca3af;margin:18px 0 30px}
+:root{--gelap:#14532d;--abu:#6b7280;--hijau:#1a6b3c;--hijau-muda:#2fa35c;--merah:#dc2626}
+.bar{height:8px;background:#e5e7eb;border-radius:99px;overflow:hidden;margin-top:3px}.bar>i{display:block;height:100%;background:linear-gradient(90deg,#1a6b3c,#2fa35c)}
+.row{margin-bottom:10px}.row .t{display:flex;justify-content:space-between;font-size:12.5px;font-weight:600}.row .t span:last-child{color:#6b7280;font-weight:600}
+.kpi{display:flex;gap:10px;flex-wrap:wrap}.kpi>div{flex:1;min-width:120px;background:#f0fdf4;border-radius:12px;padding:12px;text-align:center}.kpi b{display:block;font-size:22px;color:#14532d}.kpi span{font-size:11px;color:#6b7280}
+a.back{color:#dcfce7;font-size:12px;text-decoration:none;display:block;margin-bottom:8px}
+.gate-overlay{position:fixed;inset:0;z-index:99999;background:linear-gradient(rgba(8,20,12,.42),rgba(8,20,12,.58)),var(--bg-foto) center/cover;display:flex;align-items:center;justify-content:center;padding:24px}
+.gate-box{background:#fff;border-radius:18px;padding:30px 24px;max-width:340px;width:100%;text-align:center;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.gate-logo{height:56px;object-fit:contain;margin-bottom:12px}
+.gate-title{font-size:16px;font-weight:800;color:var(--gelap)}
+.gate-sub{font-size:11.5px;color:var(--abu);margin:6px 0 18px;line-height:1.6}
+.gate-input{width:100%;padding:11px 13px;border:1.5px solid #e5e7eb;border-radius:10px;font-size:14px;margin-bottom:10px;font-family:inherit;text-align:center}
+.gate-input:focus{outline:none;border-color:var(--hijau-muda)}
+.gate-btn{width:100%;background:var(--hijau);color:#fff;border:none;border-radius:10px;padding:11px;font-size:13px;font-weight:700;cursor:pointer;font-family:inherit}
+.gate-btn:active{background:var(--hijau-muda)}
+.gate-err{color:var(--merah);font-size:11px;font-weight:600;margin-top:10px}
+.gate-foot{font-size:10px;color:var(--abu);margin-top:16px}
+.gate-logout-btn{position:fixed;bottom:14px;right:14px;z-index:9000;background:rgba(17,24,39,.75);color:#fff;border:none;border-radius:999px;padding:8px 13px;font-size:10.5px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.25)}
+@media print{.gate-overlay,.gate-logout-btn{display:none !important}}</style></head><body>
+<div class="gate-overlay" id="gateOverlay">
+  <div class="gate-box">
+    <div class="gate-title">STEI Fithrah Insani</div>
+    <div class="gate-sub">Dashboard internal — masukkan kata sandi staf untuk melanjutkan.</div>
+    <input type="password" id="gatePass" class="gate-input" placeholder="Kata sandi" autocomplete="current-password">
+    <button class="gate-btn" onclick="gateCheck()">Masuk</button>
+    <div class="gate-err" id="gateErr" style="display:none">Kata sandi salah. Silakan coba lagi.</div>
+    <div class="gate-foot">Khusus untuk staf &amp; pengelola STEI FI</div>
+  </div>
+</div>
+<button class="gate-logout-btn" id="gateLogoutBtn" onclick="gateLogout()" style="display:none">🔒 Keluar</button>
+<script>
+var GATE_KEY = 'stei_gate_ok';
+function gateHide(){
+  var o=document.getElementById('gateOverlay'); if(o) o.style.display='none';
+  var b=document.getElementById('gateLogoutBtn'); if(b) b.style.display='block';
+}
+function gateShow(){
+  var o=document.getElementById('gateOverlay'); if(o) o.style.display='flex';
+  var b=document.getElementById('gateLogoutBtn'); if(b) b.style.display='none';
+  var p=document.getElementById('gatePass'); if(p) p.value='';
+}
+async function gateSha256(msg){
+  var enc = new TextEncoder().encode(msg);
+  var buf = await crypto.subtle.digest('SHA-256', enc);
+  return Array.from(new Uint8Array(buf)).map(function(b){return b.toString(16).padStart(2,'0');}).join('');
+}
+async function gateCheck(){
+  var val = document.getElementById('gatePass').value;
+  var h = await gateSha256(val);
+  if(h === GATE_HASH){
+    try{ localStorage.setItem(GATE_KEY, '1'); }catch(e){}
+    gateHide();
+  } else {
+    var err = document.getElementById('gateErr'); if(err) err.style.display='block';
+  }
+}
+function gateLogout(){
+  try{ localStorage.removeItem(GATE_KEY); }catch(e){}
+  gateShow();
+}
+(function(){
+  try{ if(localStorage.getItem(GATE_KEY) === '1'){ gateHide(); } }catch(e){}
+})();
+document.addEventListener('DOMContentLoaded', function(){
+  var inp = document.getElementById('gatePass');
+  if(inp) inp.addEventListener('keydown', function(ev){ if(ev.key==='Enter') gateCheck(); });
+});
+</script>
+<div class="hdr"><a class="back" href="Dashboard_Persiapan_TA_Baru_STEI_FI.html">← Dashboard Internal</a><h1>Hasil Survei Kebutuhan LMS</h1><p>Ringkasan agregat · diperbarui setiap halaman dibuka</p></div>
+<div class="wrap"><div id="out"><div class="card">⏳ Memuat hasil…</div></div>
+<div class="info">Hasil ditampilkan hanya setelah minimal <b>5 responden</b> agar jawaban tidak dapat ditelusuri ke individu. Jawaban terbuka (saran) tidak ditampilkan di halaman ini.</div>
+<div class="foot">Tautan survei untuk dibagikan: <b>Survei_Kebutuhan_LMS_STEI_FI.html</b></div></div>
+<script>
+var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8';
+function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
+var BLOK=[['peran','Peran responden'],['prodi','Program studi'],['perangkat','Perangkat utama'],['frekuensi_sisca','Frekuensi memakai SISCA'],['fitur_sisca','Fitur SISCA yang pernah dipakai'],['platform_lain','Aplikasi lain yang dipakai'],['fitur_penting','Fitur LMS paling dibutuhkan'],['hambatan','Hambatan terbesar'],['kesiapan','Kesiapan mengikuti pelatihan'],['format_panduan','Format panduan yang disukai']];
+fetch(U+'/rest/v1/rpc/survei_lms_ringkasan',{method:'POST',headers:{apikey:K,Authorization:'Bearer '+K,'Content-Type':'application/json'},body:'{}'})
+.then(function(r){if(!r.ok)throw 0;return r.json();})
+.then(function(d){var o=document.getElementById('out');
+ if(d.tersembunyi){o.innerHTML='<div class="card"><b>'+d.total+' responden</b> sejauh ini. Hasil akan tampil setelah minimal 5 responden.</div>';return;}
+ var h='<div class="card"><div class="kpi"><div><b>'+d.total+'</b><span>Responden</span></div><div><b>'+(d.koneksi_rata!=null?d.koneksi_rata:'-')+'</b><span>Rata-rata kualitas koneksi (1–5)</span></div><div><b>'+(d.sso_rata!=null?d.sso_rata:'-')+'</b><span>Pentingnya akun SISCA yang sama (1–5)</span></div></div></div>';
+ BLOK.forEach(function(b){var m=d[b[0]]||{},ks=Object.keys(m).sort(function(a,c){return m[c]-m[a];});if(!ks.length)return;
+  h+='<div class="card"><h2>'+esc(b[1])+'</h2>';
+  ks.forEach(function(k){var p=Math.round(100*m[k]/d.total);h+='<div class="row"><div class="t"><span>'+esc(k)+'</span><span>'+m[k]+' ('+p+'%)</span></div><div class="bar"><i style="width:'+p+'%"></i></div></div>';});
+  h+='</div>';});
+ o.innerHTML=h;})
+.catch(function(){document.getElementById('out').innerHTML='<div class="card" style="color:#92400e">🟠 Tidak dapat memuat hasil. Periksa koneksi lalu muat ulang.</div>';});
+</script></body></html>
