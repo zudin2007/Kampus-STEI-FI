@@ -888,6 +888,9 @@ function printPage(){ window.print(); }
 <script>initChecks("stei_wk2_sop_2026");</script>
 <script>(function(){
 var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8',SKEY='stei_wk2_sop_2026',DUNIT='WK2',online=false;
+var PK=SKEY+'_prog',ST={};
+try{ST=JSON.parse(localStorage.getItem(PK)||'{}');}catch(e){}
+function saveST(){try{localStorage.setItem(PK,JSON.stringify(ST));}catch(e){}}
 function hd(x){var h={apikey:K,Authorization:'Bearer '+K};for(var k in(x||{}))h[k]=x[k];return h;}
 function getIdent(){try{var s=localStorage.getItem('steifiIdentitas')||localStorage.getItem('akredIdentitas');return s?JSON.parse(s):null;}catch(e){return null;}}
 function setIdent(o){try{localStorage.setItem('steifiIdentitas',JSON.stringify(o));localStorage.setItem('akredIdentitas',JSON.stringify(o));}catch(e){}}
@@ -916,24 +919,58 @@ bd.title='Klik untuk ubah identitas pengisi';bd.addEventListener('click',functio
 document.body.appendChild(bd);
 function badge(){var id=getIdent();bd.innerHTML=(online?'<span style="color:#166534">🟢 Sinkron bersama</span>':'<span style="color:#92400e">🟠 Offline — tersimpan lokal</span>')+(id?'<span style="color:#6b7280">· '+id.unit+(id.nama?' — '+id.nama:'')+'</span>':'');}
 badge();
-fetch(U+'/rest/v1/unit_checks?select=item_id,checked&item_id=like.'+encodeURIComponent(SKEY)+'%7C*',{headers:hd()})
+var css=document.createElement('style');
+css.textContent='.stc{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:6px;font-weight:400}.stc button{border:1px solid #d1d5db;background:#fff;color:#374151;border-radius:999px;padding:3px 10px;font-size:10.5px;font-weight:700;cursor:pointer;font-family:inherit}.stc button.on{background:#fef3c7;border-color:#f59e0b;color:#92400e}.sti{font-size:10.5px;color:#92400e}.item.inprog{background:#fffbeb}.item.done .stc{display:none}';
+document.head.appendChild(css);
+var boxes=[].slice.call(document.querySelectorAll('input[type=checkbox][data-code]'));
+function codeOf(b){return b.getAttribute('data-code');}
+function itemOf(b){return b.closest('.item')||b.parentElement;}
+function progText(){var n=document.querySelectorAll('.item.inprog').length,pt=document.getElementById('progtxt');
+ if(!pt)return;pt.textContent=pt.textContent.replace(/ · \d+ dikerjakan$/,'');if(n>0)pt.textContent+=' · '+n+' dikerjakan';}
+var ou=window.upd;if(typeof ou==='function'){window.upd=function(k){ou(k);progText();};}
+function push(code,b){
+ if(!online)return;
+ var go=function(id){var s=ST[code]||{};
+  var row={item_id:SKEY+'|'+code,checked:b.checked,status:(!b.checked&&s.p)?'progress':null,note:s.n||null,unit:id.unit,updated_by:id.nama,updated_at:new Date().toISOString()};
+  fetch(U+'/rest/v1/unit_checks?on_conflict=item_id',{method:'POST',headers:hd({'Content-Type':'application/json',Prefer:'resolution=merge-duplicates'}),body:JSON.stringify([row])}).catch(function(){});};
+ var id=getIdent();if(id)go(id);else pick(go);
+}
+function refresh(b){
+ var x=b._stc;if(!x)return;var s=ST[codeOf(b)]||{};var it=itemOf(b);
+ var p=!b.checked&&!!s.p;it.classList.toggle('inprog',p);
+ x.bp.textContent=p?'🔄 Sedang dikerjakan':'🔄 Tandai dikerjakan';x.bp.classList.toggle('on',p);
+ x.bn.textContent=s.n?'📝 Ubah catatan':'📝 Catatan';
+ var t=[];if(p)t.push('Dikerjakan'+(s.u?' · '+s.u:'')+(s.t?' · '+s.t:''));if(s.n)t.push('“'+s.n+'”');
+ x.inf.textContent=t.join(' — ');
+ progText();
+}
+function build(b){
+ var host=b.nextElementSibling||itemOf(b),code=codeOf(b);
+ var w=document.createElement('div');w.className='stc';
+ var bp=document.createElement('button');bp.type='button';
+ var bn=document.createElement('button');bn.type='button';
+ var inf=document.createElement('span');inf.className='sti';
+ w.appendChild(bp);w.appendChild(bn);w.appendChild(inf);host.appendChild(w);
+ b._stc={bp:bp,bn:bn,inf:inf};
+ function stop(e){e.preventDefault();e.stopPropagation();}
+ bp.addEventListener('click',function(e){stop(e);var s=ST[code]||(ST[code]={});s.p=!s.p;if(s.p){s.t=new Date().toISOString().slice(0,10);var id=getIdent();if(id)s.u=id.unit;}saveST();refresh(b);push(code,b);});
+ bn.addEventListener('click',function(e){stop(e);var s=ST[code]||(ST[code]={});var v=prompt('Catatan singkat untuk item ini (kosongkan untuk menghapus):',s.n||'');if(v===null)return;s.n=v.trim();saveST();refresh(b);push(code,b);});
+ b.addEventListener('change',function(){var s=ST[code]||(ST[code]={});if(b.checked)s.p=false;saveST();refresh(b);push(code,b);});
+ refresh(b);
+}
+boxes.forEach(build);
+fetch(U+'/rest/v1/unit_checks?select=item_id,checked,status,note,unit,updated_at&item_id=like.'+encodeURIComponent(SKEY)+'%7C*',{headers:hd()})
 .then(function(r){if(!r.ok)throw 0;return r.json();})
 .then(function(rows){
  online=true;
  var S={};try{S=JSON.parse(localStorage.getItem(SKEY)||'{}');}catch(e){}
- rows.forEach(function(r){S[r.item_id.slice(SKEY.length+1)]=r.checked;});
+ rows.forEach(function(r){var c=r.item_id.slice(SKEY.length+1);S[c]=r.checked;
+  var s=ST[c]||(ST[c]={});s.p=(r.status==='progress'&&!r.checked);s.n=r.note||'';s.u=r.unit||'';s.t=(r.updated_at||'').slice(0,10);});
  try{localStorage.setItem(SKEY,JSON.stringify(S));}catch(e){}
- document.querySelectorAll('input[type=checkbox][data-code]').forEach(function(b){var c=b.getAttribute('data-code');if(c in S){b.checked=!!S[c];var it=b.closest('.item');if(it)it.classList.toggle('done',b.checked);}});
- if(typeof upd==='function'){try{upd(SKEY);}catch(e){}}
- badge();
+ saveST();
+ boxes.forEach(function(b){var c=codeOf(b);if(c in S){b.checked=!!S[c];var it=itemOf(b);if(it)it.classList.toggle('done',b.checked);}});
+ if(typeof window.upd==='function'){try{window.upd(SKEY);}catch(e){}}
+ boxes.forEach(refresh);badge();
 }).catch(function(){online=false;badge();});
-document.querySelectorAll('input[type=checkbox][data-code]').forEach(function(b){
- b.addEventListener('change',function(){
-  if(!online)return;
-  function send(id){var row={item_id:SKEY+'|'+b.getAttribute('data-code'),checked:b.checked,unit:id.unit,updated_by:id.nama,updated_at:new Date().toISOString()};
-   fetch(U+'/rest/v1/unit_checks?on_conflict=item_id',{method:'POST',headers:hd({'Content-Type':'application/json',Prefer:'resolution=merge-duplicates'}),body:JSON.stringify([row])}).catch(function(){});}
-  var id=getIdent();if(id)send(id);else pick(send);
- });
-});
 })();</script>
 </body></html>
