@@ -207,7 +207,20 @@ document.addEventListener('DOMContentLoaded', function(){
 </div>
 <div class="nav-roles"><a class="nav-chip" style="--chip-accent:#111827" href="Dashboard_Persiapan_TA_Baru_STEI_FI.html">🏠 Dashboard TA Baru</a><a class="nav-chip" style="--chip-accent:#1a6b3c" href="Indeks_Toolkit_Dokumen_STEI_FI.html">📚 Semua Toolkit</a><a class="nav-chip" style="--chip-accent:#0891b2" href="Toolkit_Dokumen_Prodi_STEI_FI.html">📖 Toolkit Prodi</a></div>
 <div class="main">
-<div class="notebox">📤 <strong>Cara pakai:</strong> buka unit di bawah, pilih pesan pengingat, lalu klik <b>Salin</b> (tempel ke media apa pun) atau <b>Kirim via WhatsApp</b> — WhatsApp terbuka dengan pesan siap kirim, tinggal pilih kontak PJ unit. Tanggal mengikuti Kalender Akademik 2026/2027: perkuliahan 1 Sep–26 Des · UTS 19–24 Okt (nilai ≤ 1 Nov) · UAS 14–19 Des (nilai ≤ 26 Des).</div>
+<div id="rekapBox" style="background:#fff;border-radius:14px;box-shadow:0 2px 10px rgba(0,0,0,.08);border-top:4px solid #16a34a;padding:14px 16px;margin-bottom:14px">
+<div style="font-weight:800;font-size:14px;color:#14532d">📣 Rekap Gabungan — satu pesan untuk grup struktur unit</div>
+<div style="font-size:11.5px;color:#6b7280;margin:4px 0 10px">Satu pesan berisi agenda semua unit pada bulan terpilih. Kirim sekali ke grup, tidak perlu satu per satu.</div>
+<div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:10px">
+<label style="font-size:12px;font-weight:700">Bulan
+<select id="rekapBulan" onchange="rekapBuat()" style="margin-left:6px;padding:7px 10px;border:1.5px solid #d1d5db;border-radius:9px;font:inherit;font-size:12.5px;font-weight:600">
+<option>September</option><option>Oktober</option><option>November</option><option>Desember</option></select></label>
+<label style="font-size:12px;display:flex;gap:6px;align-items:center;cursor:pointer"><input type="checkbox" id="rekapDetail" onchange="rekapBuat()" style="width:16px;height:16px;accent-color:#16a34a"> Sertakan poin tindakan (lebih panjang)</label>
+</div>
+<pre class="notif-msg" id="rekapMsg"></pre>
+<div id="rekapInfo" style="font-size:11px;color:#6b7280;margin:6px 0 8px"></div>
+<div class="notif-actions"><button class="nbtn" onclick="rekapSalin(this)">📋 Salin</button><a class="nbtn wa" href="#" onclick="rekapWA();return false">💬 Kirim via WhatsApp</a><button class="nbtn mark" onclick="rekapTandai(this)">✅ Tandai semua agenda bulan ini terkirim</button></div>
+</div>
+<div class="notebox">📤 <strong>Cara pakai:</strong> untuk mengirim ke <b>grup struktur sekaligus</b>, pakai kartu <b>Rekap Gabungan</b> di atas. Atau, buka unit di bawah, pilih pesan pengingat, lalu klik <b>Salin</b> (tempel ke media apa pun) atau <b>Kirim via WhatsApp</b> — WhatsApp terbuka dengan pesan siap kirim, tinggal pilih kontak PJ unit. Tanggal mengikuti Kalender Akademik 2026/2027: perkuliahan 1 Sep–26 Des · UTS 19–24 Okt (nilai ≤ 1 Nov) · UAS 14–19 Des (nilai ≤ 26 Des).</div>
 <div class="cluster">
 <div class="chdr" onclick="tog(this)">
 <div class="cnum" style="background:#1a6b3c">6</div>
@@ -799,6 +812,56 @@ function terapkanTerkirim(){
   });
 }
 document.addEventListener('DOMContentLoaded', terapkanTerkirim);
+
+var REKAP_MAKS_WA=1800;
+function rekapItems(bulan){
+  var out=[];
+  document.querySelectorAll('.cluster').forEach(function(c){
+    var nm=(c.querySelector('.cname')||{textContent:''}).textContent.replace(/^\s*\S+\s/,'').trim();
+    var list=[];
+    c.querySelectorAll('.notif-item').forEach(function(it){
+      var w=it.querySelector('.notif-when').textContent.replace('\uD83D\uDCC5','').trim();
+      if(w.toLowerCase().indexOf(bulan.toLowerCase())<0) return;
+      var short=w.replace(/^.*? 2026 \u2014 /,'').replace(/ 2026$/,'');
+      var bullets=(it.querySelector('.notif-msg').textContent.split('\n')).filter(function(l){return l.indexOf('\u2022')===0;});
+      list.push({id:it.getAttribute('data-nid'),when:short,title:it.querySelector('.notif-title').textContent.trim(),bullets:bullets});
+    });
+    if(list.length) out.push({unit:nm,items:list});
+  });
+  return out;
+}
+function rekapBuat(){
+  var bulan=document.getElementById('rekapBulan').value, detail=document.getElementById('rekapDetail').checked;
+  var data=rekapItems(bulan), n=0, m='';
+  m+='\uD83D\uDCE3 *REKAP AGENDA UNIT \u2014 '+bulan.toUpperCase()+' 2026*\nSTEI Fithrah Insani \u00B7 Semester Ganjil 2026/2027\n';
+  data.forEach(function(u){
+    m+='\n\uD83D\uDD39 *'+u.unit+'*\n';
+    u.items.forEach(function(x){n++;m+='\u2022 '+x.when+' \u2014 '+x.title+'\n';
+      if(detail) x.bullets.forEach(function(b){m+='   '+b.replace('\u2022','\u2013')+'\n';});});
+  });
+  m+='\nMohon PJ masing-masing unit menindaklanjuti dan melaporkan progres ke WK1. Detail dan checklist ada di dashboard internal. Jazakumullah khairan.';
+  document.getElementById('rekapMsg').textContent=m;
+  var len=m.length, wa=len<=REKAP_MAKS_WA;
+  document.getElementById('rekapInfo').innerHTML=n+' agenda dari '+data.length+' unit \u00B7 '+len+' karakter'+(wa?'':' \u2014 <b style="color:#b45309">cukup panjang: bila tombol WhatsApp terpotong, pakai Salin lalu tempel ke grup</b>');
+}
+function rekapSalin(btn){
+  var t=document.getElementById('rekapMsg').textContent;
+  function ok(){ btn.textContent='\u2705 Tersalin'; setTimeout(function(){btn.textContent='\uD83D\uDCCB Salin';},1600); }
+  if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(ok,function(){fallbackCopy(t);ok();});}else{fallbackCopy(t);ok();}
+}
+function rekapWA(){ window.open('https://wa.me/?text='+encodeURIComponent(document.getElementById('rekapMsg').textContent),'_blank'); }
+function rekapTandai(btn){
+  var bulan=document.getElementById('rekapBulan').value, data=rekapItems(bulan), s=loadTerkirim(), d=new Date().toISOString().slice(0,10), n=0;
+  data.forEach(function(u){u.items.forEach(function(x){if(!s[x.id]){s[x.id]=d;n++;}});});
+  saveTerkirim(s); terapkanTerkirim();
+  btn.textContent='\u2705 '+n+' agenda ditandai terkirim'; setTimeout(function(){btn.textContent='\u2705 Tandai semua agenda bulan ini terkirim';},2200);
+}
+(function(){
+  var m=new Date().getMonth(), map={8:'September',9:'Oktober',10:'November',11:'Desember'};
+  var sel=document.getElementById('rekapBulan'); sel.value=map[m]||(m<8?'September':'Desember');
+  rekapBuat();
+})();
+
 
 </script>
 </body></html>
