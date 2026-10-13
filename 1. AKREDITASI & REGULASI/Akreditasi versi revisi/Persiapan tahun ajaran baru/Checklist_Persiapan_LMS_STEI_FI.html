@@ -179,6 +179,12 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="hdr-sub">Learning Management System STEI FI — Penemuan, Pilot, dan Perluasan</div>
 <div class="badge">🎓 STEI Fithrah Insani · 33 Item</div>
 </div>
+<div class="countdown">
+  <span class="cd-title">⏳ Target Submisi LED Akreditasi<br>ke SAPTO — Akhir April 2027 (estimasi)</span>
+  <div class="cd-box"><div class="cd-num" id="cdD">-</div><div class="cd-lbl">Hari</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdH">-</div><div class="cd-lbl">Jam</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdM">-</div><div class="cd-lbl">Menit</div></div>
+</div>
 
 
 <div class="summ">
@@ -544,4 +550,5 @@ fetch(U+'/rest/v1/unit_checks?select=item_id,checked,status,note,unit,updated_at
  boxes.forEach(refresh);badge();
 }).catch(function(){online=false;badge();});
 })();</script>
+<script>countdown("2027-04-30T23:59:59");</script>
 </body></html>
