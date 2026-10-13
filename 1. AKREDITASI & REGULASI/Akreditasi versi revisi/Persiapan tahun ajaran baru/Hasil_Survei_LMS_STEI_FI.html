@@ -38,7 +38,13 @@ a.back{color:#dcfce7;font-size:12px;text-decoration:none;display:block;margin-bo
 .gate-err{color:var(--merah);font-size:11px;font-weight:600;margin-top:10px}
 .gate-foot{font-size:10px;color:var(--abu);margin-top:16px}
 .gate-logout-btn{position:fixed;bottom:14px;right:14px;z-index:9000;background:rgba(17,24,39,.75);color:#fff;border:none;border-radius:999px;padding:8px 13px;font-size:10.5px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 4px 14px rgba(0,0,0,.25)}
-@media print{.gate-overlay,.gate-logout-btn{display:none !important}}</style></head><body>
+@media print{.gate-overlay,.gate-logout-btn{display:none !important}}.countdown{display:flex;justify-content:center;gap:10px;padding:14px 16px;background:#fff;border-bottom:1px solid #e5e7eb;flex-wrap:wrap}
+.cd-box{background:#fdf8ee;border-radius:10px;padding:8px 14px;text-align:center;min-width:56px}
+.cd-num{font-size:20px;font-weight:800;color:#1a6b3c;line-height:1}
+.cd-lbl{font-size:9px;color:#6b7280;font-weight:600;text-transform:uppercase;letter-spacing:.5px;margin-top:2px}
+.cd-title{font-size:11px;color:#6b7280;font-weight:600;align-self:center}
+@media print{.countdown{display:none}}
+</style></head><body>
 <div class="gate-overlay" id="gateOverlay">
   <div class="gate-box">
     <div class="gate-title">STEI Fithrah Insani</div>
@@ -89,6 +95,13 @@ document.addEventListener('DOMContentLoaded', function(){
 });
 </script>
 <div class="hdr"><a class="back" href="Dashboard_Persiapan_TA_Baru_STEI_FI.html">← Dashboard Internal</a><h1>Hasil Survei Kebutuhan LMS</h1><p>Ringkasan agregat · diperbarui setiap halaman dibuka</p></div>
+<div class="countdown">
+  <span class="cd-title">⏳ Target Submisi LED Akreditasi<br>ke SAPTO — Akhir April 2027 (estimasi)</span>
+  <div class="cd-box"><div class="cd-num" id="cdD">-</div><div class="cd-lbl">Hari</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdH">-</div><div class="cd-lbl">Jam</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdM">-</div><div class="cd-lbl">Menit</div></div>
+</div>
+
 <div class="wrap"><div id="out"><div class="card">⏳ Memuat hasil…</div></div>
 <div class="info">Hasil ditampilkan hanya setelah minimal <b>5 responden</b> agar jawaban tidak dapat ditelusuri ke individu. Jawaban terbuka (saran) tidak ditampilkan di halaman ini.</div>
 <div class="foot">Tautan survei untuk dibagikan: <b>Survei_Kebutuhan_LMS_STEI_FI.html</b></div></div>
@@ -107,4 +120,12 @@ fetch(U+'/rest/v1/rpc/survei_lms_ringkasan',{method:'POST',headers:{apikey:K,Aut
   h+='</div>';});
  o.innerHTML=h;})
 .catch(function(){document.getElementById('out').innerHTML='<div class="card" style="color:#92400e">🟠 Tidak dapat memuat hasil. Periksa koneksi lalu muat ulang.</div>';});
-</script></body></html>
+</script><script>function countdown(targetISO){
+  var t=new Date(targetISO).getTime();
+  function tick(){var d=Math.max(0,t-Date.now());
+    var a=document.getElementById('cdD'),b=document.getElementById('cdH'),c=document.getElementById('cdM');
+    if(a)a.textContent=Math.floor(d/86400000);if(b)b.textContent=Math.floor((d%86400000)/3600000);if(c)c.textContent=Math.floor((d%3600000)/60000);}
+  tick();setInterval(tick,60000);
+}
+countdown("2027-04-30T23:59:59");</script>
+</body></html>

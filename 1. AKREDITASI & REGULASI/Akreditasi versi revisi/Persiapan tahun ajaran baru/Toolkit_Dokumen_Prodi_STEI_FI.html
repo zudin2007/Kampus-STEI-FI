@@ -179,6 +179,12 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="hdr-sub">Template, checklist, dan arsip yang bisa diunduh langsung</div>
 <div class="badge">🎓 STEI Fithrah Insani · 127 Dokumen</div>
 </div>
+<div class="countdown">
+  <span class="cd-title">⏳ Target Submisi LED Akreditasi<br>ke SAPTO — Akhir April 2027 (estimasi)</span>
+  <div class="cd-box"><div class="cd-num" id="cdD">-</div><div class="cd-lbl">Hari</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdH">-</div><div class="cd-lbl">Jam</div></div>
+  <div class="cd-box"><div class="cd-num" id="cdM">-</div><div class="cd-lbl">Menit</div></div>
+</div>
 <div class="summ">
 <div class="sc"><span class="sc-ico">📋</span><div><div class="sc-num">4</div><div class="sc-lbl">Dokumen Inti</div></div></div>
 <div class="sc warn"><span class="sc-ico">📄</span><div><div class="sc-num">100</div><div class="sc-lbl">Template Formulir</div></div></div>
@@ -566,4 +572,5 @@ function countdown(targetISO){
 }
 function printPage(){ window.print(); }
 </script>
+<script>countdown("2027-04-30T23:59:59");</script>
 </body></html>
