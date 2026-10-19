@@ -8,12 +8,12 @@ Arsip repo dari halaman *Checklist Persiapan LMS* (`Checklist_Persiapan_LMS_STEI
 - [x] **A1** Kirim pesan pertanyaan ke pengembang SISCA / staf TI (vendor, e-learning, ekspor/API, login tunggal, jumlah pengguna) — PIC: WK1 · ⏰ Minggu 3 Okt
 - [x] **A2** Dapatkan identitas vendor/pengembang SISCA dan kontak teknisnya — PIC: WK1 + UPT TI · ⏰ Minggu 3 Okt
 - [x] **A3** Audit fitur portal dosen dan portal mahasiswa: apakah sudah ada unggah materi, tugas, presensi, penilaian — PIC: UPT TI + WK1 · ⏰ Okt 2026
-- [ ] **A4** Konfirmasi kemampuan SISCA: ekspor CSV, API, atau akses basis data, serta kemungkinan login tunggal — PIC: UPT TI · ⏰ Okt 2026
+- [ ] **A4** Konfirmasi kemampuan SISCA: ekspor CSV, API, atau akses basis data, serta kemungkinan login tunggal — PIC: UPT TI · ⏰ Okt 2026 — 🔄 Dikerjakan (WK1, 2026-10-13): tanyak ke tim IT
 - [ ] **A5** Kumpulkan jumlah mahasiswa dan dosen aktif per program studi (ES dan PS) — PIC: Kaprodi + Admin Akademik · ⏰ Okt 2026
 - [ ] **A6** Audit infrastruktur dan personel TI yang tersedia untuk mengelola LMS — PIC: WK2 + UPT TI · ⏰ Nov 2026
 - [ ] **A7** Tetapkan rentang anggaran LMS (lisensi/hosting/pelatihan) dan minta penawaran bila perlu — PIC: WK2 · ⏰ Nov 2026
 - [ ] **A8** Verifikasi ketentuan regulasi pembelajaran daring/blended pada Permendikbudristek No. 53/2023 — PIC: LPM · ⏰ Nov 2026
-- [ ] **A9** Survei kebutuhan singkat kepada dosen dan mahasiswa — PIC: Kaprodi + LPM · ⏰ Nov 2026
+- [ ] **A9** Survei kebutuhan singkat kepada dosen dan mahasiswa — PIC: Kaprodi + LPM · ⏰ Nov 2026 — 🔄 Dikerjakan (WK1, 2026-10-13): Survei sudah live; menunggu responden (target minimal 5) , menunggu 20 reponden
 - [ ] **A10** Keputusan pimpinan: platform dan model hosting (memakai modul SISCA, Moodle terkelola, atau Google Classroom untuk pilot) — PIC: Ketua + WK1 · ⏰ Des 2026
 
 ## B. Keamanan Akun & Kebijakan Data
