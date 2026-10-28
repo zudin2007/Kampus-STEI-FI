@@ -58,7 +58,6 @@ WK1_BIDANG_AKADEMIK/2. Fase Operasional Minggu 1-4 (Sept)/09_WK1_MINGGU_3_DETAIL
 7. WK2_BIDANG_KEUANGAN/2. Fase Operasional/09_WK2_EMAIL_MINGGU_2_STATUS.md
 7. WK2_BIDANG_KEUANGAN/09_WK2_TASKS_UPDATED.md
 8. WK3_BIDANG_SARANA_PRASARANA/2. Fase Operasional/09_WK3_MINGGU_3_DETAIL_CHECKLIST.md
-1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/LED FITRAH INSANI 2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RENOP STEI FI .docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RENSTRA STEI FI.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RIP STEI FI.docx
@@ -90,7 +89,6 @@ WK1_BIDANG_AKADEMIK/2. Fase Operasional Minggu 1-4 (Sept)/09_WK1_MINGGU_3_DETAIL
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Sistem_Moneter_Islam_STEI_FI_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Statistika_Ekonomi_II_STEI_FI_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Teknik_Scale_Up_UMKM_Syariah_STEI_FI.docx
-1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/MASTER_BOOK_Pasar_Modal_Investasi_Syariah_Modul_115_STEI_FI_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/PANDUAN_AKSES_DOWNLOAD_RPS2.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Akuntansi_Syariah_Format_Baru_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Analisa_Laporan_Keuangan_STEI_FI_20261.docx
@@ -121,7 +119,6 @@ WK1_BIDANG_AKADEMIK/2. Fase Operasional Minggu 1-4 (Sept)/09_WK1_MINGGU_3_DETAIL
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Sistem_Pengawasan_LKS_STEI_FI_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Statistika_Ekonomi_I_Format_Baru_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/Formulir_Penilaian_Ujian_Komprehensif_Template.docx
-1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/MASTER_BOOK_Pasar_Modal_Investasi_Syariah_Modul_1-15_Format_STEI_FI.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Akuntansi_Syariah_ZISWAF_Muamalah_STEI_FI_2025.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Bahasa_Arab_Bisnis_STEI_FI_2025.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Bahasa_Indonesia_STEI_FI_2025.docx
@@ -141,9 +138,6 @@ WK1_BIDANG_AKADEMIK/2. Fase Operasional Minggu 1-4 (Sept)/09_WK1_MINGGU_3_DETAIL
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Teknik_Scale_Up_UMKM_Syariah_STEI_FI_2025.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Transaksi_Keuangan_Syariah_STEI_FI_2025.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester kemarin/RPS_Ushul_Fiqih_Qawaidul_Fiqhiyah_STEI_FI_2025.docx
-1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/uts-uas/UAS_Ekonomi_Internasional_STEI_FI_2026.docx
-1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/uts-uas/UAS_Fiqh_Muamalat_STEI_FI_2026.docx
-1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/uts-uas/UAS_Metodologi_Studi_Islam_STEI_FI_2026-4.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/STATUTA STE FI-Revisi 2024 (1).docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_Ketua_STEI_FI.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/Checklist_Persiapan_TA_Baru_LPM_STEI_FI.docx
@@ -1001,9 +995,4 @@ FASE_2_WEEKLY_STATUS_TEMPLATE.md
 PHASE_2_FINAL_SUMMARY.md
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Ready_Journey_Ganjil_STEI_FI_2026.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Studi_Al-Quran_I_STEI_FI_2026.docx
-6. MANAJEMEN PENGAJARAN/Konsep_LMS_STEI_FI_v2.docx
-6. MANAJEMEN PENGAJARAN/Kurikulum_Karakter_Pebisnis_Unggul_STEI_FI_2026-2027.docx
-6. MANAJEMEN PENGAJARAN/Kurikulum_Karakter_Pebisnis_Unggul_STEI_FI_2026-2027_v1.1.docx
 1. AKREDITASI & REGULASI/Akreditasi versi revisi/AKREDITASI STEIFI 2027/RPS MK/semester ini/RPS_Ready_Journey_Genap_STEI_FI_2026_DRAF.docx
-6. MANAJEMEN PENGAJARAN/Konsep_LMS_STEI_FI_v3.docx
-6. MANAJEMEN PENGAJARAN/Kurikulum_Karakter_Pebisnis_Unggul_STEI_FI_2026-2027_v1.2.docx
