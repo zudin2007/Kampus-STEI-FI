@@ -149,6 +149,16 @@ a{color:inherit}
 .wk-caldate{font-weight:800;color:var(--hijau)}
 .wk-calnote{font-size:10.5px;color:#92600a;font-weight:700;white-space:nowrap}
 @media(max-width:560px){.wk-calrow{grid-template-columns:1fr}.wk-calnote{white-space:normal}}
+.wk-msg{background:var(--krem);border-radius:11px;padding:12px}
+.wk-msg h4{font-size:12.5px;font-weight:800;margin-bottom:2px}
+.wk-msg .wk-msgsub{font-size:10.5px;color:var(--abu);margin-bottom:8px}
+.wk-btns{display:flex;flex-wrap:wrap;gap:6px}
+.wk-btn{border:none;border-radius:8px;padding:7px 11px;font-size:11px;font-weight:800;cursor:pointer;font-family:inherit;text-decoration:none;display:inline-block}
+.wk-btn.salin{background:var(--hijau);color:#fff}.wk-btn.wa{background:#25d366;color:#fff}.wk-btn.lihat{background:#fff;color:#374151;border:1px solid #d1d5db}
+.wk-pre{white-space:pre-wrap;font-family:inherit;font-size:11px;line-height:1.65;background:#fff;border:1px solid #e5e7eb;border-radius:8px;padding:10px;margin-top:8px;display:none}
+.wk-pre.open{display:block}
+.wk-toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);background:#111827;color:#fff;padding:9px 16px;border-radius:999px;font-size:12px;font-weight:700;z-index:99998;display:none}
+#pesanGrid{align-items:start}
 </style>
 </head>
 
@@ -247,6 +257,14 @@ document.addEventListener('DOMContentLoaded', function(){
   <form id="todoForm" class="wk-form"><input id="todoText" placeholder="Tambah tugas, misalnya: tindak lanjuti rekap nilai UTS Prodi PS" maxlength="160"><button type="submit">Tambah</button></form>
   <ul class="wk-list" id="todoList"></ul>
   <p class="wk-note">Tersimpan di peramban ini saja (tidak dibagikan ke unit lain).</p>
+</section>
+
+<section class="wk-sec" id="pesan">
+  <h2>🔔 Pesan Pengingat Mingguan per Unit <span class="wk-tag" id="pesanMinggu"></span></h2>
+  <p class="wk-hint">Disusun otomatis dari fase kalender akademik dan status checklist langsung. Salin, lalu tempel ke WhatsApp atau surel; atau kirim langsung lewat WhatsApp.</p>
+  <div class="wk-btns" style="margin-bottom:10px"><button type="button" class="wk-btn salin" id="salinSemua">Salin rekap gabungan semua unit</button></div>
+  <div id="pesanGrid" class="wk-grid2"></div>
+  <p class="wk-note">Sunting seperlunya sebelum dikirim. Setelah mengirim, tandai "Terkirim" pada halaman <a href="Notifikasi_Aktivitas_Unit_STEI_FI.html">Notifikasi Aktivitas Unit</a>.</p>
 </section>
 
 <section class="wk-sec" id="pintasan">
@@ -378,6 +396,89 @@ function renderT(){var ul=el('todoList');ul.textContent='';
   var x=mk('button','Hapus','wk-del');x.type='button';x.addEventListener('click',function(){todos.splice(i,1);saveT();renderT();});li.appendChild(x);ul.appendChild(li);});}
 el('todoForm').addEventListener('submit',function(ev){ev.preventDefault();var v=el('todoText').value.trim();if(!v)return;todos.unshift({t:v,d:false});el('todoText').value='';saveT();renderT();});
 renderT();
+
+/* Pesan pengingat per unit */
+var UNITS=[
+ ['Ketua','Ketua STEI','Bapak Ketua STEI',[]],
+ ['WK1','WK1 (Bidang Akademik)','Bapak/Ibu WK1',['stei_ta_baru_wk1','stei_lms_persiapan','stei_wk1_sop_2026','stei_akred_dok_2027']],
+ ['Prodi','Prodi (ES dan PS)','Bapak/Ibu Kaprodi ES dan PS',['stei_ta_baru_prodi','stei_prodi_sop_2026']],
+ ['WK2','WK2 (Bidang Keuangan)','Bapak/Ibu WK2',['stei_ta_baru_wk2','stei_akred_sarpras_2027']],
+ ['WK3','WK3 (Kemahasiswaan, Kerjasama, Alumni)','Bapak/Ibu WK3',['stei_ta_baru_wk3','stei_wk3_sop_2026']],
+ ['LPM','LPM (Penjaminan Mutu)','Bapak/Ibu LPM',['stei_ta_baru_lpm']],
+ ['LPPM','LPPM (Penelitian dan Pengabdian)','Bapak/Ibu LPPM',['stei_ta_baru_lppm','stei_lppm_sop_2026']]
+];
+var MSG={
+ 'Evaluasi tengah semester':{
+  Ketua:['Rapat tinjauan tengah semester: mohon dijadwalkan bulan ini.','Terima laporan hasil UTS dan evaluasi tengah semester dari WK1.','Target submisi LED akreditasi ke SAPTO: akhir April 2027.'],
+  WK1:['Rekap nilai UTS: pastikan seluruh dosen sudah menginput nilai ke SIAKAD (batas 1 November sudah lewat).','Evaluasi tengah semester: kehadiran dosen dan keterlaksanaan RPS.'],
+  Prodi:['Rekap nilai UTS per mata kuliah dan evaluasi tengah semester.','Tindak lanjuti mahasiswa dengan nilai UTS rendah atau kehadiran kurang bersama DPA.','Pantau keterlaksanaan perkuliahan dan RPS.'],
+  WK2:['Monitoring serapan anggaran bulan ini.','Pemeliharaan sarana prasarana.'],
+  WK3:['Tracer study alumni dan tindak lanjut MoU kerjasama.'],
+  LPM:['Audit mutu internal (siklus PPEPP): siapkan jadwal dan instrumen.','Pantau evaluasi tengah semester dan bukti pembelajaran.'],
+  LPPM:['Laporan kemajuan penelitian dan persiapan seminar penelitian.']},
+ 'Persiapan UAS':{
+  Ketua:['Pantau kesiapan UAS (14–19 Desember) dari WK1 dan Prodi.'],
+  WK1:['Kumpulkan soal UAS dari dosen.','Finalkan jadwal, ruang, dan pengawas UAS.','Umumkan jadwal UAS ke dosen dan mahasiswa.'],
+  Prodi:['Ingatkan dosen menyerahkan soal UAS tepat waktu ke WK1.','Pastikan kehadiran mahasiswa memenuhi syarat mengikuti UAS.'],
+  WK2:['Siapkan biaya UAS: honor pengawas dan panitia.','Pastikan ruang ujian siap.'],
+  WK3:['Bantu sosialisasi jadwal UAS ke mahasiswa.'],
+  LPM:['Siapkan monitoring pelaksanaan UAS.'],
+  LPPM:['Atur kegiatan penelitian agar tidak bertabrakan dengan UAS.']},
+ 'UAS Ganjil':{
+  Ketua:['Pantau kelancaran UAS lintas unit.'],
+  WK1:['Pantau kelancaran UAS.','Terima laporan pelaksanaan dari Kaprodi.'],
+  Prodi:['Laksanakan UAS sesuai jadwal dan laporkan kendala ke WK1.'],
+  WK2:['Dukung logistik UAS.'],
+  WK3:['Pantau ketertiban mahasiswa selama UAS.'],
+  LPM:['Monitoring pelaksanaan UAS.'],
+  LPPM:['Hindari jadwal kegiatan yang bentrok dengan UAS.']},
+ 'Input nilai UAS':{
+  Ketua:['Terima rekap hasil studi semester Ganjil.'],
+  WK1:['Pastikan seluruh dosen menginput nilai UAS (batas 26 Desember).'],
+  Prodi:['Pastikan dosen prodi menginput nilai UAS tepat waktu.'],
+  WK2:['Siapkan laporan realisasi anggaran semester Ganjil.'],
+  WK3:['Siapkan data kegiatan kemahasiswaan semester Ganjil.'],
+  LPM:['Siapkan bahan evaluasi mutu semester Ganjil.'],
+  LPPM:['Susun laporan kegiatan penelitian semester Ganjil.']}
+};
+function mon(d){var x=new Date(d.getFullYear(),d.getMonth(),d.getDate());var w=(x.getDay()+6)%7;x.setDate(x.getDate()-w);return x;}
+var wm=mon(today),ws=addDays(wm,6);
+el('pesanMinggu').textContent=fmt(wm,ws);
+function toast(t){var e=el('wkToast');e.textContent=t;e.style.display='block';setTimeout(function(){e.style.display='none';},1800);}
+function copyText(t){
+ if(navigator.clipboard&&navigator.clipboard.writeText){navigator.clipboard.writeText(t).then(function(){toast('Pesan disalin');},function(){fb(t);});}
+ else fb(t);
+ function fb(x){var a=document.createElement('textarea');a.value=x;a.style.position='fixed';a.style.opacity='0';document.body.appendChild(a);a.select();try{document.execCommand('copy');toast('Pesan disalin');}catch(e){toast('Gagal menyalin; salin manual');}document.body.removeChild(a);}
+}
+function liveLine(u,rows){
+ if(!rows||!u[3].length)return '';
+ var rs=rows.filter(function(r){return u[3].some(function(g){return r.item_id.indexOf(g+'|')===0;});});
+ var done=rs.filter(function(r){return r.checked;}).length;
+ var pr=rs.filter(function(r){return !r.checked&&r.status==='progress';}).length;
+ return '• Status checklist (per '+fmt(today)+'): '+done+' butir selesai tercatat'+(pr?', '+pr+' sedang dikerjakan':'')+'.\n';
+}
+function makeMsg(u,rows){
+ var pm=MSG[ph[2]],b=pm&&pm[u[0]]?pm[u[0]]:[ph[3]];
+ var t="Assalamu'alaikum Wr. Wb. "+u[2]+".\n*Pengingat mingguan, "+fmt(wm,ws)+'*\n\n';
+ b.forEach(function(x){t+='• '+x+'\n';});
+ t+=liveLine(u,rows);
+ t+='• Mohon perbarui status checklist unit setelah dikerjakan.\n\nTerima kasih. Wassalam.';
+ return t;
+}
+function renderMsgs(rows){
+ var g=el('pesanGrid');g.textContent='';var all=[];
+ UNITS.forEach(function(u){
+  var m=makeMsg(u,rows);all.push('*'+u[1]+'*\n'+m);
+  var c=mk('div',null,'wk-msg');c.appendChild(mk('h4',u[1]));c.appendChild(mk('div','Fase: '+ph[2],'wk-msgsub'));
+  var bt=mk('div',null,'wk-btns');
+  var s1=mk('button','Salin','wk-btn salin');s1.type='button';s1.addEventListener('click',function(){copyText(m);});
+  var s2=mk('a','Kirim via WhatsApp','wk-btn wa');s2.href='https://wa.me/?text='+encodeURIComponent(m);s2.target='_blank';s2.rel='noopener';
+  var pre=mk('pre',m,'wk-pre');
+  var s3=mk('button','Lihat pesan','wk-btn lihat');s3.type='button';s3.addEventListener('click',function(){var o=pre.className.indexOf('open')>-1;pre.className='wk-pre'+(o?'':' open');s3.textContent=o?'Lihat pesan':'Sembunyikan';});
+  bt.appendChild(s1);bt.appendChild(s2);bt.appendChild(s3);c.appendChild(bt);c.appendChild(pre);g.appendChild(c);});
+ el('salinSemua').onclick=function(){copyText('*Rekap Pengingat Mingguan STEI FI, '+fmt(wm,ws)+'*\n\n'+all.join('\n\n---\n\n'));};
+}
+renderMsgs(null);
 /* Status dari basis data bersama */
 function hd(){return {apikey:K,Authorization:'Bearer '+K};}
 function page(from){return fetch(U+'/rest/v1/unit_checks?select=item_id,checked,status,note,unit,updated_at&order=updated_at.desc',{headers:Object.assign(hd(),{Range:from+'-'+(from+999),'Range-Unit':'items'})}).then(function(r){if(!r.ok)throw new Error(r.status);return r.json();});}
@@ -390,6 +491,7 @@ var G=[
 ];
 var NAME={};G.forEach(function(g){NAME[g[0]]=g[1];});
 page(0).then(function(rows){
+ renderMsgs(rows);
  var box=el('statusBox');box.textContent='';
  G.forEach(function(g){var rs=rows.filter(function(r){return r.item_id.indexOf(g[0]+'|')===0;});
   var done=rs.filter(function(r){return r.checked;}).length;
@@ -417,5 +519,6 @@ page(0).then(function(rows){
 });
 })();
 </script>
+<div class="wk-toast" id="wkToast"></div>
 </body>
 </html>
