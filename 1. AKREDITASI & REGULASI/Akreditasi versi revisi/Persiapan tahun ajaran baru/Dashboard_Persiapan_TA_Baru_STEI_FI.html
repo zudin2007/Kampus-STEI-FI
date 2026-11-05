@@ -382,7 +382,7 @@ document.addEventListener('DOMContentLoaded', function(){
 <div style="padding:8px 14px;font-size:10.5px;color:#9ca3af">Angka terbarui otomatis setiap dashboard dibuka. Bila koneksi gagal, tampil 0 — muat ulang halaman.</div>
 </div>
 <script>(function(){
-var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8';
+var U='https://ggerylefnujrtpkcjfgf.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnZXJ5bGVmbnVqcnRwa2NqZmdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM4NTY4NTEsImV4cCI6MjEwOTQzMjg1MX0.DqIcujqJFWHtDqQ-MDoQ-iQnIwJbhpVCeGJQIyBgy1o';
 var all=[],from=0;
 function page(){return fetch(U+'/rest/v1/unit_checks?select=item_id,checked,status&or=(checked.eq.true,status.eq.progress)&order=item_id',{headers:{apikey:K,Authorization:'Bearer '+K,Range:from+'-'+(from+999)}}).then(function(r){if(!r.ok)throw 0;return r.json();}).then(function(rows){all=all.concat(rows);if(rows.length===1000){from+=1000;return page();}return all;});}
 page().then(function(rows){
@@ -470,7 +470,7 @@ page().then(function(rows){
 <div style="padding:8px 14px;font-size:10.5px;color:#9ca3af;border-top:1px solid #f5f5f5">Cara memperbarui: buka <b>✅ Checklist Bersama</b> lalu centang task unit Anda — angka &amp; bar panel ini terbarui otomatis (live). Sinkron balik ke file tracker repo dilakukan berkala.</div>
 </div>
 <script>(function(){
-var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8';
+var U='https://ggerylefnujrtpkcjfgf.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnZXJ5bGVmbnVqcnRwa2NqZmdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM4NTY4NTEsImV4cCI6MjEwOTQzMjg1MX0.DqIcujqJFWHtDqQ-MDoQ-iQnIwJbhpVCeGJQIyBgy1o';
 var FILES=[
  ['f1d',0,'FASE_1_PERSIAPAN_DETAIL.md'],['f1m',0,'FASE_1_PERSIAPAN_MEETING.md'],['f1t',0,'FASE_1_TRACKER_IMPLEMENTASI.md'],['f1n',0,'FASE_1_DISTRIBUSI_NAVIGATOR.md'],
  ['f2',1,'FASE_2_PENGUMPULAN_DATA_DETAIL.md'],['f2t',1,'FASE_2_TRACKER_IMPLEMENTASI.md'],['f2w',1,'FASE_2_W2_PELAKSANAAN_DETAIL.md'],['f2r',1,'FASE_2_DATA_REQUIREMENTS_CHECKLIST.md'],
