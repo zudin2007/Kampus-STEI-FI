@@ -107,7 +107,7 @@ document.addEventListener('DOMContentLoaded', function(){
 <div class="info">Hasil ditampilkan hanya setelah minimal <b>5 responden</b> agar jawaban tidak dapat ditelusuri ke individu. Jawaban terbuka (saran) tidak ditampilkan di halaman ini.</div>
 <div class="foot">Tautan survei untuk dibagikan: <b>Survei_Kebutuhan_LMS_STEI_FI.html</b></div></div>
 <script>
-var U='https://rpdvipndnshquswchejl.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJwZHZpcG5kbnNocXVzd2NoZWpsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODQyMjkzNjMsImV4cCI6MjA5OTgwNTM2M30.mOWBPTm4-L442kYfn1pDY_j7veOSzzlyKTtK5IrYXu8';
+var U='https://ggerylefnujrtpkcjfgf.supabase.co',K='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdnZXJ5bGVmbnVqcnRwa2NqZmdmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTM4NTY4NTEsImV4cCI6MjEwOTQzMjg1MX0.DqIcujqJFWHtDqQ-MDoQ-iQnIwJbhpVCeGJQIyBgy1o';
 function esc(s){var d=document.createElement('div');d.textContent=s;return d.innerHTML;}
 var BLOK=[['peran','Peran responden'],['prodi','Program studi'],['perangkat','Perangkat utama'],['frekuensi_sisca','Frekuensi memakai SISCA'],['fitur_sisca','Fitur SISCA yang pernah dipakai'],['platform_lain','Aplikasi lain yang dipakai'],['fitur_penting','Fitur LMS paling dibutuhkan'],['hambatan','Hambatan terbesar'],['kesiapan','Kesiapan mengikuti pelatihan'],['format_panduan','Format panduan yang disukai']];
 fetch(U+'/rest/v1/rpc/survei_lms_ringkasan',{method:'POST',headers:{apikey:K,Authorization:'Bearer '+K,'Content-Type':'application/json'},body:'{}'})
