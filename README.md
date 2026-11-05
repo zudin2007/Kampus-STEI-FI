@@ -8,3 +8,7 @@ Repositori kerja dokumen akademik, akreditasi, dan manajemen STEI Fithrah Insani
 - Sumber berkas: `1. AKREDITASI & REGULASI/Akreditasi versi revisi/Persiapan tahun ajaran baru/`.
 
 Repositori ini bersifat publik. Dokumen internal yang memuat data pribadi atau keuangan disimpan di Google Drive terbatas, tidak di repositori ini.
+
+## Kerja sama
+
+Panduan fork dan pull request: [CONTRIBUTING.md](CONTRIBUTING.md).

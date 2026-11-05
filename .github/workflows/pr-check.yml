@@ -1,0 +1,73 @@
+name: Pemeriksaan Pull Request
+
+on:
+  pull_request:
+    branches: [master]
+
+permissions:
+  contents: read
+
+jobs:
+  periksa:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Periksa berkas yang ditambahkan atau diubah
+        env:
+          BASE_REF: ${{ github.base_ref }}
+        run: |
+          set -u
+          git fetch --no-tags origin "$BASE_REF"
+          BASE="origin/$BASE_REF"
+          fail=0
+          MAX=$((5*1024*1024))
+
+          # 1. Nama berkas baru yang mencurigakan, dan ukuran berkas
+          while IFS= read -r -d '' f; do
+            [ -f "$f" ] || continue
+            if printf '%s' "$f" | grep -Eiq '(^|[^a-z])(tagihan|tunggakan|spp|gaji|rekening|ktp|nik|password|kata_?sandi|secret)([^a-z]|$)|\.env$|\.pem$|\.key$|\.sqlite3?$|\.db$'; then
+              echo "::error file=$f::Nama berkas mencurigakan (data pribadi, keuangan, atau rahasia). Simpan di Drive terbatas, jangan di repositori publik."
+              fail=1
+            fi
+          done < <(git diff -z --name-only --diff-filter=A "$BASE"...HEAD)
+
+          while IFS= read -r -d '' f; do
+            [ -f "$f" ] || continue
+            size=$(stat -c %s "$f")
+            if [ "$size" -gt "$MAX" ]; then
+              echo "::error file=$f::Ukuran berkas $((size/1024)) KB melebihi batas 5120 KB (5 MB)."
+              fail=1
+            fi
+          done < <(git diff -z --name-only --diff-filter=AM "$BASE"...HEAD)
+
+          # 2. Isi yang ditambahkan: kunci dan token
+          PAT='BEGIN (RSA |EC |OPENSSH )?PRIVATE KEY|sbp_[a-f0-9]{30,}|ghp_[A-Za-z0-9]{30,}|AKIA[0-9A-Z]{16}|sk_live_[A-Za-z0-9]{20,}|"role" *: *"service_role"'
+          while IFS= read -r -d '' f; do
+            [ -f "$f" ] || continue
+            case "$f" in .github/workflows/pr-check.yml) continue;; esac
+            if git diff "$BASE"...HEAD -- "$f" | grep -E '^\+' | grep -Eq "$PAT"; then
+              echo "::error file=$f::Ditemukan kunci atau token pada baris yang ditambahkan."
+              fail=1
+            fi
+          done < <(git diff -z --name-only --diff-filter=AM "$BASE"...HEAD)
+
+          # 3. Halaman HTML harus utuh
+          while IFS= read -r -d '' f; do
+            [ -f "$f" ] || continue
+            case "$f" in *.html)
+              if ! grep -q '</html>' "$f"; then
+                echo "::error file=$f::Halaman HTML tidak lengkap (tidak ada penutup </html>)."
+                fail=1
+              fi;;
+            esac
+          done < <(git diff -z --name-only --diff-filter=AM "$BASE"...HEAD)
+
+          if [ "$fail" -ne 0 ]; then
+            echo "Pemeriksaan gagal. Lihat panduan di CONTRIBUTING.md bagian 5."
+            exit 1
+          fi
+          echo "Pemeriksaan lolos."
