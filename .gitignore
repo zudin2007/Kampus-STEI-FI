@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+# Sisa sinkronisasi Google Drive dan Windows (jangan dimasukkan ke repo)
+.tmp.driveupload/
+.tmp.drivedownload/
+desktop.ini
