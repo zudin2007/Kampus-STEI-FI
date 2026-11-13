@@ -42,8 +42,9 @@ Berkas sumber memuat lembar terpisah per semester untuk TA 2026/2027.
 
 Catatan pembacaan:
 - Semester 3 memuat 3 mahasiswa lebih sedikit daripada angkatan 2025 pada Tabel 2 (50). Penyebabnya belum diketahui.
-- Semester 5 hanya memuat Kelas Reguler B. Dari angkatan 2024 (55), 16 mahasiswa tidak tercantum, dan belum terlihat apakah mereka berada di Kelas Reguler A.
-- Semester 7 memuat 5 mahasiswa lebih sedikit daripada angkatan 2023 pada Tabel 2 (43).
+- Semester 5 hanya memuat Kelas Reguler B. Dari angkatan 2024 (55), 16 mahasiswa tidak tercantum di lembar ini. Empat di antaranya tercantum di lembar Semester 7, sedangkan 12 lainnya belum terlihat apakah berada di Kelas Reguler A.
+- Semester 7 memuat 38 baris. Sembilan mahasiswa angkatan 2023 tidak tercantum, dan empat baris berasal dari angkatan 2024. Selisih bersih terhadap angkatan 2023 pada Tabel 2 (43) adalah 5.
+- Daftar nama yang perlu dicek disimpan di Drive terbatas, tidak di repositori ini.
 
 ## 4. Mahasiswa baru angkatan 2026 (semester 1)
 
