@@ -2,6 +2,10 @@
 
 Repositori kerja dokumen akademik, akreditasi, dan manajemen STEI Fithrah Insani.
 
+## Data
+
+- [Ringkasan Data Mahasiswa Aktif](DATA_MAHASISWA_AKTIF_RINGKASAN.md): angka agregat saja. Data per orang tidak disimpan di repositori publik.
+
 ## Dashboard
 
 - [Dashboard Persiapan Tahun Ajaran Baru](https://zudin2007.github.io/Kampus-STEI-FI/Dashboard_Persiapan_TA_Baru_STEI_FI.html): situs GitHub Pages, terbit otomatis dari cabang `master`.
