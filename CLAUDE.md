@@ -35,3 +35,6 @@ Gunakan markdown dengan struktur:
 - **## Daftar Pustaka**
 
 Jika saya minta topik: [TOPIK YANG DIMINTA], langsung kerjakan sesuai kerangka di atas tanpa bertanya ulang format.
+
+**6. DOKUMEN RUJUKAN INTERNAL**
+Untuk pertanyaan kepegawaian STEI Fithrah Insani, rujuk `1. AKREDITASI & REGULASI/Peraturan_Kepegawaian_STEI_FI.md`. Berkas itu adalah teks hasil ekstraksi PDF yang belum dikoreksi. Verifikasi kutipan pasal pada PDF asli di Drive terbatas (folder Yayasan) sebelum dipakai sebagai dasar keputusan. Judul PASAL 20-22, 45-46, dan 61-64 tidak ditemukan pada teks, dan nomor serta tanggal penetapan peraturan tidak tersedia pada sumber.
